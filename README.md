@@ -4,9 +4,9 @@
 
 A hands-on AI product prototype for exploring how commodity shocks could affect a company's margins, earnings and cash flow. It connects research, explicit assumptions and financial calculations in one analyst workflow.
 
-**[▶ Watch the 90-second DOW demo](docs/demo/DOW-copilot-walkthrough.mp4)** · [Technical design](docs/technical_overview.md) · [Evaluation](docs/evaluation_methodology.md)
+**[▶ Watch the 90-second DOW demo](https://github.com/lichaowow6666/supply-chain-risk-copilot/raw/refs/heads/main/docs/demo/DOW-copilot-walkthrough.mp4)** · [Technical design](docs/technical_overview.md) · [Evaluation](docs/evaluation_methodology.md)
 
-[![Watch the DOW workflow: disclosures, commodity exposure and financial impact](docs/recording/dow-walkthrough-preview.jpg)](docs/demo/DOW-copilot-walkthrough.mp4)
+[![Watch the DOW workflow: disclosures, commodity exposure and financial impact](docs/recording/dow-walkthrough-preview.jpg)](https://github.com/lichaowow6666/supply-chain-risk-copilot/raw/refs/heads/main/docs/demo/DOW-copilot-walkthrough.mp4)
 
 ## The question
 

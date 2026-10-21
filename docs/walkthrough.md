@@ -1,6 +1,6 @@
 # DOW in 90 seconds
 
-[Watch the cursor-led walkthrough](demo/DOW-copilot-walkthrough.mp4).
+[Watch the cursor-led walkthrough](https://github.com/lichaowow6666/supply-chain-risk-copilot/raw/refs/heads/main/docs/demo/DOW-copilot-walkthrough.mp4).
 
 **Investor question: could changing energy costs compress DOW's margin?** The recording follows actual clicks, model switches and graph selections in the application. Loading waits are cut and some interactions are modestly accelerated; there are no frozen-slide sequences. The same process can support a manager's purchasing, pricing or risk discussion.
 
