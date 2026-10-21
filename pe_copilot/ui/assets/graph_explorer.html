@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+*{box-sizing:border-box}body{margin:0;font:13px system-ui,-apple-system,sans-serif;background:#0d1727;color:#e4edf8}button,input{font:inherit}button{cursor:pointer;color:#dce8f7;border:1px solid #39506d;background:#18283e;border-radius:7px;padding:7px 10px}button:hover,button:focus-visible{border-color:#93c5fd;background:#243b55;outline:none}#shell{border:1px solid #2d425e;border-radius:12px;overflow:hidden;height:700px;display:flex;flex-direction:column}.bar{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:14px 18px;border-bottom:1px solid #26374e;background:#111f32}.eyebrow{font-size:10px;letter-spacing:.15em;color:#91a9c6;text-transform:uppercase}.bar strong{font-size:15px;display:block;margin-top:3px}.tools{display:flex;gap:5px;align-items:center}#search{width:170px;max-width:20vw;background:#0c1625;border:1px solid #39506d;border-radius:7px;color:#e4edf8;padding:8px}.body{display:grid;grid-template-columns:minmax(0,1fr) 280px;flex:1;min-height:0}.canvas{position:relative;min-width:0;overflow:hidden;background:radial-gradient(ellipse at 50% 45%,#192d45 0%,#0d1727 75%)}svg{width:100%;height:100%;display:block;touch-action:none;cursor:grab}svg:active{cursor:grabbing}.node{cursor:grab;outline:none}.node rect{fill:#172940;stroke:#405774;stroke-width:1.4}.node .kindDot{stroke:none}.node text{pointer-events:none;fill:#e2ebf7;font-size:12px;font-weight:550}.node .kind{fill:#99aec6;font-size:9px;font-weight:400;text-transform:uppercase;letter-spacing:.06em}.node.dim{opacity:.2}.node.focused rect{fill:#1b2b43;stroke:#a8c9ff;stroke-width:2.5;filter:drop-shadow(0 0 7px #a8c9ff33)}.node.overlay rect{stroke:#f4b85d;stroke-width:2.8}.node.focused.overlay rect{stroke:#f4b85d;stroke-width:3.5}.node.root rect{fill:#3d3023}.edge{fill:none;stroke:#4c647e;stroke-width:1.25;opacity:.52;cursor:pointer;pointer-events:stroke}.edge.overlay{stroke:#f4b85d;stroke-width:2.8;opacity:.85}.edge.focused{stroke:#a8c9ff;stroke-width:2.7;opacity:1}.edge.focused.overlay{stroke:#f4b85d;filter:drop-shadow(0 0 3px #a8c9ff)}.edge.dim{opacity:.075}.node:focus-visible rect{stroke:white;stroke-width:3}.laneLabel{fill:#7d95b0;font-size:11px;letter-spacing:.12em;text-transform:uppercase}.legend{position:absolute;left:14px;bottom:13px;display:flex;flex-wrap:wrap;gap:12px;font-size:10px;color:#b5c5d8;background:#101e30ed;padding:9px 11px;border-radius:6px;pointer-events:none}.dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:5px}.status{position:absolute;top:12px;left:14px;color:#a7bdd4;font-size:11px;pointer-events:none}.inspector{padding:18px;overflow:auto;background:#111f32;border-left:1px solid #26374e}.inspector h2{font-size:21px;font-weight:600;margin:8px 0 9px;line-height:1.2;overflow-wrap:anywhere}.badge{display:inline-block;padding:4px 7px;border:1px solid #38506c;border-radius:5px;color:#bcd0e7;font-size:10px;margin:2px 4px 4px 0}.section-title{margin:20px 0 8px;font-size:10px;text-transform:uppercase;letter-spacing:.12em;color:#8ea7c2}.feature{border-bottom:1px solid #25364c;padding:8px 0}.feature .key{font-size:11px;color:#9cb2cd;overflow-wrap:anywhere}.feature .value{margin-top:4px;line-height:1.4;color:#e6eef9;overflow-wrap:anywhere}.small{font-size:11px;color:#9db2ca;line-height:1.5}details{margin:10px 0;font-size:11px;line-height:1.5}summary{cursor:pointer;color:#bfdbfe}details p{color:#bbcade;white-space:pre-wrap;overflow-wrap:anywhere}a{color:#60a5fa}.foot{padding:9px 16px;border-top:1px solid #26374e;font-size:11px;color:#91a8c3;display:flex;justify-content:space-between;gap:15px}#scenario{color:#f4bf77;margin-top:8px;font-size:11px;line-height:1.4}.chain-stat{color:#a8c9ff;margin-top:8px;font-size:11px}#selectionMode{font-size:10px;color:#849dbb}.empty{fill:#bdccde;font-size:16px}.tools .wide{display:inline}.inspector button{font-size:11px;padding:6px 8px}#shell:fullscreen{height:100vh;width:100vw;border-radius:0}@media(max-width:760px){.body{grid-template-columns:minmax(0,1fr) 230px}.inspector{padding:12px}#search{width:110px}.bar{padding:10px}.tools .wide{display:none}.legend{max-width:90%}.inspector h2{font-size:17px}}
+
+.node.impact-adverse rect{stroke:#fa7777!important}.edge.impact-adverse{stroke:#fa7777!important;opacity:1}
+.node.impact-favorable rect{stroke:#70db9c!important}.edge.impact-favorable{stroke:#70db9c!important;opacity:1}
+.node.impact-neutral rect{stroke:#acb9ca!important}.edge.impact-neutral{stroke:#acb9ca!important}
+.node.impact-uncertain rect{stroke:#f4b85d!important}.edge.impact-uncertain{stroke:#f4b85d!important;opacity:1}
+.node .impactLabel{font-size:9px;fill:#d0deee;font-weight:400}.node.focused rect{stroke-dasharray:5 2}.edge.focused{stroke-dasharray:6 3}
+</style></head><body>
+<div id="shell">
+ <div class="bar"><div><div class="eyebrow" id="eyebrow">Evidence map</div><strong id="title"></strong></div>
+ <div class="tools"><input id="search" aria-label="Find entity in graph" placeholder="Find an entity…"><button id="minus" aria-label="Zoom out">−</button><button id="plus" aria-label="Zoom in">+</button><button id="fit">Fit</button><button id="fullscreen" class="wide">Expand</button></div></div>
+ <div class="body"><div class="canvas"><svg id="graph" role="img" aria-label="Interactive evidence graph"><defs><marker id="arrow" viewBox="0 -4 8 8" refX="8" refY="0" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,-4L8,0L0,4" fill="#8197b1"/></marker></defs><g id="viewport"><g id="lanes"></g><g id="edges"></g><g id="nodes"></g></g></svg><div class="status" id="status"></div><div class="legend"><span><i class="dot" style="background:#a8c9ff"></i>Selected chain</span><span><i class="dot" style="background:#fa7777"></i>Adverse</span><span><i class="dot" style="background:#70db9c"></i>Favorable</span><span><i class="dot" style="background:#f4b85d"></i>Uncertain</span><span><i class="dot" style="background:#acb9ca"></i>Neutral</span></div></div>
+ <aside class="inspector" aria-live="polite"><div id="selectionMode"></div><h2 id="entityTitle">Supply-chain evidence</h2><div id="badges"></div><div class="small" id="description"></div><div class="chain-stat" id="chainStat"></div><div id="scenario"></div><div id="features"></div><div id="measurements"></div><div id="evidence"></div><div id="relationships"></div></aside></div>
+ <div class="foot"><span id="counts"></span></div>
+</div>
+<script id="graph-data" type="application/json">__GRAPH_PAYLOAD__</script>
+<script>
+'use strict';
+const data=JSON.parse(document.getElementById('graph-data').textContent);
+const $=id=>document.getElementById(id), NS='http://www.w3.org/2000/svg';
+const svg=$('graph'),viewport=$('viewport'),nodes=new Map(data.nodes.map(n=>[n.id,n]));
+const elements=new Map(),edgeElements=new Map(),positions=new Map();
+let pinned=null,hovered=null,scale=1,tx=0,ty=0,pan=null,drag=null,allMeasurements=false,findIndex=0,lastFind='';
+// Keep the user's selection through Streamlit rerenders, isolated by filing.
+const storageKey='margin-copilot-graph:'+JSON.stringify([data.summary.company_id,data.summary.snapshot_id,data.lens]);
+let savedView=null;
+try{savedView=JSON.parse(sessionStorage.getItem(storageKey)||'null');}catch{}
+function saveView(){try{sessionStorage.setItem(storageKey,JSON.stringify({pinned,scale,tx,ty,positions:[...positions]}));}catch{}}
+function restoreView(){
+ if(!savedView)return false;
+ pinned=nodes.has(savedView.pinned)?savedView.pinned:null;
+ for(const [id,p] of savedView.positions||[]){if(nodes.has(id)&&Number.isFinite(p.x)&&Number.isFinite(p.y))positions.set(id,p);}
+ if([savedView.scale,savedView.tx,savedView.ty].every(Number.isFinite)&&savedView.scale>0){scale=savedView.scale;tx=savedView.tx;ty=savedView.ty;transform();}
+ redraw();highlight(pinned);if(pinned)showNode(pinned);return true;
+}
+const impactedNodes=new Set(data.nodes.filter(n=>['adverse','favorable','uncertain'].includes(n.impact?.direction)).map(n=>n.id));
+const impactedEdges=new Set(data.edges.filter(e=>['adverse','favorable','uncertain'].includes(e.impact?.direction)).map(e=>e.id));
+const overlayNodes=new Set(data.overlay.nodes),overlayEdges=new Set(data.overlay.edges),roots=new Set(data.overlay.roots);
+$('eyebrow').textContent=data.summary.ticker+' / EVIDENCE MAP / '+data.summary.period_end;
+$('title').textContent=data.lens_label;
+$('counts').textContent=data.nodes.length+' entities · '+data.edges.length+' relationships';
+const make=(tag,attrs={},text)=>{const e=document.createElementNS(NS,tag);for(const[k,v]of Object.entries(attrs))e.setAttribute(k,v);if(text!==undefined)e.textContent=text;return e;};
+const div=(parent,cls,text)=>{const e=document.createElement('div');e.className=cls;if(text!==undefined)e.textContent=text;parent.append(e);return e;};
+function lane(n){
+ if(data.lens==='material_exposure'){
+  if(n.kind==='product')return data.edges.some(e=>e.target===n.id&&nodes.get(e.source)?.kind==='product'&&e.relation==='belongs_to')?2:1;
+  return ({material:0,material_cohort:0,segment:3,end_market:4})[n.kind]??2;
+ }
+ if(data.lens==='physical_supply')return({supplier_pool:0,operation:1,material:2,material_cohort:2,facility:3})[n.kind]??1;
+ if(data.lens==='financial_mechanisms')return({material:0,material_cohort:0,facility:0,operation:0,mechanism:1,exposure:2,kpi:3})[n.kind]??1;
+ return({company:0,material:1,material_cohort:1,supplier_pool:1,operation:2,event:2,facility:3,product:4,mechanism:4,segment:5,exposure:5,end_market:6,kpi:6})[n.kind]??2;
+}
+function layout(){
+ positions.clear();$('lanes').replaceChildren();
+ const groups=new Map();for(const n of data.nodes){const l=lane(n);if(!groups.has(l))groups.set(l,[]);groups.get(l).push(n);}
+ const sorted=[...groups.keys()].sort((a,b)=>a-b),max=Math.max(1,...[...groups.values()].map(g=>g.length));
+ const names=data.lens==='material_exposure'?['Materials','Product families','Product lines','Segments','End markets']:data.lens==='physical_supply'?['Supply pools','Operations','Process inputs','Facilities']:data.lens==='financial_mechanisms'?['Exposure sources','Mechanisms','Effects','Financial measures']:['Company','Materials / supply','Operations','Facilities','Products / mechanisms','Segments / effects','Markets / measures'];
+ for(const [col,l]of sorted.entries()){
+  const group=groups.get(l).sort((a,b)=>a.label.localeCompare(b.label));
+  $('lanes').append(make('text',{x:30+col*235,y:28,class:'laneLabel'},names[l]||'Entities'));
+  group.forEach((n,i)=>positions.set(n.id,{x:30+col*235,y:60+i*72+(max-group.length)*24}));
+ }
+}
+function pathFor(edge){
+ const a=positions.get(edge.source),b=positions.get(edge.target);if(!a||!b)return'';
+ const ax=a.x+190,ay=a.y+25,bx=b.x,by=b.y+25;
+ if(Math.abs(a.x-b.x)<10){const x=a.x+190,c=x+50;return`M${x},${ay} C${c},${ay} ${c},${by} ${x},${by}`;}
+ if(b.x<a.x){return`M${a.x},${ay} C${a.x-65},${ay} ${b.x+255},${by} ${b.x+190},${by}`;}
+ const bend=Math.max(25,(bx-ax)/2);return`M${ax},${ay} C${ax+bend},${ay} ${bx-bend},${by} ${bx},${by}`;
+}
+function redraw(){for(const[id,e]of elements){const p=positions.get(id);e.setAttribute('transform',`translate(${p.x},${p.y})`);}for(const edge of data.edges)edgeElements.get(edge.id)?.setAttribute('d',pathFor(edge));}
+function transform(){viewport.setAttribute('transform',`translate(${tx},${ty}) scale(${scale})`);}
+function fit(){
+ if(!positions.size)return;
+ const all=[...positions.values()],minX=Math.min(...all.map(p=>p.x))-20,minY=0,maxX=Math.max(...all.map(p=>p.x))+220,maxY=Math.max(...all.map(p=>p.y))+100;
+ const w=svg.clientWidth,h=svg.clientHeight;scale=Math.min(w/(maxX-minX),h/(maxY-minY),1.25)*.96;
+ tx=(w-(maxX-minX)*scale)/2-minX*scale;ty=(h-(maxY-minY)*scale)/2;transform();saveView();
+}
+function zoom(mult,x=svg.clientWidth/2,y=svg.clientHeight/2){const next=Math.max(.15,Math.min(3,scale*mult));tx=x-(x-tx)*next/scale;ty=y-(y-ty)*next/scale;scale=next;transform();saveView();}
+function clearInspector(){for(const id of['badges','features','measurements','evidence','relationships'])$(id).replaceChildren();$('scenario').textContent='';$('chainStat').textContent='';}
+function feature(parent,key,value){const row=div(parent,'feature');div(row,'key',key.replaceAll('_',' '));div(row,'value',value);}
+function sources(citations,parent=$('evidence')){
+ div(parent,'section-title','Source evidence');
+ for(const c of citations){const det=document.createElement('details'),sum=document.createElement('summary');sum.textContent=c.reference.evidence_section||'Filing evidence';det.append(sum);const p=document.createElement('p');p.textContent=c.reference.evidence_excerpt;det.append(p);const link=document.createElement('a');
+  try{const u=new URL(c.reference.source_url);if(['https:','http:'].includes(u.protocol)){link.href=u.href;link.target='_blank';link.rel='noopener noreferrer';link.textContent='Open source filing';det.append(link);}}catch{}
+  const location=document.createElement('p');location.className='small';location.textContent='Filing: '+(c.reference.filing_date||'unspecified')+' · '+c.locator;det.append(location);parent.append(det);
+ }
+}
+function showImpact(impact){
+ if(!impact)return;
+ $('scenario').textContent=impact.direction.toUpperCase()+' · '+impact.label;
+ $('scenario').style.color=({adverse:'#fa7777',favorable:'#70db9c',neutral:'#acb9ca',uncertain:'#f4b85d'})[impact.direction];
+ div($('features'),'section-title','Scenario impact · '+(data.overlay.run_id||'').slice(0,8));
+ for(const note of impact.notes){feature($('features'),note.material,note.label);div($('features'),'small',note.basis);div($('features'),'small',note.reason);if(note.path_labels?.length)div($('features'),'small','Disclosed chain: '+note.path_labels.join(' → '));if(note.evidence.length)sources(note.evidence,$('features'));}
+ for(const k of impact.kpis||[])feature($('features'),k.metric,k.base.toLocaleString()+' → '+k.stressed.toLocaleString()+' USD million (change '+(k.change>=0?'+':'')+k.change.toLocaleString()+')');
+}
+function impactClass(item){return item.impact?' impact-'+item.impact.direction:'';}
+function showNode(id){
+ const n=nodes.get(id);if(!n)return;clearInspector();$('entityTitle').textContent=n.label;
+ div($('badges'),'badge',n.kind.replaceAll('_',' '));div($('badges'),'badge',n.origin+(data.summary.automated?' · automated extraction':' · source reviewed'));
+ $('selectionMode').textContent=pinned===id?'PINNED':'';
+ $('description').textContent='';
+ const chain=data.chains[id]||{nodes:[id],edges:[]};$('chainStat').textContent=chain.nodes.length+' entities · '+chain.edges.length+' relationships in this chain'+(chain.truncated?' · truncated':'');
+ if(overlayNodes.has(id))$('scenario').textContent='Scenario exposure · '+(roots.has(id)?'selected shock / question source':'potentially connected downstream entity')+' · '+data.overlay.source+' run '+(data.overlay.run_id||'').slice(0,8);
+ if(!n.impact&&data.scenario_financials){$('scenario').textContent='Impact not assessed — connectivity only, not a favorable effect.';$('scenario').style.color='#acb9ca';}
+ showImpact(n.impact);
+ if(Object.keys(n.attributes).length){div($('features'),'section-title','Key features');for(const[k,v]of Object.entries(n.attributes))feature($('features'),k,v);}
+ if(n.observations.length){div($('measurements'),'section-title','Financial observations');const rows=allMeasurements?n.observations:n.observations.slice(0,5);for(const o of rows){feature($('measurements'),o.metric,o.value);div($('measurements'),'small',o.period+' · '+o.basis);if(o.raw.horizon)div($('measurements'),'small','Company-level disclosed sensitivity, not an allocated entity loss.');if(o.assumptions.length)div($('measurements'),'small','Assumptions: '+o.assumptions.join('; '));sources(o.raw.provenance.citations,$('measurements'));}
+  if(n.observations.length>5){const b=document.createElement('button');b.textContent=allMeasurements?'Show fewer':'Show all '+n.observations.length+' observations';b.onclick=()=>{allMeasurements=!allMeasurements;showNode(id);};$('measurements').append(b);}
+ }else{div($('measurements'),'section-title','Financial observations');div($('measurements'),'small','No quantified feature is available for this entity in the selected observation period.');}
+ sources(n.evidence);
+ const adjacent=data.edges.filter(e=>e.source===id||e.target===id);div($('relationships'),'section-title','Direct relationships');
+ for(const e of adjacent){const outgoing=e.source===id;div($('relationships'),'small',(outgoing?'→ ':'← ')+e.label+' · '+(nodes.get(outgoing?e.target:e.source)?.label||'')+'.');}
+}
+function highlight(id){
+ const chain=id?data.chains[id]:null,ns=new Set(chain?.nodes||[]),es=new Set(chain?.edges||[]);
+ for(const[n,e]of elements){e.classList.toggle('focused',ns.has(n));e.classList.toggle('dim',!!id&&!ns.has(n)&&!overlayNodes.has(n)&&!impactedNodes.has(n));}
+ for(const[n,e]of edgeElements){e.classList.toggle('focused',es.has(n));e.classList.toggle('dim',!!id&&!es.has(n)&&!overlayEdges.has(n)&&!impactedEdges.has(n));}
+}
+function emptyInspector(){clearInspector();$('entityTitle').textContent='Supply-chain evidence';$('description').textContent='';$('selectionMode').textContent='';}
+function activate(id,pin=false){
+ if(pin){
+  if(pinned===id){pinned=null;hovered=null;highlight(null);emptyInspector();saveView();return;}
+  pinned=id;
+ }else if(pinned){return;}
+ hovered=id;allMeasurements=false;highlight(id);showNode(id);if(pin)saveView();
+}
+function restore(){hovered=null;highlight(pinned);if(pinned)showNode(pinned);else emptyInspector();}
+layout();
+for(const edge of data.edges){const p=make('path',{class:'edge'+(overlayEdges.has(edge.id)?' overlay':'')+impactClass(edge),d:pathFor(edge),'marker-end':'url(#arrow)','data-edge-id':edge.id});const title=make('title',{},edge.label+' · '+edge.origin+(edge.impact?' · '+edge.impact.direction+': '+edge.impact.label:''));p.append(title);p.addEventListener('click',event=>{event.stopPropagation();if(pinned)return;clearInspector();$('entityTitle').textContent=edge.label;$('description').textContent=(nodes.get(edge.source)?.label||'')+' → '+(nodes.get(edge.target)?.label||'');$('selectionMode').textContent='RELATIONSHIP EVIDENCE';div($('badges'),'badge',edge.origin);showImpact(edge.impact);sources(edge.evidence);});$('edges').append(p);edgeElements.set(edge.id,p);}
+for(const n of data.nodes){
+ const g=make('g',{class:'node'+(overlayNodes.has(n.id)?' overlay':'')+(roots.has(n.id)?' root':'')+impactClass(n),tabindex:'0',role:'button','aria-label':n.label+', '+n.kind,'data-node-id':n.id});
+ g.append(make('rect',{width:190,height:50,rx:8}));
+ const words=n.label.split(' '),lines=[''];for(const word of words){let i=lines.length-1;if((lines[i]+' '+word).trim().length>25&&lines[i]){lines.push(word);}else lines[i]=(lines[i]+' '+word).trim();}
+ const first=lines[0],second=lines.slice(1).join(' ');g.append(make('text',{x:22,y:19},first));
+ if(second)g.append(make('text',{x:22,y:34},second.length>26?second.slice(0,25)+'…':second));else g.append(make('text',{x:22,y:35,class:'kind'},n.kind.replaceAll('_',' ')));
+ if(n.impact){const label=n.impact.label;g.append(make('text',{x:2,y:62,class:'impactLabel'},label.length>34?label.slice(0,33)+'…':label));}
+ g.append(make('title',{},n.label+(n.impact?' · '+n.impact.direction+': '+n.impact.label:'')));g.addEventListener('mouseenter',()=>{if(!drag&&!pan)activate(n.id);});g.addEventListener('mouseleave',()=>{if(!drag)restore();});g.addEventListener('focus',()=>activate(n.id));g.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();activate(n.id,true);}});
+ g.addEventListener('pointerdown',e=>{e.stopPropagation();drag={id:n.id,x:e.clientX,y:e.clientY,start:{...positions.get(n.id)},moved:false};g.setPointerCapture(e.pointerId);});
+ g.addEventListener('pointermove',e=>{if(!drag||drag.id!==n.id)return;const dx=(e.clientX-drag.x)/scale,dy=(e.clientY-drag.y)/scale;if(Math.abs(dx)+Math.abs(dy)>3)drag.moved=true;positions.set(n.id,{x:drag.start.x+dx,y:drag.start.y+dy});redraw();});
+ g.addEventListener('pointerup',e=>{if(drag?.id===n.id){const moved=drag.moved;drag=null;if(!moved)activate(n.id,true);g.releasePointerCapture(e.pointerId);saveView();}});
+ g.addEventListener('pointercancel',()=>{drag=null;});$('nodes').append(g);elements.set(n.id,g);
+}
+redraw();
+if(!data.nodes.length)$('nodes').append(make('text',{x:30,y:70,class:'empty'},'No evidenced entities match this view.'));
+svg.addEventListener('pointerdown',e=>{if(e.target.closest('.node'))return;pan={x:e.clientX,y:e.clientY,tx,ty};svg.setPointerCapture(e.pointerId);});
+svg.addEventListener('pointermove',e=>{if(!pan)return;tx=pan.tx+e.clientX-pan.x;ty=pan.ty+e.clientY-pan.y;transform();});svg.addEventListener('pointerup',()=>{pan=null;saveView();});svg.addEventListener('pointercancel',()=>{pan=null;});
+svg.addEventListener('wheel',e=>{e.preventDefault();const r=svg.getBoundingClientRect();zoom(e.deltaY<0?1.12:.89,e.clientX-r.left,e.clientY-r.top);},{passive:false});
+$('plus').onclick=()=>zoom(1.25);$('minus').onclick=()=>zoom(.8);$('fit').onclick=fit;
+$('fullscreen').onclick=()=>{if(document.fullscreenElement)document.exitFullscreen();else $('shell').requestFullscreen().catch(()=>{$('status').textContent='Full screen is not available in this browser; use zoom and pan.';});};
+function find(){const q=$('search').value.trim().toLowerCase();const matches=data.nodes.filter(n=>n.label.toLowerCase().includes(q));if(!q||!matches.length){$('status').textContent='No matching entity in this view.';return;}if(q!==lastFind)findIndex=0;const n=matches[findIndex++%matches.length];lastFind=q;if(pinned!==n.id)activate(n.id,true);const p=positions.get(n.id);scale=1;tx=svg.clientWidth/2-(p.x+95);ty=svg.clientHeight/2-(p.y+25);transform();saveView();$('status').textContent='Found '+n.label+' · '+matches.length+' match(es)';}
+$('search').addEventListener('keydown',e=>{if(e.key==='Enter')find();});
+document.addEventListener('keydown',e=>{if(e.key==='Escape'){pinned=null;hovered=null;highlight(null);emptyInspector();saveView();}});
+if(!restoreView())fit();
+let previousWidth=svg.clientWidth,previousHeight=svg.clientHeight;
+new ResizeObserver(()=>{const w=svg.clientWidth,h=svg.clientHeight;if(w!==previousWidth||h!==previousHeight){tx+=(w-previousWidth)/2;ty+=(h-previousHeight)/2;previousWidth=w;previousHeight=h;transform();saveView();}}).observe(svg);
+$('status').textContent='';
+if(!savedView&&data.focus&&nodes.has(data.focus))activate(data.focus,true);
+</script></body></html>

@@ -1,0 +1,5548 @@
+{
+  "catalog_version": 1,
+  "claims": [
+    {
+      "evidence": [
+        "b00049:0:280"
+      ],
+      "id": "company/has_segment/segment:performance-materials",
+      "object": "segment:performance-materials",
+      "relation": "has_segment",
+      "subject": "company"
+    },
+    {
+      "evidence": [
+        "b00049:0:280"
+      ],
+      "id": "company/has_segment/segment:electronic-materials",
+      "object": "segment:electronic-materials",
+      "relation": "has_segment",
+      "subject": "company"
+    },
+    {
+      "evidence": [
+        "b00049:0:280"
+      ],
+      "id": "company/has_segment/segment:precision-optics",
+      "object": "segment:precision-optics",
+      "relation": "has_segment",
+      "subject": "company"
+    },
+    {
+      "evidence": [
+        "b00049:0:280"
+      ],
+      "id": "company/has_segment/segment:other",
+      "object": "segment:other",
+      "relation": "has_segment",
+      "subject": "company"
+    },
+    {
+      "evidence": [
+        "b00080:0:427"
+      ],
+      "id": "company/uses/material:beryllium",
+      "object": "material:beryllium",
+      "relation": "uses",
+      "subject": "company"
+    },
+    {
+      "evidence": [
+        "b00080:0:427"
+      ],
+      "id": "company/uses/material:tantalum",
+      "object": "material:tantalum",
+      "relation": "uses",
+      "subject": "company"
+    },
+    {
+      "evidence": [
+        "b00080:0:427"
+      ],
+      "id": "company/uses/material:aluminum",
+      "object": "material:aluminum",
+      "relation": "uses",
+      "subject": "company"
+    },
+    {
+      "evidence": [
+        "b00080:0:427"
+      ],
+      "id": "company/uses/material:cobalt",
+      "object": "material:cobalt",
+      "relation": "uses",
+      "subject": "company"
+    },
+    {
+      "evidence": [
+        "b00080:0:427"
+      ],
+      "id": "company/uses/material:copper",
+      "object": "material:copper",
+      "relation": "uses",
+      "subject": "company"
+    },
+    {
+      "evidence": [
+        "b00080:0:427"
+      ],
+      "id": "company/uses/material:gold",
+      "object": "material:gold",
+      "relation": "uses",
+      "subject": "company"
+    },
+    {
+      "evidence": [
+        "b00080:0:427"
+      ],
+      "id": "company/uses/material:nickel",
+      "object": "material:nickel",
+      "relation": "uses",
+      "subject": "company"
+    },
+    {
+      "evidence": [
+        "b00080:0:427"
+      ],
+      "id": "company/uses/material:palladium",
+      "object": "material:palladium",
+      "relation": "uses",
+      "subject": "company"
+    },
+    {
+      "evidence": [
+        "b00080:0:427"
+      ],
+      "id": "company/uses/material:platinum",
+      "object": "material:platinum",
+      "relation": "uses",
+      "subject": "company"
+    },
+    {
+      "evidence": [
+        "b00080:0:427"
+      ],
+      "id": "company/uses/material:ruthenium",
+      "object": "material:ruthenium",
+      "relation": "uses",
+      "subject": "company"
+    },
+    {
+      "evidence": [
+        "b00080:0:427"
+      ],
+      "id": "company/uses/material:silver",
+      "object": "material:silver",
+      "relation": "uses",
+      "subject": "company"
+    },
+    {
+      "evidence": [
+        "b00080:0:427"
+      ],
+      "id": "company/uses/material:tin",
+      "object": "material:tin",
+      "relation": "uses",
+      "subject": "company"
+    },
+    {
+      "evidence": [
+        "b00128:0:1468"
+      ],
+      "id": "company/uses/material:iridium",
+      "object": "material:iridium",
+      "relation": "uses",
+      "subject": "company"
+    },
+    {
+      "evidence": [
+        "b00128:0:1468"
+      ],
+      "id": "company/uses/material:rhodium",
+      "object": "material:rhodium",
+      "relation": "uses",
+      "subject": "company"
+    },
+    {
+      "evidence": [
+        "b00128:0:1468"
+      ],
+      "id": "company/uses/material:niobium",
+      "object": "material:niobium",
+      "relation": "uses",
+      "subject": "company"
+    },
+    {
+      "evidence": [
+        "b00128:0:1468"
+      ],
+      "id": "company/uses/material:hafnium",
+      "object": "material:hafnium",
+      "relation": "uses",
+      "subject": "company"
+    },
+    {
+      "evidence": [
+        "b00128:0:1468"
+      ],
+      "id": "company/uses/material:tungsten",
+      "object": "material:tungsten",
+      "relation": "uses",
+      "subject": "company"
+    },
+    {
+      "evidence": [
+        "b00324:0:518"
+      ],
+      "id": "company/exposed_to_price_of/material:rhenium",
+      "object": "material:rhenium",
+      "relation": "exposed_to_price_of",
+      "subject": "company"
+    },
+    {
+      "evidence": [
+        "b00324:0:518"
+      ],
+      "id": "company/exposed_to_price_of/material:osmium",
+      "object": "material:osmium",
+      "relation": "exposed_to_price_of",
+      "subject": "company"
+    },
+    {
+      "evidence": [
+        "b00139:0:474"
+      ],
+      "id": "company/uses/material_cohort:precious-metals",
+      "object": "material_cohort:precious-metals",
+      "relation": "uses",
+      "subject": "company"
+    },
+    {
+      "evidence": [
+        "b00051:0:1029"
+      ],
+      "id": "product:advanced-alloys/belongs_to/segment:performance-materials",
+      "object": "segment:performance-materials",
+      "relation": "belongs_to",
+      "subject": "product:advanced-alloys"
+    },
+    {
+      "evidence": [
+        "b00051:0:1029"
+      ],
+      "id": "product:specialty-materials/belongs_to/segment:performance-materials",
+      "object": "segment:performance-materials",
+      "relation": "belongs_to",
+      "subject": "product:specialty-materials"
+    },
+    {
+      "evidence": [
+        "b00051:0:1029"
+      ],
+      "id": "product:performance-solutions/belongs_to/segment:performance-materials",
+      "object": "segment:performance-materials",
+      "relation": "belongs_to",
+      "subject": "product:performance-solutions"
+    },
+    {
+      "evidence": [
+        "b00052:0:2315"
+      ],
+      "id": "product:alloyed-metals/belongs_to/product:advanced-alloys",
+      "object": "product:advanced-alloys",
+      "relation": "belongs_to",
+      "subject": "product:alloyed-metals"
+    },
+    {
+      "evidence": [
+        "b00052:0:2315"
+      ],
+      "id": "product:high-performance-beryllium-products/belongs_to/product:advanced-alloys",
+      "object": "product:advanced-alloys",
+      "relation": "belongs_to",
+      "subject": "product:high-performance-beryllium-products"
+    },
+    {
+      "evidence": [
+        "b00052:0:2315"
+      ],
+      "id": "product:beryllium-hydroxide-product/belongs_to/product:advanced-alloys",
+      "object": "product:advanced-alloys",
+      "relation": "belongs_to",
+      "subject": "product:beryllium-hydroxide-product"
+    },
+    {
+      "evidence": [
+        "b00053:0:1174"
+      ],
+      "id": "product:precision-strip-rod-and-wire/belongs_to/product:specialty-materials",
+      "object": "product:specialty-materials",
+      "relation": "belongs_to",
+      "subject": "product:precision-strip-rod-and-wire"
+    },
+    {
+      "evidence": [
+        "b00053:0:1174"
+      ],
+      "id": "product:engineered-strip-products/belongs_to/product:specialty-materials",
+      "object": "product:specialty-materials",
+      "relation": "belongs_to",
+      "subject": "product:engineered-strip-products"
+    },
+    {
+      "evidence": [
+        "b00056:0:1584"
+      ],
+      "id": "product:beryllium-components/belongs_to/product:performance-solutions",
+      "object": "product:performance-solutions",
+      "relation": "belongs_to",
+      "subject": "product:beryllium-components"
+    },
+    {
+      "evidence": [
+        "b00056:0:1584"
+      ],
+      "id": "product:copper-beryllium-products/belongs_to/product:performance-solutions",
+      "object": "product:performance-solutions",
+      "relation": "belongs_to",
+      "subject": "product:copper-beryllium-products"
+    },
+    {
+      "evidence": [
+        "b00056:0:1584"
+      ],
+      "id": "product:toughmet-alloys/belongs_to/product:performance-solutions",
+      "object": "product:performance-solutions",
+      "relation": "belongs_to",
+      "subject": "product:toughmet-alloys"
+    },
+    {
+      "evidence": [
+        "b00056:0:1584"
+      ],
+      "id": "product:supremex-products/belongs_to/product:performance-solutions",
+      "object": "product:performance-solutions",
+      "relation": "belongs_to",
+      "subject": "product:supremex-products"
+    },
+    {
+      "evidence": [
+        "b00052:0:2315"
+      ],
+      "id": "material:beryllium-hydroxide/is_material_in/product:beryllium-hydroxide-product",
+      "object": "product:beryllium-hydroxide-product",
+      "relation": "is_material_in",
+      "subject": "material:beryllium-hydroxide"
+    },
+    {
+      "evidence": [
+        "b00052:0:2315"
+      ],
+      "id": "material:copper/used_in/product:alloyed-metals",
+      "object": "product:alloyed-metals",
+      "relation": "used_in",
+      "subject": "material:copper"
+    },
+    {
+      "evidence": [
+        "b00052:0:2315"
+      ],
+      "id": "material:nickel/used_in/product:alloyed-metals",
+      "object": "product:alloyed-metals",
+      "relation": "used_in",
+      "subject": "material:nickel"
+    },
+    {
+      "evidence": [
+        "b00053:0:1174"
+      ],
+      "id": "material:copper/used_in/product:precision-strip-rod-and-wire",
+      "object": "product:precision-strip-rod-and-wire",
+      "relation": "used_in",
+      "subject": "material:copper"
+    },
+    {
+      "evidence": [
+        "b00053:0:1174"
+      ],
+      "id": "material:nickel/used_in/product:precision-strip-rod-and-wire",
+      "object": "product:precision-strip-rod-and-wire",
+      "relation": "used_in",
+      "subject": "material:nickel"
+    },
+    {
+      "evidence": [
+        "b00056:0:1584"
+      ],
+      "id": "material:copper/used_in/product:copper-beryllium-products",
+      "object": "product:copper-beryllium-products",
+      "relation": "used_in",
+      "subject": "material:copper"
+    },
+    {
+      "evidence": [
+        "b00056:0:1584"
+      ],
+      "id": "material:beryllium/used_in/product:copper-beryllium-products",
+      "object": "product:copper-beryllium-products",
+      "relation": "used_in",
+      "subject": "material:beryllium"
+    },
+    {
+      "evidence": [
+        "b00056:0:1584"
+      ],
+      "id": "material:beryllium/used_in/product:beryllium-components",
+      "object": "product:beryllium-components",
+      "relation": "used_in",
+      "subject": "material:beryllium"
+    },
+    {
+      "evidence": [
+        "b00052:0:2315"
+      ],
+      "id": "material:beryllium/used_in/product:high-performance-beryllium-products",
+      "object": "product:high-performance-beryllium-products",
+      "relation": "used_in",
+      "subject": "material:beryllium"
+    },
+    {
+      "evidence": [
+        "b00052:0:2315"
+      ],
+      "id": "material:beryllium/may_be_used_in/product:alloyed-metals",
+      "object": "product:alloyed-metals",
+      "relation": "may_be_used_in",
+      "subject": "material:beryllium"
+    },
+    {
+      "evidence": [
+        "b00052:0:2315"
+      ],
+      "id": "material:aluminum/may_be_used_in/product:high-performance-beryllium-products",
+      "object": "product:high-performance-beryllium-products",
+      "relation": "may_be_used_in",
+      "subject": "material:aluminum"
+    },
+    {
+      "evidence": [
+        "b00059:0:720"
+      ],
+      "id": "product:advanced-chemicals/belongs_to/segment:electronic-materials",
+      "object": "segment:electronic-materials",
+      "relation": "belongs_to",
+      "subject": "product:advanced-chemicals"
+    },
+    {
+      "evidence": [
+        "b00059:0:720"
+      ],
+      "id": "product:microelectronics-packaging/belongs_to/segment:electronic-materials",
+      "object": "segment:electronic-materials",
+      "relation": "belongs_to",
+      "subject": "product:microelectronics-packaging"
+    },
+    {
+      "evidence": [
+        "b00059:0:720"
+      ],
+      "id": "product:vapor-deposition-targets/belongs_to/segment:electronic-materials",
+      "object": "segment:electronic-materials",
+      "relation": "belongs_to",
+      "subject": "product:vapor-deposition-targets"
+    },
+    {
+      "evidence": [
+        "b00059:0:720"
+      ],
+      "id": "product:frame-lid-assemblies/belongs_to/segment:electronic-materials",
+      "object": "segment:electronic-materials",
+      "relation": "belongs_to",
+      "subject": "product:frame-lid-assemblies"
+    },
+    {
+      "evidence": [
+        "b00059:0:720"
+      ],
+      "id": "product:clad-and-precious-metal-preforms/belongs_to/segment:electronic-materials",
+      "object": "segment:electronic-materials",
+      "relation": "belongs_to",
+      "subject": "product:clad-and-precious-metal-preforms"
+    },
+    {
+      "evidence": [
+        "b00059:0:720"
+      ],
+      "id": "product:high-temperature-braze-materials/belongs_to/segment:electronic-materials",
+      "object": "segment:electronic-materials",
+      "relation": "belongs_to",
+      "subject": "product:high-temperature-braze-materials"
+    },
+    {
+      "evidence": [
+        "b00059:0:720"
+      ],
+      "id": "product:precious-metal-recovery-and-refining/belongs_to/segment:electronic-materials",
+      "object": "segment:electronic-materials",
+      "relation": "belongs_to",
+      "subject": "product:precious-metal-recovery-and-refining"
+    },
+    {
+      "evidence": [
+        "b00063:0:379"
+      ],
+      "id": "product:precision-thin-film-coatings/belongs_to/segment:precision-optics",
+      "object": "segment:precision-optics",
+      "relation": "belongs_to",
+      "subject": "product:precision-thin-film-coatings"
+    },
+    {
+      "evidence": [
+        "b00063:0:379"
+      ],
+      "id": "product:optical-filters/belongs_to/segment:precision-optics",
+      "object": "segment:precision-optics",
+      "relation": "belongs_to",
+      "subject": "product:optical-filters"
+    },
+    {
+      "evidence": [
+        "b00063:0:379"
+      ],
+      "id": "product:optical-assemblies/belongs_to/segment:precision-optics",
+      "object": "segment:precision-optics",
+      "relation": "belongs_to",
+      "subject": "product:optical-assemblies"
+    },
+    {
+      "evidence": [
+        "b00052:0:2315"
+      ],
+      "id": "product:alloyed-metals/serves/end_market:industrial",
+      "object": "end_market:industrial",
+      "relation": "serves",
+      "subject": "product:alloyed-metals"
+    },
+    {
+      "evidence": [
+        "b00052:0:2315"
+      ],
+      "id": "product:alloyed-metals/serves/end_market:automotive",
+      "object": "end_market:automotive",
+      "relation": "serves",
+      "subject": "product:alloyed-metals"
+    },
+    {
+      "evidence": [
+        "b00052:0:2315"
+      ],
+      "id": "product:alloyed-metals/serves/end_market:aerospace-and-defense",
+      "object": "end_market:aerospace-and-defense",
+      "relation": "serves",
+      "subject": "product:alloyed-metals"
+    },
+    {
+      "evidence": [
+        "b00052:0:2315"
+      ],
+      "id": "product:alloyed-metals/serves/end_market:energy",
+      "object": "end_market:energy",
+      "relation": "serves",
+      "subject": "product:alloyed-metals"
+    },
+    {
+      "evidence": [
+        "b00052:0:2315"
+      ],
+      "id": "product:alloyed-metals/serves/end_market:life-sciences",
+      "object": "end_market:life-sciences",
+      "relation": "serves",
+      "subject": "product:alloyed-metals"
+    },
+    {
+      "evidence": [
+        "b00053:0:1174",
+        "b00055:0:396"
+      ],
+      "id": "product:specialty-materials/serves/end_market:consumer-electronics",
+      "object": "end_market:consumer-electronics",
+      "relation": "serves",
+      "subject": "product:specialty-materials"
+    },
+    {
+      "evidence": [
+        "b00053:0:1174",
+        "b00055:0:396"
+      ],
+      "id": "product:specialty-materials/serves/end_market:life-sciences",
+      "object": "end_market:life-sciences",
+      "relation": "serves",
+      "subject": "product:specialty-materials"
+    },
+    {
+      "evidence": [
+        "b00053:0:1174",
+        "b00055:0:396"
+      ],
+      "id": "product:specialty-materials/serves/end_market:automotive",
+      "object": "end_market:automotive",
+      "relation": "serves",
+      "subject": "product:specialty-materials"
+    },
+    {
+      "evidence": [
+        "b00053:0:1174",
+        "b00055:0:396"
+      ],
+      "id": "product:specialty-materials/serves/end_market:aerospace-and-defense",
+      "object": "end_market:aerospace-and-defense",
+      "relation": "serves",
+      "subject": "product:specialty-materials"
+    },
+    {
+      "evidence": [
+        "b00053:0:1174",
+        "b00055:0:396"
+      ],
+      "id": "product:specialty-materials/serves/end_market:industrial",
+      "object": "end_market:industrial",
+      "relation": "serves",
+      "subject": "product:specialty-materials"
+    },
+    {
+      "evidence": [
+        "b00053:0:1174",
+        "b00055:0:396"
+      ],
+      "id": "product:specialty-materials/serves/end_market:energy",
+      "object": "end_market:energy",
+      "relation": "serves",
+      "subject": "product:specialty-materials"
+    },
+    {
+      "evidence": [
+        "b00056:0:1584"
+      ],
+      "id": "product:beryllium-components/serves/end_market:aerospace-and-defense",
+      "object": "end_market:aerospace-and-defense",
+      "relation": "serves",
+      "subject": "product:beryllium-components"
+    },
+    {
+      "evidence": [
+        "b00056:0:1584"
+      ],
+      "id": "product:beryllium-components/serves/end_market:energy",
+      "object": "end_market:energy",
+      "relation": "serves",
+      "subject": "product:beryllium-components"
+    },
+    {
+      "evidence": [
+        "b00059:0:720"
+      ],
+      "id": "segment:electronic-materials/serves/end_market:semiconductor",
+      "object": "end_market:semiconductor",
+      "relation": "serves",
+      "subject": "segment:electronic-materials"
+    },
+    {
+      "evidence": [
+        "b00059:0:720"
+      ],
+      "id": "segment:electronic-materials/serves/end_market:energy",
+      "object": "end_market:energy",
+      "relation": "serves",
+      "subject": "segment:electronic-materials"
+    },
+    {
+      "evidence": [
+        "b00059:0:720"
+      ],
+      "id": "segment:electronic-materials/serves/end_market:industrial",
+      "object": "end_market:industrial",
+      "relation": "serves",
+      "subject": "segment:electronic-materials"
+    },
+    {
+      "evidence": [
+        "b00063:0:379"
+      ],
+      "id": "segment:precision-optics/serves/end_market:aerospace-and-defense",
+      "object": "end_market:aerospace-and-defense",
+      "relation": "serves",
+      "subject": "segment:precision-optics"
+    },
+    {
+      "evidence": [
+        "b00063:0:379"
+      ],
+      "id": "segment:precision-optics/serves/end_market:automotive",
+      "object": "end_market:automotive",
+      "relation": "serves",
+      "subject": "segment:precision-optics"
+    },
+    {
+      "evidence": [
+        "b00063:0:379"
+      ],
+      "id": "segment:precision-optics/serves/end_market:consumer-electronics",
+      "object": "end_market:consumer-electronics",
+      "relation": "serves",
+      "subject": "segment:precision-optics"
+    },
+    {
+      "evidence": [
+        "b00063:0:379"
+      ],
+      "id": "segment:precision-optics/serves/end_market:semiconductor",
+      "object": "end_market:semiconductor",
+      "relation": "serves",
+      "subject": "segment:precision-optics"
+    },
+    {
+      "evidence": [
+        "b00063:0:379"
+      ],
+      "id": "segment:precision-optics/serves/end_market:medical-applications",
+      "object": "end_market:medical-applications",
+      "relation": "serves",
+      "subject": "segment:precision-optics"
+    },
+    {
+      "evidence": [
+        "b00063:0:379"
+      ],
+      "id": "segment:precision-optics/serves/end_market:industrial",
+      "object": "end_market:industrial",
+      "relation": "serves",
+      "subject": "segment:precision-optics"
+    },
+    {
+      "evidence": [
+        "b00238:row:2",
+        "b00239:0:25"
+      ],
+      "id": "facility:corporate-and-administrative-offices:mayfield-heights-ohio/belongs_to/segment:performance-materials",
+      "object": "segment:performance-materials",
+      "relation": "belongs_to",
+      "subject": "facility:corporate-and-administrative-offices:mayfield-heights-ohio"
+    },
+    {
+      "evidence": [
+        "b00238:row:2",
+        "b00240:0:24"
+      ],
+      "id": "facility:corporate-and-administrative-offices:mayfield-heights-ohio/belongs_to/segment:electronic-materials",
+      "object": "segment:electronic-materials",
+      "relation": "belongs_to",
+      "subject": "facility:corporate-and-administrative-offices:mayfield-heights-ohio"
+    },
+    {
+      "evidence": [
+        "b00237:0:521",
+        "b00238:row:2"
+      ],
+      "id": "company/operates_facility/facility:corporate-and-administrative-offices:mayfield-heights-ohio",
+      "object": "facility:corporate-and-administrative-offices:mayfield-heights-ohio",
+      "relation": "operates_facility",
+      "subject": "company"
+    },
+    {
+      "evidence": [
+        "b00238:row:4",
+        "b00240:0:24"
+      ],
+      "id": "facility:manufacturing-facilities:albuquerque-new-mexico/belongs_to/segment:electronic-materials",
+      "object": "segment:electronic-materials",
+      "relation": "belongs_to",
+      "subject": "facility:manufacturing-facilities:albuquerque-new-mexico"
+    },
+    {
+      "evidence": [
+        "b00237:0:521",
+        "b00238:row:4"
+      ],
+      "id": "company/operates_facility/facility:manufacturing-facilities:albuquerque-new-mexico",
+      "object": "facility:manufacturing-facilities:albuquerque-new-mexico",
+      "relation": "operates_facility",
+      "subject": "company"
+    },
+    {
+      "evidence": [
+        "b00238:row:5",
+        "b00240:0:24"
+      ],
+      "id": "facility:manufacturing-facilities:alzenau-germany/belongs_to/segment:electronic-materials",
+      "object": "segment:electronic-materials",
+      "relation": "belongs_to",
+      "subject": "facility:manufacturing-facilities:alzenau-germany"
+    },
+    {
+      "evidence": [
+        "b00237:0:521",
+        "b00238:row:5"
+      ],
+      "id": "company/operates_facility/facility:manufacturing-facilities:alzenau-germany",
+      "object": "facility:manufacturing-facilities:alzenau-germany",
+      "relation": "operates_facility",
+      "subject": "company"
+    },
+    {
+      "evidence": [
+        "b00238:row:6",
+        "b00241:0:20"
+      ],
+      "id": "facility:manufacturing-facilities:balzers-lichtenstein/belongs_to/segment:precision-optics",
+      "object": "segment:precision-optics",
+      "relation": "belongs_to",
+      "subject": "facility:manufacturing-facilities:balzers-lichtenstein"
+    },
+    {
+      "evidence": [
+        "b00237:0:521",
+        "b00238:row:6"
+      ],
+      "id": "company/operates_facility/facility:manufacturing-facilities:balzers-lichtenstein",
+      "object": "facility:manufacturing-facilities:balzers-lichtenstein",
+      "relation": "operates_facility",
+      "subject": "company"
+    },
+    {
+      "evidence": [
+        "b00238:row:7",
+        "b00240:0:24"
+      ],
+      "id": "facility:manufacturing-facilities:brewster-new-york/belongs_to/segment:electronic-materials",
+      "object": "segment:electronic-materials",
+      "relation": "belongs_to",
+      "subject": "facility:manufacturing-facilities:brewster-new-york"
+    },
+    {
+      "evidence": [
+        "b00237:0:521",
+        "b00238:row:7"
+      ],
+      "id": "company/operates_facility/facility:manufacturing-facilities:brewster-new-york",
+      "object": "facility:manufacturing-facilities:brewster-new-york",
+      "relation": "operates_facility",
+      "subject": "company"
+    },
+    {
+      "evidence": [
+        "b00238:row:8",
+        "b00240:0:24"
+      ],
+      "id": "facility:manufacturing-facilities:buffalo-new-york/belongs_to/segment:electronic-materials",
+      "object": "segment:electronic-materials",
+      "relation": "belongs_to",
+      "subject": "facility:manufacturing-facilities:buffalo-new-york"
+    },
+    {
+      "evidence": [
+        "b00237:0:521",
+        "b00238:row:8"
+      ],
+      "id": "company/operates_facility/facility:manufacturing-facilities:buffalo-new-york",
+      "object": "facility:manufacturing-facilities:buffalo-new-york",
+      "relation": "operates_facility",
+      "subject": "company"
+    },
+    {
+      "evidence": [
+        "b00238:row:9",
+        "b00240:0:24"
+      ],
+      "id": "facility:manufacturing-facilities:dangjin-korea/belongs_to/segment:electronic-materials",
+      "object": "segment:electronic-materials",
+      "relation": "belongs_to",
+      "subject": "facility:manufacturing-facilities:dangjin-korea"
+    },
+    {
+      "evidence": [
+        "b00237:0:521",
+        "b00238:row:9"
+      ],
+      "id": "company/operates_facility/facility:manufacturing-facilities:dangjin-korea",
+      "object": "facility:manufacturing-facilities:dangjin-korea",
+      "relation": "operates_facility",
+      "subject": "company"
+    },
+    {
+      "evidence": [
+        "b00238:row:10",
+        "b00239:0:25"
+      ],
+      "id": "facility:manufacturing-facilities:delta-utah/belongs_to/segment:performance-materials",
+      "object": "segment:performance-materials",
+      "relation": "belongs_to",
+      "subject": "facility:manufacturing-facilities:delta-utah"
+    },
+    {
+      "evidence": [
+        "b00237:0:521",
+        "b00238:row:10"
+      ],
+      "id": "company/operates_facility/facility:manufacturing-facilities:delta-utah",
+      "object": "facility:manufacturing-facilities:delta-utah",
+      "relation": "operates_facility",
+      "subject": "company"
+    },
+    {
+      "evidence": [
+        "b00238:row:11",
+        "b00239:0:25"
+      ],
+      "id": "facility:manufacturing-facilities:elmore-ohio/belongs_to/segment:performance-materials",
+      "object": "segment:performance-materials",
+      "relation": "belongs_to",
+      "subject": "facility:manufacturing-facilities:elmore-ohio"
+    },
+    {
+      "evidence": [
+        "b00237:0:521",
+        "b00238:row:11"
+      ],
+      "id": "company/operates_facility/facility:manufacturing-facilities:elmore-ohio",
+      "object": "facility:manufacturing-facilities:elmore-ohio",
+      "relation": "operates_facility",
+      "subject": "company"
+    },
+    {
+      "evidence": [
+        "b00238:row:12",
+        "b00239:0:25"
+      ],
+      "id": "facility:manufacturing-facilities:farnborough-england/belongs_to/segment:performance-materials",
+      "object": "segment:performance-materials",
+      "relation": "belongs_to",
+      "subject": "facility:manufacturing-facilities:farnborough-england"
+    },
+    {
+      "evidence": [
+        "b00237:0:521",
+        "b00238:row:12"
+      ],
+      "id": "company/operates_facility/facility:manufacturing-facilities:farnborough-england",
+      "object": "facility:manufacturing-facilities:farnborough-england",
+      "relation": "operates_facility",
+      "subject": "company"
+    },
+    {
+      "evidence": [
+        "b00238:row:13",
+        "b00241:0:20"
+      ],
+      "id": "facility:manufacturing-facilities:jena-germany/belongs_to/segment:precision-optics",
+      "object": "segment:precision-optics",
+      "relation": "belongs_to",
+      "subject": "facility:manufacturing-facilities:jena-germany"
+    },
+    {
+      "evidence": [
+        "b00237:0:521",
+        "b00238:row:13"
+      ],
+      "id": "company/operates_facility/facility:manufacturing-facilities:jena-germany",
+      "object": "facility:manufacturing-facilities:jena-germany",
+      "relation": "operates_facility",
+      "subject": "company"
+    },
+    {
+      "evidence": [
+        "b00238:row:14",
+        "b00240:0:24"
+      ],
+      "id": "facility:manufacturing-facilities:limerick-ireland/belongs_to/segment:electronic-materials",
+      "object": "segment:electronic-materials",
+      "relation": "belongs_to",
+      "subject": "facility:manufacturing-facilities:limerick-ireland"
+    },
+    {
+      "evidence": [
+        "b00237:0:521",
+        "b00238:row:14"
+      ],
+      "id": "company/operates_facility/facility:manufacturing-facilities:limerick-ireland",
+      "object": "facility:manufacturing-facilities:limerick-ireland",
+      "relation": "operates_facility",
+      "subject": "company"
+    },
+    {
+      "evidence": [
+        "b00238:row:15",
+        "b00239:0:25"
+      ],
+      "id": "facility:manufacturing-facilities:lincoln-rhode-island/belongs_to/segment:performance-materials",
+      "object": "segment:performance-materials",
+      "relation": "belongs_to",
+      "subject": "facility:manufacturing-facilities:lincoln-rhode-island"
+    },
+    {
+      "evidence": [
+        "b00237:0:521",
+        "b00238:row:15"
+      ],
+      "id": "company/operates_facility/facility:manufacturing-facilities:lincoln-rhode-island",
+      "object": "facility:manufacturing-facilities:lincoln-rhode-island",
+      "relation": "operates_facility",
+      "subject": "company"
+    },
+    {
+      "evidence": [
+        "b00238:row:16",
+        "b00239:0:25"
+      ],
+      "id": "facility:manufacturing-facilities:lorain-ohio/belongs_to/segment:performance-materials",
+      "object": "segment:performance-materials",
+      "relation": "belongs_to",
+      "subject": "facility:manufacturing-facilities:lorain-ohio"
+    },
+    {
+      "evidence": [
+        "b00237:0:521",
+        "b00238:row:16"
+      ],
+      "id": "company/operates_facility/facility:manufacturing-facilities:lorain-ohio",
+      "object": "facility:manufacturing-facilities:lorain-ohio",
+      "relation": "operates_facility",
+      "subject": "company"
+    },
+    {
+      "evidence": [
+        "b00238:row:17",
+        "b00240:0:24"
+      ],
+      "id": "facility:manufacturing-facilities:milwaukee-wisconsin/belongs_to/segment:electronic-materials",
+      "object": "segment:electronic-materials",
+      "relation": "belongs_to",
+      "subject": "facility:manufacturing-facilities:milwaukee-wisconsin"
+    },
+    {
+      "evidence": [
+        "b00237:0:521",
+        "b00238:row:17"
+      ],
+      "id": "company/operates_facility/facility:manufacturing-facilities:milwaukee-wisconsin",
+      "object": "facility:manufacturing-facilities:milwaukee-wisconsin",
+      "relation": "operates_facility",
+      "subject": "company"
+    },
+    {
+      "evidence": [
+        "b00238:row:18",
+        "b00239:0:25"
+      ],
+      "id": "facility:manufacturing-facilities:newton-ma/belongs_to/segment:performance-materials",
+      "object": "segment:performance-materials",
+      "relation": "belongs_to",
+      "subject": "facility:manufacturing-facilities:newton-ma"
+    },
+    {
+      "evidence": [
+        "b00238:row:18",
+        "b00240:0:24"
+      ],
+      "id": "facility:manufacturing-facilities:newton-ma/belongs_to/segment:electronic-materials",
+      "object": "segment:electronic-materials",
+      "relation": "belongs_to",
+      "subject": "facility:manufacturing-facilities:newton-ma"
+    },
+    {
+      "evidence": [
+        "b00237:0:521",
+        "b00238:row:18"
+      ],
+      "id": "company/operates_facility/facility:manufacturing-facilities:newton-ma",
+      "object": "facility:manufacturing-facilities:newton-ma",
+      "relation": "operates_facility",
+      "subject": "company"
+    },
+    {
+      "evidence": [
+        "b00238:row:19",
+        "b00241:0:20"
+      ],
+      "id": "facility:manufacturing-facilities:penang-malaysia/belongs_to/segment:precision-optics",
+      "object": "segment:precision-optics",
+      "relation": "belongs_to",
+      "subject": "facility:manufacturing-facilities:penang-malaysia"
+    },
+    {
+      "evidence": [
+        "b00237:0:521",
+        "b00238:row:19"
+      ],
+      "id": "company/operates_facility/facility:manufacturing-facilities:penang-malaysia",
+      "object": "facility:manufacturing-facilities:penang-malaysia",
+      "relation": "operates_facility",
+      "subject": "company"
+    },
+    {
+      "evidence": [
+        "b00238:row:20",
+        "b00239:0:25"
+      ],
+      "id": "facility:manufacturing-facilities:reading-pennsylvania/belongs_to/segment:performance-materials",
+      "object": "segment:performance-materials",
+      "relation": "belongs_to",
+      "subject": "facility:manufacturing-facilities:reading-pennsylvania"
+    },
+    {
+      "evidence": [
+        "b00237:0:521",
+        "b00238:row:20"
+      ],
+      "id": "company/operates_facility/facility:manufacturing-facilities:reading-pennsylvania",
+      "object": "facility:manufacturing-facilities:reading-pennsylvania",
+      "relation": "operates_facility",
+      "subject": "company"
+    },
+    {
+      "evidence": [
+        "b00238:row:21",
+        "b00240:0:24"
+      ],
+      "id": "facility:manufacturing-facilities:santa-clara-california/belongs_to/segment:electronic-materials",
+      "object": "segment:electronic-materials",
+      "relation": "belongs_to",
+      "subject": "facility:manufacturing-facilities:santa-clara-california"
+    },
+    {
+      "evidence": [
+        "b00237:0:521",
+        "b00238:row:21"
+      ],
+      "id": "company/operates_facility/facility:manufacturing-facilities:santa-clara-california",
+      "object": "facility:manufacturing-facilities:santa-clara-california",
+      "relation": "operates_facility",
+      "subject": "company"
+    },
+    {
+      "evidence": [
+        "b00238:row:22",
+        "b00241:0:20"
+      ],
+      "id": "facility:manufacturing-facilities:shanghai-china/belongs_to/segment:precision-optics",
+      "object": "segment:precision-optics",
+      "relation": "belongs_to",
+      "subject": "facility:manufacturing-facilities:shanghai-china"
+    },
+    {
+      "evidence": [
+        "b00237:0:521",
+        "b00238:row:22"
+      ],
+      "id": "company/operates_facility/facility:manufacturing-facilities:shanghai-china",
+      "object": "facility:manufacturing-facilities:shanghai-china",
+      "relation": "operates_facility",
+      "subject": "company"
+    },
+    {
+      "evidence": [
+        "b00238:row:23",
+        "b00239:0:25"
+      ],
+      "id": "facility:manufacturing-facilities:singapore/belongs_to/segment:performance-materials",
+      "object": "segment:performance-materials",
+      "relation": "belongs_to",
+      "subject": "facility:manufacturing-facilities:singapore"
+    },
+    {
+      "evidence": [
+        "b00238:row:23",
+        "b00240:0:24"
+      ],
+      "id": "facility:manufacturing-facilities:singapore/belongs_to/segment:electronic-materials",
+      "object": "segment:electronic-materials",
+      "relation": "belongs_to",
+      "subject": "facility:manufacturing-facilities:singapore"
+    },
+    {
+      "evidence": [
+        "b00237:0:521",
+        "b00238:row:23"
+      ],
+      "id": "company/operates_facility/facility:manufacturing-facilities:singapore",
+      "object": "facility:manufacturing-facilities:singapore",
+      "relation": "operates_facility",
+      "subject": "company"
+    },
+    {
+      "evidence": [
+        "b00238:row:24",
+        "b00240:0:24"
+      ],
+      "id": "facility:manufacturing-facilities:subic-bay-philippines/belongs_to/segment:electronic-materials",
+      "object": "segment:electronic-materials",
+      "relation": "belongs_to",
+      "subject": "facility:manufacturing-facilities:subic-bay-philippines"
+    },
+    {
+      "evidence": [
+        "b00237:0:521",
+        "b00238:row:24"
+      ],
+      "id": "company/operates_facility/facility:manufacturing-facilities:subic-bay-philippines",
+      "object": "facility:manufacturing-facilities:subic-bay-philippines",
+      "relation": "operates_facility",
+      "subject": "company"
+    },
+    {
+      "evidence": [
+        "b00238:row:25",
+        "b00240:0:24"
+      ],
+      "id": "facility:manufacturing-facilities:taoyuan-city-taiwan/belongs_to/segment:electronic-materials",
+      "object": "segment:electronic-materials",
+      "relation": "belongs_to",
+      "subject": "facility:manufacturing-facilities:taoyuan-city-taiwan"
+    },
+    {
+      "evidence": [
+        "b00237:0:521",
+        "b00238:row:25"
+      ],
+      "id": "company/operates_facility/facility:manufacturing-facilities:taoyuan-city-taiwan",
+      "object": "facility:manufacturing-facilities:taoyuan-city-taiwan",
+      "relation": "operates_facility",
+      "subject": "company"
+    },
+    {
+      "evidence": [
+        "b00238:row:26",
+        "b00239:0:25"
+      ],
+      "id": "facility:manufacturing-facilities:tucson-arizona/belongs_to/segment:performance-materials",
+      "object": "segment:performance-materials",
+      "relation": "belongs_to",
+      "subject": "facility:manufacturing-facilities:tucson-arizona"
+    },
+    {
+      "evidence": [
+        "b00237:0:521",
+        "b00238:row:26"
+      ],
+      "id": "company/operates_facility/facility:manufacturing-facilities:tucson-arizona",
+      "object": "facility:manufacturing-facilities:tucson-arizona",
+      "relation": "operates_facility",
+      "subject": "company"
+    },
+    {
+      "evidence": [
+        "b00238:row:27",
+        "b00241:0:20"
+      ],
+      "id": "facility:manufacturing-facilities:tyngsboro-massachusetts/belongs_to/segment:precision-optics",
+      "object": "segment:precision-optics",
+      "relation": "belongs_to",
+      "subject": "facility:manufacturing-facilities:tyngsboro-massachusetts"
+    },
+    {
+      "evidence": [
+        "b00237:0:521",
+        "b00238:row:27"
+      ],
+      "id": "company/operates_facility/facility:manufacturing-facilities:tyngsboro-massachusetts",
+      "object": "facility:manufacturing-facilities:tyngsboro-massachusetts",
+      "relation": "operates_facility",
+      "subject": "company"
+    },
+    {
+      "evidence": [
+        "b00238:row:28",
+        "b00241:0:20"
+      ],
+      "id": "facility:manufacturing-facilities:westford-massachusetts/belongs_to/segment:precision-optics",
+      "object": "segment:precision-optics",
+      "relation": "belongs_to",
+      "subject": "facility:manufacturing-facilities:westford-massachusetts"
+    },
+    {
+      "evidence": [
+        "b00237:0:521",
+        "b00238:row:28"
+      ],
+      "id": "company/operates_facility/facility:manufacturing-facilities:westford-massachusetts",
+      "object": "facility:manufacturing-facilities:westford-massachusetts",
+      "relation": "operates_facility",
+      "subject": "company"
+    },
+    {
+      "evidence": [
+        "b00238:row:29",
+        "b00240:0:24"
+      ],
+      "id": "facility:manufacturing-facilities:wheatfield-new-york/belongs_to/segment:electronic-materials",
+      "object": "segment:electronic-materials",
+      "relation": "belongs_to",
+      "subject": "facility:manufacturing-facilities:wheatfield-new-york"
+    },
+    {
+      "evidence": [
+        "b00237:0:521",
+        "b00238:row:29"
+      ],
+      "id": "company/operates_facility/facility:manufacturing-facilities:wheatfield-new-york",
+      "object": "facility:manufacturing-facilities:wheatfield-new-york",
+      "relation": "operates_facility",
+      "subject": "company"
+    },
+    {
+      "evidence": [
+        "b00238:row:31",
+        "b00239:0:25"
+      ],
+      "id": "facility:service-sales-and-distribution-centers:elmhurst-illinois/belongs_to/segment:performance-materials",
+      "object": "segment:performance-materials",
+      "relation": "belongs_to",
+      "subject": "facility:service-sales-and-distribution-centers:elmhurst-illinois"
+    },
+    {
+      "evidence": [
+        "b00237:0:521",
+        "b00238:row:31"
+      ],
+      "id": "company/operates_facility/facility:service-sales-and-distribution-centers:elmhurst-illinois",
+      "object": "facility:service-sales-and-distribution-centers:elmhurst-illinois",
+      "relation": "operates_facility",
+      "subject": "company"
+    },
+    {
+      "evidence": [
+        "b00238:row:32",
+        "b00241:0:20"
+      ],
+      "id": "facility:service-sales-and-distribution-centers:eschborn-germany/belongs_to/segment:precision-optics",
+      "object": "segment:precision-optics",
+      "relation": "belongs_to",
+      "subject": "facility:service-sales-and-distribution-centers:eschborn-germany"
+    },
+    {
+      "evidence": [
+        "b00237:0:521",
+        "b00238:row:32"
+      ],
+      "id": "company/operates_facility/facility:service-sales-and-distribution-centers:eschborn-germany",
+      "object": "facility:service-sales-and-distribution-centers:eschborn-germany",
+      "relation": "operates_facility",
+      "subject": "company"
+    },
+    {
+      "evidence": [
+        "b00238:row:33",
+        "b00240:0:24"
+      ],
+      "id": "facility:service-sales-and-distribution-centers:seoul-korea/belongs_to/segment:electronic-materials",
+      "object": "segment:electronic-materials",
+      "relation": "belongs_to",
+      "subject": "facility:service-sales-and-distribution-centers:seoul-korea"
+    },
+    {
+      "evidence": [
+        "b00237:0:521",
+        "b00238:row:33"
+      ],
+      "id": "company/operates_facility/facility:service-sales-and-distribution-centers:seoul-korea",
+      "object": "facility:service-sales-and-distribution-centers:seoul-korea",
+      "relation": "operates_facility",
+      "subject": "company"
+    },
+    {
+      "evidence": [
+        "b00238:row:34",
+        "b00239:0:25"
+      ],
+      "id": "facility:service-sales-and-distribution-centers:shanghai-china/belongs_to/segment:performance-materials",
+      "object": "segment:performance-materials",
+      "relation": "belongs_to",
+      "subject": "facility:service-sales-and-distribution-centers:shanghai-china"
+    },
+    {
+      "evidence": [
+        "b00237:0:521",
+        "b00238:row:34"
+      ],
+      "id": "company/operates_facility/facility:service-sales-and-distribution-centers:shanghai-china",
+      "object": "facility:service-sales-and-distribution-centers:shanghai-china",
+      "relation": "operates_facility",
+      "subject": "company"
+    },
+    {
+      "evidence": [
+        "b00238:row:35",
+        "b00239:0:25"
+      ],
+      "id": "facility:service-sales-and-distribution-centers:stuttgart-germany/belongs_to/segment:performance-materials",
+      "object": "segment:performance-materials",
+      "relation": "belongs_to",
+      "subject": "facility:service-sales-and-distribution-centers:stuttgart-germany"
+    },
+    {
+      "evidence": [
+        "b00237:0:521",
+        "b00238:row:35"
+      ],
+      "id": "company/operates_facility/facility:service-sales-and-distribution-centers:stuttgart-germany",
+      "object": "facility:service-sales-and-distribution-centers:stuttgart-germany",
+      "relation": "operates_facility",
+      "subject": "company"
+    },
+    {
+      "evidence": [
+        "b00238:row:36",
+        "b00239:0:25"
+      ],
+      "id": "facility:service-sales-and-distribution-centers:tokyo-japan/belongs_to/segment:performance-materials",
+      "object": "segment:performance-materials",
+      "relation": "belongs_to",
+      "subject": "facility:service-sales-and-distribution-centers:tokyo-japan"
+    },
+    {
+      "evidence": [
+        "b00237:0:521",
+        "b00238:row:36"
+      ],
+      "id": "company/operates_facility/facility:service-sales-and-distribution-centers:tokyo-japan",
+      "object": "facility:service-sales-and-distribution-centers:tokyo-japan",
+      "relation": "operates_facility",
+      "subject": "company"
+    },
+    {
+      "evidence": [
+        "b00244:0:1034"
+      ],
+      "id": "company/owns/operation:spor-mountain-mine",
+      "object": "operation:spor-mountain-mine",
+      "relation": "owns",
+      "subject": "company"
+    },
+    {
+      "evidence": [
+        "b00051:0:1029"
+      ],
+      "id": "operation:utah-mining-operation/operated_by/segment:performance-materials",
+      "object": "segment:performance-materials",
+      "relation": "operated_by",
+      "subject": "operation:utah-mining-operation"
+    },
+    {
+      "evidence": [
+        "b00051:0:1029",
+        "b00052:0:2315"
+      ],
+      "id": "operation:utah-milling-operation/operated_by/segment:performance-materials",
+      "object": "segment:performance-materials",
+      "relation": "operated_by",
+      "subject": "operation:utah-milling-operation"
+    },
+    {
+      "evidence": [
+        "b00244:0:1034"
+      ],
+      "id": "operation:spor-mountain-mine/produces/material:bertrandite-ore",
+      "object": "material:bertrandite-ore",
+      "relation": "produces",
+      "subject": "operation:spor-mountain-mine"
+    },
+    {
+      "evidence": [
+        "b00052:0:2315"
+      ],
+      "id": "material:bertrandite-ore/input_to/operation:utah-milling-operation",
+      "object": "operation:utah-milling-operation",
+      "relation": "input_to",
+      "subject": "material:bertrandite-ore"
+    },
+    {
+      "evidence": [
+        "b00052:0:2315"
+      ],
+      "id": "material:purchased-beryl-ore/input_to/operation:utah-milling-operation",
+      "object": "operation:utah-milling-operation",
+      "relation": "input_to",
+      "subject": "material:purchased-beryl-ore"
+    },
+    {
+      "evidence": [
+        "b00052:0:2315"
+      ],
+      "id": "operation:utah-milling-operation/produces/material:beryllium-hydroxide",
+      "object": "material:beryllium-hydroxide",
+      "relation": "produces",
+      "subject": "operation:utah-milling-operation"
+    },
+    {
+      "evidence": [
+        "b00141:0:1271"
+      ],
+      "id": "operation:utah-mining-operation/supplies_beryllium_hydroxide_to/facility:manufacturing-facilities:elmore-ohio",
+      "object": "facility:manufacturing-facilities:elmore-ohio",
+      "relation": "supplies_beryllium_hydroxide_to",
+      "subject": "operation:utah-mining-operation"
+    },
+    {
+      "evidence": [
+        "b00141:0:1271"
+      ],
+      "id": "facility:manufacturing-facilities:elmore-ohio/supplies_materials_to/facility:manufacturing-facilities:reading-pennsylvania",
+      "object": "facility:manufacturing-facilities:reading-pennsylvania",
+      "relation": "supplies_materials_to",
+      "subject": "facility:manufacturing-facilities:elmore-ohio"
+    },
+    {
+      "evidence": [
+        "b00141:0:1271"
+      ],
+      "id": "facility:manufacturing-facilities:elmore-ohio/supplies_materials_to/facility:manufacturing-facilities:tucson-arizona",
+      "object": "facility:manufacturing-facilities:tucson-arizona",
+      "relation": "supplies_materials_to",
+      "subject": "facility:manufacturing-facilities:elmore-ohio"
+    },
+    {
+      "evidence": [
+        "b00141:0:1271"
+      ],
+      "id": "facility:manufacturing-facilities:buffalo-new-york/supplies_materials_to/facility:manufacturing-facilities:wheatfield-new-york",
+      "object": "facility:manufacturing-facilities:wheatfield-new-york",
+      "relation": "supplies_materials_to",
+      "subject": "facility:manufacturing-facilities:buffalo-new-york"
+    },
+    {
+      "evidence": [
+        "b00052:0:2315"
+      ],
+      "id": "supplier_pool:purchased-beryl-ore-supplier-pool/supplies/operation:utah-milling-operation",
+      "object": "operation:utah-milling-operation",
+      "relation": "supplies",
+      "subject": "supplier_pool:purchased-beryl-ore-supplier-pool"
+    },
+    {
+      "evidence": [
+        "b00139:0:474"
+      ],
+      "id": "supplier_pool:precious-metal-consignors/consigns/material_cohort:precious-metals",
+      "object": "material_cohort:precious-metals",
+      "relation": "consigns",
+      "subject": "supplier_pool:precious-metal-consignors"
+    },
+    {
+      "evidence": [
+        "b00437:0:571"
+      ],
+      "id": "supplier_pool:copper-consignor-pool/consigns/material:copper",
+      "object": "material:copper",
+      "relation": "consigns",
+      "subject": "supplier_pool:copper-consignor-pool"
+    },
+    {
+      "evidence": [
+        "b00431:0:275"
+      ],
+      "id": "company/has_mechanism/mechanism:customer-supplied-metal",
+      "object": "mechanism:customer-supplied-metal",
+      "relation": "has_mechanism",
+      "subject": "company"
+    },
+    {
+      "evidence": [
+        "b00325:0:708"
+      ],
+      "id": "company/has_mechanism/mechanism:toll-processing",
+      "object": "mechanism:toll-processing",
+      "relation": "has_mechanism",
+      "subject": "company"
+    },
+    {
+      "evidence": [
+        "b00324:0:518"
+      ],
+      "id": "company/has_mechanism/mechanism:metal-cost-pass-through",
+      "object": "mechanism:metal-cost-pass-through",
+      "relation": "has_mechanism",
+      "subject": "company"
+    },
+    {
+      "evidence": [
+        "b00434:0:246"
+      ],
+      "id": "company/has_mechanism/mechanism:copper-price-adders-reductions",
+      "object": "mechanism:copper-price-adders-reductions",
+      "relation": "has_mechanism",
+      "subject": "company"
+    },
+    {
+      "evidence": [
+        "b00430:0:779"
+      ],
+      "id": "company/has_mechanism/mechanism:consignment-financing",
+      "object": "mechanism:consignment-financing",
+      "relation": "has_mechanism",
+      "subject": "company"
+    },
+    {
+      "evidence": [
+        "b00434:0:246",
+        "b00436:0:153"
+      ],
+      "id": "company/has_mechanism/mechanism:pass-through-lag",
+      "object": "mechanism:pass-through-lag",
+      "relation": "has_mechanism",
+      "subject": "company"
+    },
+    {
+      "evidence": [
+        "b00432:0:1055"
+      ],
+      "id": "company/has_mechanism/mechanism:consignment-line-capacity",
+      "object": "mechanism:consignment-line-capacity",
+      "relation": "has_mechanism",
+      "subject": "company"
+    },
+    {
+      "evidence": [
+        "b00324:0:518"
+      ],
+      "id": "company/discusses_metric/kpi:net-sales",
+      "object": "kpi:net-sales",
+      "relation": "discusses_metric",
+      "subject": "company"
+    },
+    {
+      "evidence": [
+        "b00325:0:708"
+      ],
+      "id": "company/discusses_metric/kpi:value-added-sales",
+      "object": "kpi:value-added-sales",
+      "relation": "discusses_metric",
+      "subject": "company"
+    },
+    {
+      "evidence": [
+        "b00325:0:708"
+      ],
+      "id": "company/discusses_metric/kpi:cost-of-sales",
+      "object": "kpi:cost-of-sales",
+      "relation": "discusses_metric",
+      "subject": "company"
+    },
+    {
+      "evidence": [
+        "b00409:0:912"
+      ],
+      "id": "company/discusses_metric/kpi:gross-margin",
+      "object": "kpi:gross-margin",
+      "relation": "discusses_metric",
+      "subject": "company"
+    },
+    {
+      "evidence": [
+        "b00575:0:269"
+      ],
+      "id": "company/discusses_metric/kpi:ebitda",
+      "object": "kpi:ebitda",
+      "relation": "discusses_metric",
+      "subject": "company"
+    },
+    {
+      "evidence": [
+        "b00428:0:992"
+      ],
+      "id": "company/discusses_metric/kpi:pre-tax-income",
+      "object": "kpi:pre-tax-income",
+      "relation": "discusses_metric",
+      "subject": "company"
+    },
+    {
+      "evidence": [
+        "b00438:0:1277"
+      ],
+      "id": "company/discusses_metric/kpi:inventory",
+      "object": "kpi:inventory",
+      "relation": "discusses_metric",
+      "subject": "company"
+    },
+    {
+      "evidence": [
+        "b00355:0:622"
+      ],
+      "id": "company/discusses_metric/kpi:working-capital",
+      "object": "kpi:working-capital",
+      "relation": "discusses_metric",
+      "subject": "company"
+    },
+    {
+      "evidence": [
+        "b00332:0:869"
+      ],
+      "id": "company/discusses_metric/kpi:operating-cash-flow",
+      "object": "kpi:operating-cash-flow",
+      "relation": "discusses_metric",
+      "subject": "company"
+    },
+    {
+      "evidence": [
+        "b00434:0:246",
+        "b00436:0:153"
+      ],
+      "id": "company/discusses_metric/kpi:margin-unspecified-measure",
+      "object": "kpi:margin-unspecified-measure",
+      "relation": "discusses_metric",
+      "subject": "company"
+    },
+    {
+      "evidence": [
+        "b00437:0:571"
+      ],
+      "id": "company/consigns_majority_of_inventory_requirement/material:copper",
+      "object": "material:copper",
+      "relation": "consigns_majority_of_inventory_requirement",
+      "subject": "company"
+    },
+    {
+      "evidence": [
+        "b00139:0:474"
+      ],
+      "id": "company/obtains_most_via_consignment/material_cohort:precious-metals",
+      "object": "material_cohort:precious-metals",
+      "relation": "obtains_most_via_consignment",
+      "subject": "company"
+    },
+    {
+      "evidence": [
+        "b00434:0:246"
+      ],
+      "id": "material:copper/price_transmitted_via/mechanism:copper-price-adders-reductions",
+      "object": "mechanism:copper-price-adders-reductions",
+      "relation": "price_transmitted_via",
+      "subject": "material:copper"
+    },
+    {
+      "evidence": [
+        "b00434:0:246",
+        "b00436:0:153"
+      ],
+      "id": "mechanism:pass-through-lag/may_affect/kpi:margin-unspecified-measure",
+      "object": "kpi:margin-unspecified-measure",
+      "relation": "may_affect",
+      "subject": "mechanism:pass-through-lag"
+    },
+    {
+      "evidence": [
+        "b00437:0:571"
+      ],
+      "id": "material:copper/price_affects/exposure:consignment-fee-expense",
+      "object": "exposure:consignment-fee-expense",
+      "relation": "price_affects",
+      "subject": "material:copper"
+    },
+    {
+      "evidence": [
+        "b00437:0:571"
+      ],
+      "id": "material:copper/price_affects/mechanism:consignment-line-capacity",
+      "object": "mechanism:consignment-line-capacity",
+      "relation": "price_affects",
+      "subject": "material:copper"
+    },
+    {
+      "evidence": [
+        "b00430:0:779"
+      ],
+      "id": "material_cohort:precious-metals/price_affects/exposure:consignment-fee-expense",
+      "object": "exposure:consignment-fee-expense",
+      "relation": "price_affects",
+      "subject": "material_cohort:precious-metals"
+    },
+    {
+      "evidence": [
+        "b00432:0:1055"
+      ],
+      "id": "material_cohort:precious-metals/price_affects/mechanism:consignment-line-capacity",
+      "object": "mechanism:consignment-line-capacity",
+      "relation": "price_affects",
+      "subject": "material_cohort:precious-metals"
+    },
+    {
+      "evidence": [
+        "b00325:0:708",
+        "b00431:0:275"
+      ],
+      "id": "mechanism:customer-supplied-metal/enables/mechanism:toll-processing",
+      "object": "mechanism:toll-processing",
+      "relation": "enables",
+      "subject": "mechanism:customer-supplied-metal"
+    },
+    {
+      "evidence": [
+        "b00325:0:708"
+      ],
+      "id": "mechanism:toll-processing/excludes_metal_value_from/kpi:net-sales",
+      "object": "kpi:net-sales",
+      "relation": "excludes_metal_value_from",
+      "subject": "mechanism:toll-processing"
+    },
+    {
+      "evidence": [
+        "b00325:0:708"
+      ],
+      "id": "mechanism:toll-processing/excludes_metal_value_from/kpi:cost-of-sales",
+      "object": "kpi:cost-of-sales",
+      "relation": "excludes_metal_value_from",
+      "subject": "mechanism:toll-processing"
+    },
+    {
+      "evidence": [
+        "b00324:0:518",
+        "b00325:0:708"
+      ],
+      "id": "mechanism:metal-cost-pass-through/affects/kpi:net-sales",
+      "object": "kpi:net-sales",
+      "relation": "affects",
+      "subject": "mechanism:metal-cost-pass-through"
+    },
+    {
+      "evidence": [
+        "b00324:0:518",
+        "b00325:0:708"
+      ],
+      "id": "mechanism:metal-cost-pass-through/affects/kpi:cost-of-sales",
+      "object": "kpi:cost-of-sales",
+      "relation": "affects",
+      "subject": "mechanism:metal-cost-pass-through"
+    },
+    {
+      "evidence": [
+        "b00324:0:518"
+      ],
+      "id": "mechanism:metal-cost-pass-through/affects/exposure:passed-through-metal-cost",
+      "object": "exposure:passed-through-metal-cost",
+      "relation": "affects",
+      "subject": "mechanism:metal-cost-pass-through"
+    },
+    {
+      "evidence": [
+        "b00355:0:622"
+      ],
+      "id": "mechanism:consignment-financing/reduces_investment_in/exposure:working-capital-investment",
+      "object": "exposure:working-capital-investment",
+      "relation": "reduces_investment_in",
+      "subject": "mechanism:consignment-financing"
+    },
+    {
+      "evidence": [
+        "b00355:0:622"
+      ],
+      "id": "exposure:working-capital-investment/relates_to/kpi:working-capital",
+      "object": "kpi:working-capital",
+      "relation": "relates_to",
+      "subject": "exposure:working-capital-investment"
+    },
+    {
+      "evidence": [
+        "b00430:0:779",
+        "b00437:0:571"
+      ],
+      "id": "exposure:consignment-fee-expense/increases_pre_tax_cost_affecting/kpi:pre-tax-income",
+      "object": "kpi:pre-tax-income",
+      "relation": "increases_pre_tax_cost_affecting",
+      "subject": "exposure:consignment-fee-expense"
+    },
+    {
+      "evidence": [
+        "b00138:0:54",
+        "b00139:0:474"
+      ],
+      "id": "mechanism:consignment-line-capacity/may_constrain/exposure:production-interruption",
+      "object": "exposure:production-interruption",
+      "relation": "may_constrain",
+      "subject": "mechanism:consignment-line-capacity"
+    },
+    {
+      "evidence": [
+        "b00432:0:1055"
+      ],
+      "id": "mechanism:consignment-line-capacity/may_create/exposure:consignment-capacity-pressure",
+      "object": "exposure:consignment-capacity-pressure",
+      "relation": "may_create",
+      "subject": "mechanism:consignment-line-capacity"
+    },
+    {
+      "evidence": [
+        "b00432:0:1055"
+      ],
+      "id": "exposure:consignment-capacity-pressure/may_reduce_business_opportunities/exposure:lost-sales",
+      "object": "exposure:lost-sales",
+      "relation": "may_reduce_business_opportunities",
+      "subject": "exposure:consignment-capacity-pressure"
+    },
+    {
+      "evidence": [
+        "b00141:0:1271",
+        "b00142:0:360"
+      ],
+      "id": "exposure:production-interruption/may_increase/exposure:additional-operating-costs",
+      "object": "exposure:additional-operating-costs",
+      "relation": "may_increase",
+      "subject": "exposure:production-interruption"
+    },
+    {
+      "evidence": [
+        "b00141:0:1271",
+        "b00142:0:360"
+      ],
+      "id": "exposure:production-interruption/may_increase/exposure:additional-capital-expenditures",
+      "object": "exposure:additional-capital-expenditures",
+      "relation": "may_increase",
+      "subject": "exposure:production-interruption"
+    },
+    {
+      "evidence": [
+        "b00141:0:1271",
+        "b00142:0:360"
+      ],
+      "id": "exposure:production-interruption/may_cause/exposure:lost-sales",
+      "object": "exposure:lost-sales",
+      "relation": "may_cause",
+      "subject": "exposure:production-interruption"
+    },
+    {
+      "evidence": [
+        "b00438:0:1277"
+      ],
+      "id": "exposure:inventory-valuation-exposure/may_reduce/kpi:inventory",
+      "object": "kpi:inventory",
+      "relation": "may_reduce",
+      "subject": "exposure:inventory-valuation-exposure"
+    },
+    {
+      "evidence": [
+        "b00438:0:1277"
+      ],
+      "id": "exposure:inventory-valuation-exposure/may_increase/kpi:cost-of-sales",
+      "object": "kpi:cost-of-sales",
+      "relation": "may_increase",
+      "subject": "exposure:inventory-valuation-exposure"
+    },
+    {
+      "evidence": [
+        "b00324:0:518"
+      ],
+      "id": "material:copper/price_affects/kpi:net-sales",
+      "object": "kpi:net-sales",
+      "relation": "price_affects",
+      "subject": "material:copper"
+    },
+    {
+      "evidence": [
+        "b00324:0:518"
+      ],
+      "id": "material:gold/price_affects/kpi:net-sales",
+      "object": "kpi:net-sales",
+      "relation": "price_affects",
+      "subject": "material:gold"
+    },
+    {
+      "evidence": [
+        "b00324:0:518"
+      ],
+      "id": "material:palladium/price_affects/kpi:net-sales",
+      "object": "kpi:net-sales",
+      "relation": "price_affects",
+      "subject": "material:palladium"
+    },
+    {
+      "evidence": [
+        "b00324:0:518"
+      ],
+      "id": "material:platinum/price_affects/kpi:net-sales",
+      "object": "kpi:net-sales",
+      "relation": "price_affects",
+      "subject": "material:platinum"
+    },
+    {
+      "evidence": [
+        "b00324:0:518"
+      ],
+      "id": "material:ruthenium/price_affects/kpi:net-sales",
+      "object": "kpi:net-sales",
+      "relation": "price_affects",
+      "subject": "material:ruthenium"
+    },
+    {
+      "evidence": [
+        "b00324:0:518"
+      ],
+      "id": "material:silver/price_affects/kpi:net-sales",
+      "object": "kpi:net-sales",
+      "relation": "price_affects",
+      "subject": "material:silver"
+    },
+    {
+      "evidence": [
+        "b00324:0:518"
+      ],
+      "id": "material:tin/price_affects/kpi:net-sales",
+      "object": "kpi:net-sales",
+      "relation": "price_affects",
+      "subject": "material:tin"
+    },
+    {
+      "evidence": [
+        "b00324:0:518"
+      ],
+      "id": "material:iridium/price_affects/kpi:net-sales",
+      "object": "kpi:net-sales",
+      "relation": "price_affects",
+      "subject": "material:iridium"
+    },
+    {
+      "evidence": [
+        "b00324:0:518"
+      ],
+      "id": "material:rhodium/price_affects/kpi:net-sales",
+      "object": "kpi:net-sales",
+      "relation": "price_affects",
+      "subject": "material:rhodium"
+    },
+    {
+      "evidence": [
+        "b00324:0:518"
+      ],
+      "id": "material:rhenium/price_affects/kpi:net-sales",
+      "object": "kpi:net-sales",
+      "relation": "price_affects",
+      "subject": "material:rhenium"
+    },
+    {
+      "evidence": [
+        "b00324:0:518"
+      ],
+      "id": "material:osmium/price_affects/kpi:net-sales",
+      "object": "kpi:net-sales",
+      "relation": "price_affects",
+      "subject": "material:osmium"
+    },
+    {
+      "evidence": [
+        "b00141:0:1271"
+      ],
+      "id": "facility:manufacturing-facilities:elmore-ohio/disruption_may_cause/exposure:production-interruption",
+      "object": "exposure:production-interruption",
+      "relation": "disruption_may_cause",
+      "subject": "facility:manufacturing-facilities:elmore-ohio"
+    },
+    {
+      "evidence": [
+        "b00141:0:1271"
+      ],
+      "id": "facility:manufacturing-facilities:reading-pennsylvania/disruption_may_cause/exposure:production-interruption",
+      "object": "exposure:production-interruption",
+      "relation": "disruption_may_cause",
+      "subject": "facility:manufacturing-facilities:reading-pennsylvania"
+    },
+    {
+      "evidence": [
+        "b00141:0:1271"
+      ],
+      "id": "facility:manufacturing-facilities:tucson-arizona/disruption_may_cause/exposure:production-interruption",
+      "object": "exposure:production-interruption",
+      "relation": "disruption_may_cause",
+      "subject": "facility:manufacturing-facilities:tucson-arizona"
+    },
+    {
+      "evidence": [
+        "b00141:0:1271"
+      ],
+      "id": "facility:manufacturing-facilities:buffalo-new-york/disruption_may_cause/exposure:production-interruption",
+      "object": "exposure:production-interruption",
+      "relation": "disruption_may_cause",
+      "subject": "facility:manufacturing-facilities:buffalo-new-york"
+    },
+    {
+      "evidence": [
+        "b00141:0:1271"
+      ],
+      "id": "facility:manufacturing-facilities:wheatfield-new-york/disruption_may_cause/exposure:production-interruption",
+      "object": "exposure:production-interruption",
+      "relation": "disruption_may_cause",
+      "subject": "facility:manufacturing-facilities:wheatfield-new-york"
+    },
+    {
+      "evidence": [
+        "b00141:0:1271"
+      ],
+      "id": "operation:spor-mountain-mine/disruption_may_cause/exposure:production-interruption",
+      "object": "exposure:production-interruption",
+      "relation": "disruption_may_cause",
+      "subject": "operation:spor-mountain-mine"
+    },
+    {
+      "evidence": [
+        "b00565:0:378"
+      ],
+      "id": "company/completed_acquisition/event:2025-acquisition-of-konasol-manufacturing-assets",
+      "object": "event:2025-acquisition-of-konasol-manufacturing-assets",
+      "relation": "completed_acquisition",
+      "subject": "company"
+    }
+  ],
+  "company": {
+    "cik": "0001104657",
+    "identity_source": "https://www.sec.gov/Archives/edgar/data/1104657/0001104657-26-000011-index.html",
+    "name": "Materion Corporation",
+    "ticker": "MTRN"
+  },
+  "coverage": [
+    {
+      "candidate": "Materion Corporation",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Corporate structure",
+      "id": "MTRN-001",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "company"
+      ]
+    },
+    {
+      "candidate": "Performance Materials",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Corporate structure",
+      "id": "MTRN-002",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "segment:performance-materials"
+      ]
+    },
+    {
+      "candidate": "Electronic Materials",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Corporate structure",
+      "id": "MTRN-003",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "segment:electronic-materials"
+      ]
+    },
+    {
+      "candidate": "Precision Optics",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Corporate structure",
+      "id": "MTRN-004",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "segment:precision-optics"
+      ]
+    },
+    {
+      "candidate": "Corporate Other",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Corporate structure",
+      "id": "MTRN-005",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "segment:other"
+      ]
+    },
+    {
+      "candidate": "Company has_segment relationships",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Corporate structure",
+      "id": "MTRN-006",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "company/has_segment/segment:performance-materials",
+        "company/has_segment/segment:electronic-materials",
+        "company/has_segment/segment:precision-optics",
+        "company/has_segment/segment:other"
+      ]
+    },
+    {
+      "candidate": "Beryllium",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Materials",
+      "id": "MTRN-007",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "material:beryllium"
+      ]
+    },
+    {
+      "candidate": "Tantalum",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Materials",
+      "id": "MTRN-008",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "material:tantalum"
+      ]
+    },
+    {
+      "candidate": "Aluminum",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Materials",
+      "id": "MTRN-009",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "material:aluminum"
+      ]
+    },
+    {
+      "candidate": "Cobalt",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Materials",
+      "id": "MTRN-010",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "material:cobalt"
+      ]
+    },
+    {
+      "candidate": "Copper",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Materials",
+      "id": "MTRN-011",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "material:copper"
+      ]
+    },
+    {
+      "candidate": "Gold",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Materials",
+      "id": "MTRN-012",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "material:gold"
+      ]
+    },
+    {
+      "candidate": "Nickel",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Materials",
+      "id": "MTRN-013",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "material:nickel"
+      ]
+    },
+    {
+      "candidate": "Palladium",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Materials",
+      "id": "MTRN-014",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "material:palladium"
+      ]
+    },
+    {
+      "candidate": "Platinum",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Materials",
+      "id": "MTRN-015",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "material:platinum"
+      ]
+    },
+    {
+      "candidate": "Ruthenium",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Materials",
+      "id": "MTRN-016",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "material:ruthenium"
+      ]
+    },
+    {
+      "candidate": "Silver",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Materials",
+      "id": "MTRN-017",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "material:silver"
+      ]
+    },
+    {
+      "candidate": "Tin",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Materials",
+      "id": "MTRN-018",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "material:tin"
+      ]
+    },
+    {
+      "candidate": "Iridium",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Materials",
+      "id": "MTRN-019",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "material:iridium"
+      ]
+    },
+    {
+      "candidate": "Rhodium",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Materials",
+      "id": "MTRN-020",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "material:rhodium"
+      ]
+    },
+    {
+      "candidate": "Rhenium",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Materials",
+      "id": "MTRN-021",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "material:rhenium"
+      ]
+    },
+    {
+      "candidate": "Osmium",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Materials",
+      "id": "MTRN-022",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "material:osmium"
+      ]
+    },
+    {
+      "candidate": "Niobium",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Materials",
+      "id": "MTRN-023",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "material:niobium"
+      ]
+    },
+    {
+      "candidate": "Hafnium",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Materials",
+      "id": "MTRN-024",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "material:hafnium"
+      ]
+    },
+    {
+      "candidate": "Tungsten",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Materials",
+      "id": "MTRN-025",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "material:tungsten"
+      ]
+    },
+    {
+      "candidate": "Bertrandite ore",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Materials",
+      "id": "MTRN-026",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "material:bertrandite-ore"
+      ]
+    },
+    {
+      "candidate": "Purchased beryl ore",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Materials",
+      "id": "MTRN-027",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "material:purchased-beryl-ore"
+      ]
+    },
+    {
+      "candidate": "Beryllium hydroxide",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Materials",
+      "id": "MTRN-028",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "material:beryllium-hydroxide"
+      ]
+    },
+    {
+      "candidate": "Precious metals cohort",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Materials",
+      "id": "MTRN-029",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "material_cohort:precious-metals"
+      ]
+    },
+    {
+      "candidate": "Precious-metal consignor pool",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Supply arrangements",
+      "id": "MTRN-030",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "supplier_pool:precious-metal-consignors"
+      ]
+    },
+    {
+      "candidate": "Copper consignor pool",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Supply arrangements",
+      "id": "MTRN-031",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "supplier_pool:copper-consignor-pool"
+      ]
+    },
+    {
+      "candidate": "Purchased beryl ore supplier pool",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Supply arrangements",
+      "id": "MTRN-032",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "supplier_pool:purchased-beryl-ore-supplier-pool"
+      ]
+    },
+    {
+      "candidate": "Customer-supplied metal",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Supply arrangements",
+      "id": "MTRN-033",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "mechanism:customer-supplied-metal"
+      ]
+    },
+    {
+      "candidate": "Toll processing",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Supply arrangements",
+      "id": "MTRN-034",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "mechanism:toll-processing"
+      ]
+    },
+    {
+      "candidate": "Metal-cost pass-through",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Supply arrangements",
+      "id": "MTRN-035",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "mechanism:metal-cost-pass-through"
+      ]
+    },
+    {
+      "candidate": "Copper price adders/reductions",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Supply arrangements",
+      "id": "MTRN-036",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "mechanism:copper-price-adders-reductions"
+      ]
+    },
+    {
+      "candidate": "Consignment financing",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Supply arrangements",
+      "id": "MTRN-037",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "mechanism:consignment-financing"
+      ]
+    },
+    {
+      "candidate": "Pass-through lag",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Supply arrangements",
+      "id": "MTRN-038",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "mechanism:pass-through-lag"
+      ]
+    },
+    {
+      "candidate": "Consignment-line capacity",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Supply arrangements",
+      "id": "MTRN-039",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "mechanism:consignment-line-capacity"
+      ]
+    },
+    {
+      "candidate": "Spor Mountain Mine",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Facilities and operations",
+      "id": "MTRN-040",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "operation:spor-mountain-mine"
+      ]
+    },
+    {
+      "candidate": "Utah milling operation",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Facilities and operations",
+      "id": "MTRN-041",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "operation:utah-milling-operation"
+      ]
+    },
+    {
+      "candidate": "Delta facility identity",
+      "disposition": "ambiguous",
+      "evidence": [
+        "b00244:0:1034"
+      ],
+      "group": "Facilities and operations",
+      "id": "MTRN-042",
+      "reason": "Distinct disclosed nodes retained. Identity equivalence with Utah milling operation is not established.",
+      "records": [
+        "facility:manufacturing-facilities:delta-utah"
+      ]
+    },
+    {
+      "candidate": "Spor Mountain Mill identity",
+      "disposition": "ambiguous",
+      "evidence": [
+        "b00244:0:1034"
+      ],
+      "group": "Facilities and operations",
+      "id": "MTRN-043",
+      "reason": "Distinct disclosed nodes retained. Identity equivalence with Utah milling operation is not established.",
+      "records": [
+        "operation:spor-mountain-mill"
+      ]
+    },
+    {
+      "candidate": "Elmore",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Facilities and operations",
+      "id": "MTRN-044",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "facility:manufacturing-facilities:elmore-ohio"
+      ]
+    },
+    {
+      "candidate": "Reading",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Facilities and operations",
+      "id": "MTRN-045",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "facility:manufacturing-facilities:reading-pennsylvania"
+      ]
+    },
+    {
+      "candidate": "Tucson",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Facilities and operations",
+      "id": "MTRN-046",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "facility:manufacturing-facilities:tucson-arizona"
+      ]
+    },
+    {
+      "candidate": "Buffalo",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Facilities and operations",
+      "id": "MTRN-047",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "facility:manufacturing-facilities:buffalo-new-york"
+      ]
+    },
+    {
+      "candidate": "Wheatfield",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Facilities and operations",
+      "id": "MTRN-048",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "facility:manufacturing-facilities:wheatfield-new-york"
+      ]
+    },
+    {
+      "candidate": "All additional Item 2 facilities and segment memberships",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Facilities and operations",
+      "id": "MTRN-049",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "facility:corporate-and-administrative-offices:mayfield-heights-ohio",
+        "facility:manufacturing-facilities:albuquerque-new-mexico",
+        "facility:manufacturing-facilities:alzenau-germany",
+        "facility:manufacturing-facilities:balzers-lichtenstein",
+        "facility:manufacturing-facilities:brewster-new-york",
+        "facility:manufacturing-facilities:buffalo-new-york",
+        "facility:manufacturing-facilities:dangjin-korea",
+        "facility:manufacturing-facilities:delta-utah",
+        "facility:manufacturing-facilities:elmore-ohio",
+        "facility:manufacturing-facilities:farnborough-england",
+        "facility:manufacturing-facilities:jena-germany",
+        "facility:manufacturing-facilities:limerick-ireland",
+        "facility:manufacturing-facilities:lincoln-rhode-island",
+        "facility:manufacturing-facilities:lorain-ohio",
+        "facility:manufacturing-facilities:milwaukee-wisconsin",
+        "facility:manufacturing-facilities:newton-ma",
+        "facility:manufacturing-facilities:penang-malaysia",
+        "facility:manufacturing-facilities:reading-pennsylvania",
+        "facility:manufacturing-facilities:santa-clara-california",
+        "facility:manufacturing-facilities:shanghai-china",
+        "facility:manufacturing-facilities:singapore",
+        "facility:manufacturing-facilities:subic-bay-philippines",
+        "facility:manufacturing-facilities:taoyuan-city-taiwan",
+        "facility:manufacturing-facilities:tucson-arizona",
+        "facility:manufacturing-facilities:tyngsboro-massachusetts",
+        "facility:manufacturing-facilities:westford-massachusetts",
+        "facility:manufacturing-facilities:wheatfield-new-york",
+        "facility:service-sales-and-distribution-centers:elmhurst-illinois",
+        "facility:service-sales-and-distribution-centers:eschborn-germany",
+        "facility:service-sales-and-distribution-centers:seoul-korea",
+        "facility:service-sales-and-distribution-centers:shanghai-china",
+        "facility:service-sales-and-distribution-centers:stuttgart-germany",
+        "facility:service-sales-and-distribution-centers:tokyo-japan"
+      ]
+    },
+    {
+      "candidate": "Mine produces bertrandite",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Facilities and operations",
+      "id": "MTRN-050",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "operation:spor-mountain-mine/produces/material:bertrandite-ore"
+      ]
+    },
+    {
+      "candidate": "Bertrandite input to milling",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Facilities and operations",
+      "id": "MTRN-051",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "material:bertrandite-ore/input_to/operation:utah-milling-operation"
+      ]
+    },
+    {
+      "candidate": "Purchased beryl supply to milling",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Facilities and operations",
+      "id": "MTRN-052",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "supplier_pool:purchased-beryl-ore-supplier-pool/supplies/operation:utah-milling-operation"
+      ]
+    },
+    {
+      "candidate": "Milling produces hydroxide",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Facilities and operations",
+      "id": "MTRN-053",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "operation:utah-milling-operation/produces/material:beryllium-hydroxide"
+      ]
+    },
+    {
+      "candidate": "Mining operation supplies hydroxide to Elmore",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Facilities and operations",
+      "id": "MTRN-054",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "operation:utah-mining-operation/supplies_beryllium_hydroxide_to/facility:manufacturing-facilities:elmore-ohio"
+      ]
+    },
+    {
+      "candidate": "Elmore supplies Reading",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Facilities and operations",
+      "id": "MTRN-055",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "facility:manufacturing-facilities:elmore-ohio/supplies_materials_to/facility:manufacturing-facilities:reading-pennsylvania"
+      ]
+    },
+    {
+      "candidate": "Elmore supplies Tucson",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Facilities and operations",
+      "id": "MTRN-056",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "facility:manufacturing-facilities:elmore-ohio/supplies_materials_to/facility:manufacturing-facilities:tucson-arizona"
+      ]
+    },
+    {
+      "candidate": "Buffalo supplies Wheatfield",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Facilities and operations",
+      "id": "MTRN-057",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "facility:manufacturing-facilities:buffalo-new-york/supplies_materials_to/facility:manufacturing-facilities:wheatfield-new-york"
+      ]
+    },
+    {
+      "candidate": "Operation/facility segment memberships",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Facilities and operations",
+      "id": "MTRN-058",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "facility:corporate-and-administrative-offices:mayfield-heights-ohio/belongs_to/segment:performance-materials",
+        "facility:corporate-and-administrative-offices:mayfield-heights-ohio/belongs_to/segment:electronic-materials",
+        "facility:manufacturing-facilities:albuquerque-new-mexico/belongs_to/segment:electronic-materials",
+        "facility:manufacturing-facilities:alzenau-germany/belongs_to/segment:electronic-materials",
+        "facility:manufacturing-facilities:balzers-lichtenstein/belongs_to/segment:precision-optics",
+        "facility:manufacturing-facilities:brewster-new-york/belongs_to/segment:electronic-materials",
+        "facility:manufacturing-facilities:buffalo-new-york/belongs_to/segment:electronic-materials",
+        "facility:manufacturing-facilities:dangjin-korea/belongs_to/segment:electronic-materials",
+        "facility:manufacturing-facilities:delta-utah/belongs_to/segment:performance-materials",
+        "facility:manufacturing-facilities:elmore-ohio/belongs_to/segment:performance-materials",
+        "facility:manufacturing-facilities:farnborough-england/belongs_to/segment:performance-materials",
+        "facility:manufacturing-facilities:jena-germany/belongs_to/segment:precision-optics",
+        "facility:manufacturing-facilities:limerick-ireland/belongs_to/segment:electronic-materials",
+        "facility:manufacturing-facilities:lincoln-rhode-island/belongs_to/segment:performance-materials",
+        "facility:manufacturing-facilities:lorain-ohio/belongs_to/segment:performance-materials",
+        "facility:manufacturing-facilities:milwaukee-wisconsin/belongs_to/segment:electronic-materials",
+        "facility:manufacturing-facilities:newton-ma/belongs_to/segment:performance-materials",
+        "facility:manufacturing-facilities:newton-ma/belongs_to/segment:electronic-materials",
+        "facility:manufacturing-facilities:penang-malaysia/belongs_to/segment:precision-optics",
+        "facility:manufacturing-facilities:reading-pennsylvania/belongs_to/segment:performance-materials",
+        "facility:manufacturing-facilities:santa-clara-california/belongs_to/segment:electronic-materials",
+        "facility:manufacturing-facilities:shanghai-china/belongs_to/segment:precision-optics",
+        "facility:manufacturing-facilities:singapore/belongs_to/segment:performance-materials",
+        "facility:manufacturing-facilities:singapore/belongs_to/segment:electronic-materials",
+        "facility:manufacturing-facilities:subic-bay-philippines/belongs_to/segment:electronic-materials",
+        "facility:manufacturing-facilities:taoyuan-city-taiwan/belongs_to/segment:electronic-materials",
+        "facility:manufacturing-facilities:tucson-arizona/belongs_to/segment:performance-materials",
+        "facility:manufacturing-facilities:tyngsboro-massachusetts/belongs_to/segment:precision-optics",
+        "facility:manufacturing-facilities:westford-massachusetts/belongs_to/segment:precision-optics",
+        "facility:manufacturing-facilities:wheatfield-new-york/belongs_to/segment:electronic-materials",
+        "facility:service-sales-and-distribution-centers:elmhurst-illinois/belongs_to/segment:performance-materials",
+        "facility:service-sales-and-distribution-centers:eschborn-germany/belongs_to/segment:precision-optics",
+        "facility:service-sales-and-distribution-centers:seoul-korea/belongs_to/segment:electronic-materials",
+        "facility:service-sales-and-distribution-centers:shanghai-china/belongs_to/segment:performance-materials",
+        "facility:service-sales-and-distribution-centers:stuttgart-germany/belongs_to/segment:performance-materials",
+        "facility:service-sales-and-distribution-centers:tokyo-japan/belongs_to/segment:performance-materials",
+        "operation:utah-mining-operation/operated_by/segment:performance-materials",
+        "operation:utah-milling-operation/operated_by/segment:performance-materials"
+      ]
+    },
+    {
+      "candidate": "Advanced Alloys",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Products",
+      "id": "MTRN-059",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "product:advanced-alloys"
+      ]
+    },
+    {
+      "candidate": "Alloyed Metals",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Products",
+      "id": "MTRN-060",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "product:alloyed-metals"
+      ]
+    },
+    {
+      "candidate": "High-Performance Beryllium Products",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Products",
+      "id": "MTRN-061",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "product:high-performance-beryllium-products"
+      ]
+    },
+    {
+      "candidate": "Specialty Materials",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Products",
+      "id": "MTRN-062",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "product:specialty-materials"
+      ]
+    },
+    {
+      "candidate": "Precision Strip Rod and Wire",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Products",
+      "id": "MTRN-063",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "product:precision-strip-rod-and-wire"
+      ]
+    },
+    {
+      "candidate": "Engineered Strip Products",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Products",
+      "id": "MTRN-064",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "product:engineered-strip-products"
+      ]
+    },
+    {
+      "candidate": "Performance Solutions",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Products",
+      "id": "MTRN-065",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "product:performance-solutions"
+      ]
+    },
+    {
+      "candidate": "Beryllium Components",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Products",
+      "id": "MTRN-066",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "product:beryllium-components"
+      ]
+    },
+    {
+      "candidate": "Copper-Beryllium Products",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Products",
+      "id": "MTRN-067",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "product:copper-beryllium-products"
+      ]
+    },
+    {
+      "candidate": "ToughMet Alloys",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Products",
+      "id": "MTRN-068",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "product:toughmet-alloys"
+      ]
+    },
+    {
+      "candidate": "SupremEX Products",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Products",
+      "id": "MTRN-069",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "product:supremex-products"
+      ]
+    },
+    {
+      "candidate": "Advanced chemicals",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Products",
+      "id": "MTRN-070",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "product:advanced-chemicals"
+      ]
+    },
+    {
+      "candidate": "Microelectronics packaging",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Products",
+      "id": "MTRN-071",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "product:microelectronics-packaging"
+      ]
+    },
+    {
+      "candidate": "Vapor-deposition targets",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Products",
+      "id": "MTRN-072",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "product:vapor-deposition-targets"
+      ]
+    },
+    {
+      "candidate": "Frame-lid assemblies",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Products",
+      "id": "MTRN-073",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "product:frame-lid-assemblies"
+      ]
+    },
+    {
+      "candidate": "Clad and precious-metal preforms",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Products",
+      "id": "MTRN-074",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "product:clad-and-precious-metal-preforms"
+      ]
+    },
+    {
+      "candidate": "High-temperature braze materials",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Products",
+      "id": "MTRN-075",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "product:high-temperature-braze-materials"
+      ]
+    },
+    {
+      "candidate": "Precious-metal recovery and refining",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Products",
+      "id": "MTRN-076",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "product:precious-metal-recovery-and-refining"
+      ]
+    },
+    {
+      "candidate": "Precision thin-film coatings",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Products",
+      "id": "MTRN-077",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "product:precision-thin-film-coatings"
+      ]
+    },
+    {
+      "candidate": "Optical filters",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Products",
+      "id": "MTRN-078",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "product:optical-filters"
+      ]
+    },
+    {
+      "candidate": "Optical assemblies",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Products",
+      "id": "MTRN-079",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "product:optical-assemblies"
+      ]
+    },
+    {
+      "candidate": "Product hierarchy and segment memberships",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Products",
+      "id": "MTRN-080",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "product:advanced-alloys/belongs_to/segment:performance-materials",
+        "product:specialty-materials/belongs_to/segment:performance-materials",
+        "product:performance-solutions/belongs_to/segment:performance-materials",
+        "product:alloyed-metals/belongs_to/product:advanced-alloys",
+        "product:high-performance-beryllium-products/belongs_to/product:advanced-alloys",
+        "product:beryllium-hydroxide-product/belongs_to/product:advanced-alloys",
+        "product:precision-strip-rod-and-wire/belongs_to/product:specialty-materials",
+        "product:engineered-strip-products/belongs_to/product:specialty-materials",
+        "product:beryllium-components/belongs_to/product:performance-solutions",
+        "product:copper-beryllium-products/belongs_to/product:performance-solutions",
+        "product:toughmet-alloys/belongs_to/product:performance-solutions",
+        "product:supremex-products/belongs_to/product:performance-solutions",
+        "product:advanced-chemicals/belongs_to/segment:electronic-materials",
+        "product:microelectronics-packaging/belongs_to/segment:electronic-materials",
+        "product:vapor-deposition-targets/belongs_to/segment:electronic-materials",
+        "product:frame-lid-assemblies/belongs_to/segment:electronic-materials",
+        "product:clad-and-precious-metal-preforms/belongs_to/segment:electronic-materials",
+        "product:high-temperature-braze-materials/belongs_to/segment:electronic-materials",
+        "product:precious-metal-recovery-and-refining/belongs_to/segment:electronic-materials",
+        "product:precision-thin-film-coatings/belongs_to/segment:precision-optics",
+        "product:optical-filters/belongs_to/segment:precision-optics",
+        "product:optical-assemblies/belongs_to/segment:precision-optics"
+      ]
+    },
+    {
+      "candidate": "Copper to Alloyed Metals",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Products",
+      "id": "MTRN-081",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "material:copper/used_in/product:alloyed-metals"
+      ]
+    },
+    {
+      "candidate": "Copper to Precision Strip Rod and Wire",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Products",
+      "id": "MTRN-082",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "material:copper/used_in/product:precision-strip-rod-and-wire"
+      ]
+    },
+    {
+      "candidate": "Copper to Copper-Beryllium Products",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Products",
+      "id": "MTRN-083",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "material:copper/used_in/product:copper-beryllium-products"
+      ]
+    },
+    {
+      "candidate": "Other explicitly disclosed material-product relationships",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Products",
+      "id": "MTRN-084",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "material:copper/used_in/product:alloyed-metals",
+        "material:nickel/used_in/product:alloyed-metals",
+        "material:copper/used_in/product:precision-strip-rod-and-wire",
+        "material:nickel/used_in/product:precision-strip-rod-and-wire",
+        "material:copper/used_in/product:copper-beryllium-products",
+        "material:beryllium/used_in/product:copper-beryllium-products",
+        "material:beryllium/used_in/product:beryllium-components",
+        "material:beryllium/used_in/product:high-performance-beryllium-products",
+        "material:beryllium/may_be_used_in/product:alloyed-metals",
+        "material:aluminum/may_be_used_in/product:high-performance-beryllium-products"
+      ]
+    },
+    {
+      "candidate": "Semiconductor",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Markets and revenue",
+      "id": "MTRN-085",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "end_market:semiconductor"
+      ]
+    },
+    {
+      "candidate": "Industrial",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Markets and revenue",
+      "id": "MTRN-086",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "end_market:industrial"
+      ]
+    },
+    {
+      "candidate": "Aerospace and Defense",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Markets and revenue",
+      "id": "MTRN-087",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "end_market:aerospace-and-defense"
+      ]
+    },
+    {
+      "candidate": "Consumer Electronics",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Markets and revenue",
+      "id": "MTRN-088",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "end_market:consumer-electronics"
+      ]
+    },
+    {
+      "candidate": "Automotive",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Markets and revenue",
+      "id": "MTRN-089",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "end_market:automotive"
+      ]
+    },
+    {
+      "candidate": "Energy",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Markets and revenue",
+      "id": "MTRN-090",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "end_market:energy"
+      ]
+    },
+    {
+      "candidate": "Life Sciences",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Markets and revenue",
+      "id": "MTRN-091",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "end_market:life-sciences"
+      ]
+    },
+    {
+      "candidate": "Other end market",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Markets and revenue",
+      "id": "MTRN-092",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "end_market:other"
+      ]
+    },
+    {
+      "candidate": "Medical Applications distinct from Life Sciences",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Markets and revenue",
+      "id": "MTRN-093",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "end_market:medical-applications",
+        "end_market:life-sciences"
+      ]
+    },
+    {
+      "candidate": "Advanced Alloys serves disclosed markets",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Markets and revenue",
+      "id": "MTRN-094",
+      "reason": "Corrected parent-level candidate: the passage explicitly assigns markets to Alloyed Metals; parent hierarchy retained separately.",
+      "records": [
+        "product:alloyed-metals/serves/end_market:industrial",
+        "product:alloyed-metals/serves/end_market:automotive",
+        "product:alloyed-metals/serves/end_market:aerospace-and-defense",
+        "product:alloyed-metals/serves/end_market:energy",
+        "product:alloyed-metals/serves/end_market:life-sciences"
+      ]
+    },
+    {
+      "candidate": "Specialty Materials serves disclosed markets",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Markets and revenue",
+      "id": "MTRN-095",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "product:specialty-materials/serves/end_market:consumer-electronics",
+        "product:specialty-materials/serves/end_market:life-sciences",
+        "product:specialty-materials/serves/end_market:automotive",
+        "product:specialty-materials/serves/end_market:aerospace-and-defense",
+        "product:specialty-materials/serves/end_market:industrial",
+        "product:specialty-materials/serves/end_market:energy"
+      ]
+    },
+    {
+      "candidate": "Performance Solutions serves disclosed markets",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Markets and revenue",
+      "id": "MTRN-096",
+      "reason": "Corrected parent-level candidate: the passage explicitly assigns these markets to Beryllium Components; parent hierarchy retained separately.",
+      "records": [
+        "product:beryllium-components/serves/end_market:aerospace-and-defense",
+        "product:beryllium-components/serves/end_market:energy"
+      ]
+    },
+    {
+      "candidate": "Electronic Materials serves disclosed markets",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Markets and revenue",
+      "id": "MTRN-097",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "segment:electronic-materials/serves/end_market:semiconductor",
+        "segment:electronic-materials/serves/end_market:energy",
+        "segment:electronic-materials/serves/end_market:industrial"
+      ]
+    },
+    {
+      "candidate": "Precision Optics serves disclosed markets",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Markets and revenue",
+      "id": "MTRN-098",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "segment:precision-optics/serves/end_market:aerospace-and-defense",
+        "segment:precision-optics/serves/end_market:automotive",
+        "segment:precision-optics/serves/end_market:consumer-electronics",
+        "segment:precision-optics/serves/end_market:semiconductor",
+        "segment:precision-optics/serves/end_market:medical-applications",
+        "segment:precision-optics/serves/end_market:industrial"
+      ]
+    },
+    {
+      "candidate": "All segment-by-market revenue rows with zero/missing distinctions",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Markets and revenue",
+      "id": "MTRN-099",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "revenue:2025:company:Total"
+      ]
+    },
+    {
+      "candidate": "Segment totals and company reconciliation",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Markets and revenue",
+      "id": "MTRN-100",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "revenue:2025:company:Total",
+        "revenue:2024:company:Total",
+        "revenue:2023:company:Total"
+      ]
+    },
+    {
+      "candidate": "Derived segment revenue shares separate from reported amounts",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Markets and revenue",
+      "id": "MTRN-101",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "share:2025:segment:performance-materials:Semiconductor"
+      ]
+    },
+    {
+      "candidate": "Passed-through metal cost",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Exposure channels",
+      "id": "MTRN-102",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "exposure:passed-through-metal-cost"
+      ]
+    },
+    {
+      "candidate": "Unpassed metal cost",
+      "disposition": "ambiguous",
+      "evidence": [
+        "b00434:0:246",
+        "b00436:0:153"
+      ],
+      "group": "Exposure channels",
+      "id": "MTRN-103",
+      "reason": "Pass-through timing exposure is disclosed, but an unpassed-cost amount and allocation require explicit modeling assumptions.",
+      "records": []
+    },
+    {
+      "candidate": "Consignment-fee expense",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Exposure channels",
+      "id": "MTRN-104",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "exposure:consignment-fee-expense"
+      ]
+    },
+    {
+      "candidate": "Consignment-capacity pressure",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Exposure channels",
+      "id": "MTRN-105",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "exposure:consignment-capacity-pressure"
+      ]
+    },
+    {
+      "candidate": "Inventory valuation exposure",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Exposure channels",
+      "id": "MTRN-106",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "exposure:inventory-valuation-exposure"
+      ]
+    },
+    {
+      "candidate": "Working-capital investment",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Exposure channels",
+      "id": "MTRN-107",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "exposure:working-capital-investment"
+      ]
+    },
+    {
+      "candidate": "Production interruption",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Exposure channels",
+      "id": "MTRN-108",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "exposure:production-interruption"
+      ]
+    },
+    {
+      "candidate": "Lost sales",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Exposure channels",
+      "id": "MTRN-109",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "exposure:lost-sales"
+      ]
+    },
+    {
+      "candidate": "Additional operating costs",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Exposure channels",
+      "id": "MTRN-110",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "exposure:additional-operating-costs"
+      ]
+    },
+    {
+      "candidate": "Additional capital expenditures",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Exposure channels",
+      "id": "MTRN-111",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "exposure:additional-capital-expenditures"
+      ]
+    },
+    {
+      "candidate": "Net sales",
+      "disposition": "included",
+      "evidence": [],
+      "group": "KPIs",
+      "id": "MTRN-112",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "kpi:net-sales"
+      ]
+    },
+    {
+      "candidate": "Value-added sales",
+      "disposition": "included",
+      "evidence": [],
+      "group": "KPIs",
+      "id": "MTRN-113",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "kpi:value-added-sales"
+      ]
+    },
+    {
+      "candidate": "Cost of sales",
+      "disposition": "included",
+      "evidence": [],
+      "group": "KPIs",
+      "id": "MTRN-114",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "kpi:cost-of-sales"
+      ]
+    },
+    {
+      "candidate": "Gross margin",
+      "disposition": "included",
+      "evidence": [],
+      "group": "KPIs",
+      "id": "MTRN-115",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "kpi:gross-margin"
+      ]
+    },
+    {
+      "candidate": "EBITDA",
+      "disposition": "included",
+      "evidence": [],
+      "group": "KPIs",
+      "id": "MTRN-116",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "kpi:ebitda"
+      ]
+    },
+    {
+      "candidate": "Pre-tax income",
+      "disposition": "included",
+      "evidence": [],
+      "group": "KPIs",
+      "id": "MTRN-117",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "kpi:pre-tax-income"
+      ]
+    },
+    {
+      "candidate": "Inventory",
+      "disposition": "included",
+      "evidence": [],
+      "group": "KPIs",
+      "id": "MTRN-118",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "kpi:inventory"
+      ]
+    },
+    {
+      "candidate": "Working capital",
+      "disposition": "included",
+      "evidence": [],
+      "group": "KPIs",
+      "id": "MTRN-119",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "kpi:working-capital"
+      ]
+    },
+    {
+      "candidate": "Operating cash flow",
+      "disposition": "included",
+      "evidence": [],
+      "group": "KPIs",
+      "id": "MTRN-120",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "kpi:operating-cash-flow"
+      ]
+    },
+    {
+      "candidate": "MTRN uses copper",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Transmission and sensitivities",
+      "id": "MTRN-121",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "company/uses/material:copper"
+      ]
+    },
+    {
+      "candidate": "Copper consignment inventory arrangements",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Transmission and sensitivities",
+      "id": "MTRN-122",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "supplier_pool:copper-consignor-pool/consigns/material:copper",
+        "company/consigns_majority_of_inventory_requirement/material:copper"
+      ]
+    },
+    {
+      "candidate": "Copper price transmitted through adders",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Transmission and sensitivities",
+      "id": "MTRN-123",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "material:copper/price_transmitted_via/mechanism:copper-price-adders-reductions"
+      ]
+    },
+    {
+      "candidate": "Pass-through lag affects margin",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Transmission and sensitivities",
+      "id": "MTRN-124",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "mechanism:pass-through-lag/may_affect/kpi:margin-unspecified-measure"
+      ]
+    },
+    {
+      "candidate": "Copper price affects line capacity",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Transmission and sensitivities",
+      "id": "MTRN-125",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "material:copper/price_affects/mechanism:consignment-line-capacity"
+      ]
+    },
+    {
+      "candidate": "Copper price affects fee expense",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Transmission and sensitivities",
+      "id": "MTRN-126",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "material:copper/price_affects/exposure:consignment-fee-expense"
+      ]
+    },
+    {
+      "candidate": "Precious-metal consignment inventory arrangements",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Transmission and sensitivities",
+      "id": "MTRN-127",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "supplier_pool:precious-metal-consignors/consigns/material_cohort:precious-metals",
+        "company/obtains_most_via_consignment/material_cohort:precious-metals"
+      ]
+    },
+    {
+      "candidate": "Precious-metal prices affect fees and capacity",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Transmission and sensitivities",
+      "id": "MTRN-128",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "material_cohort:precious-metals/price_affects/exposure:consignment-fee-expense",
+        "material_cohort:precious-metals/price_affects/mechanism:consignment-line-capacity"
+      ]
+    },
+    {
+      "candidate": "Customer-supplied metal enables toll processing",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Transmission and sensitivities",
+      "id": "MTRN-129",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "mechanism:customer-supplied-metal/enables/mechanism:toll-processing"
+      ]
+    },
+    {
+      "candidate": "Toll processing excludes metal value from sales and cost of sales",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Transmission and sensitivities",
+      "id": "MTRN-130",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "mechanism:toll-processing/excludes_metal_value_from/kpi:net-sales",
+        "mechanism:toll-processing/excludes_metal_value_from/kpi:cost-of-sales"
+      ]
+    },
+    {
+      "candidate": "Metal price and pass-through affect sales and cost of sales",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Transmission and sensitivities",
+      "id": "MTRN-131",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "mechanism:metal-cost-pass-through/affects/kpi:net-sales",
+        "mechanism:metal-cost-pass-through/affects/kpi:cost-of-sales",
+        "material:copper/price_affects/kpi:net-sales",
+        "material:gold/price_affects/kpi:net-sales",
+        "material:palladium/price_affects/kpi:net-sales",
+        "material:platinum/price_affects/kpi:net-sales",
+        "material:ruthenium/price_affects/kpi:net-sales",
+        "material:silver/price_affects/kpi:net-sales",
+        "material:tin/price_affects/kpi:net-sales",
+        "material:iridium/price_affects/kpi:net-sales",
+        "material:rhodium/price_affects/kpi:net-sales",
+        "material:rhenium/price_affects/kpi:net-sales",
+        "material:osmium/price_affects/kpi:net-sales"
+      ]
+    },
+    {
+      "candidate": "Consignment restrictions may interrupt operations",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Transmission and sensitivities",
+      "id": "MTRN-132",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "mechanism:consignment-line-capacity/may_constrain/exposure:production-interruption"
+      ]
+    },
+    {
+      "candidate": "Facility disruption may increase costs/capex or lose sales",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Transmission and sensitivities",
+      "id": "MTRN-133",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "exposure:production-interruption/may_increase/exposure:additional-operating-costs",
+        "exposure:production-interruption/may_increase/exposure:additional-capital-expenditures",
+        "exposure:production-interruption/may_cause/exposure:lost-sales"
+      ]
+    },
+    {
+      "candidate": "Inventory price affects valuation",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Transmission and sensitivities",
+      "id": "MTRN-134",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "exposure:inventory-valuation-exposure/may_reduce/kpi:inventory",
+        "exposure:inventory-valuation-exposure/may_increase/kpi:cost-of-sales"
+      ]
+    },
+    {
+      "candidate": "Copper sensitivity with exact disclosed conditions and annual horizon",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Transmission and sensitivities",
+      "id": "MTRN-135",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "sensitivity:copper:consignment-fee"
+      ]
+    },
+    {
+      "candidate": "Precious-metal cohort sensitivity with exact conditions and annual horizon",
+      "disposition": "included",
+      "evidence": [],
+      "group": "Transmission and sensitivities",
+      "id": "MTRN-136",
+      "reason": "Source-reviewed records; see accepted record citations.",
+      "records": [
+        "sensitivity:precious-metals:consignment-fee"
+      ]
+    },
+    {
+      "candidate": "Copper to specific facility unsupported unless evidenced",
+      "disposition": "unsupported",
+      "evidence": [],
+      "group": "Explicit exclusions and ambiguities",
+      "id": "MTRN-137",
+      "reason": "No supported relationship or quantitative mapping accepted; do not infer from co-occurrence, revenue shares, or floor area.",
+      "records": []
+    },
+    {
+      "candidate": "Copper dollar allocation to segment requires assumption",
+      "disposition": "unsupported",
+      "evidence": [],
+      "group": "Explicit exclusions and ambiguities",
+      "id": "MTRN-138",
+      "reason": "No supported relationship or quantitative mapping accepted; do not infer from co-occurrence, revenue shares, or floor area.",
+      "records": []
+    },
+    {
+      "candidate": "Precious-metal sensitivity allocation to atomic metals requires assumption",
+      "disposition": "unsupported",
+      "evidence": [],
+      "group": "Explicit exclusions and ambiguities",
+      "id": "MTRN-139",
+      "reason": "No supported relationship or quantitative mapping accepted; do not infer from co-occurrence, revenue shares, or floor area.",
+      "records": []
+    },
+    {
+      "candidate": "Competitor is not supplier/customer",
+      "disposition": "unsupported",
+      "evidence": [],
+      "group": "Explicit exclusions and ambiguities",
+      "id": "MTRN-140",
+      "reason": "No supported relationship or quantitative mapping accepted; do not infer from co-occurrence, revenue shares, or floor area.",
+      "records": []
+    },
+    {
+      "candidate": "Revenue share is not dependency/loss weight",
+      "disposition": "unsupported",
+      "evidence": [],
+      "group": "Explicit exclusions and ambiguities",
+      "id": "MTRN-141",
+      "reason": "No supported relationship or quantitative mapping accepted; do not infer from co-occurrence, revenue shares, or floor area.",
+      "records": []
+    },
+    {
+      "candidate": "Facility disruption dollar loss requires model",
+      "disposition": "unsupported",
+      "evidence": [],
+      "group": "Explicit exclusions and ambiguities",
+      "id": "MTRN-142",
+      "reason": "No supported relationship or quantitative mapping accepted; do not infer from co-occurrence, revenue shares, or floor area.",
+      "records": []
+    },
+    {
+      "candidate": "Square footage is not capacity",
+      "disposition": "unsupported",
+      "evidence": [],
+      "group": "Explicit exclusions and ambiguities",
+      "id": "MTRN-143",
+      "reason": "No supported relationship or quantitative mapping accepted; do not infer from co-occurrence, revenue shares, or floor area.",
+      "records": []
+    },
+    {
+      "candidate": "Konasol acquisition is not ongoing supply relationship",
+      "disposition": "unsupported",
+      "evidence": [
+        "b00565:0:378"
+      ],
+      "group": "Explicit exclusions and ambiguities",
+      "id": "MTRN-144",
+      "reason": "Acquisition event recorded; continuing supply relationship is not disclosed by this passage.",
+      "records": [
+        "event:2025-acquisition-of-konasol-manufacturing-assets"
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "attributes": {},
+      "evidence": [
+        "b00047:0:526"
+      ],
+      "kind": "company",
+      "label": "Materion Corporation",
+      "ref": "company",
+      "shared": false
+    },
+    {
+      "attributes": {
+        "operational": "true",
+        "role": "operating_segment"
+      },
+      "evidence": [
+        "b00049:0:280"
+      ],
+      "kind": "segment",
+      "label": "Performance Materials",
+      "ref": "segment:performance-materials",
+      "shared": false
+    },
+    {
+      "attributes": {
+        "operational": "true",
+        "role": "operating_segment"
+      },
+      "evidence": [
+        "b00049:0:280"
+      ],
+      "kind": "segment",
+      "label": "Electronic Materials",
+      "ref": "segment:electronic-materials",
+      "shared": false
+    },
+    {
+      "attributes": {
+        "operational": "true",
+        "role": "operating_segment"
+      },
+      "evidence": [
+        "b00049:0:280"
+      ],
+      "kind": "segment",
+      "label": "Precision Optics",
+      "ref": "segment:precision-optics",
+      "shared": false
+    },
+    {
+      "attributes": {
+        "operational": "false",
+        "role": "corporate_costs"
+      },
+      "evidence": [
+        "b00049:0:280"
+      ],
+      "kind": "segment",
+      "label": "Other",
+      "ref": "segment:other",
+      "shared": false
+    },
+    {
+      "attributes": {},
+      "evidence": [
+        "b00080:0:427"
+      ],
+      "kind": "material",
+      "label": "Beryllium",
+      "ref": "material:beryllium",
+      "shared": true
+    },
+    {
+      "attributes": {},
+      "evidence": [
+        "b00080:0:427"
+      ],
+      "kind": "material",
+      "label": "Tantalum",
+      "ref": "material:tantalum",
+      "shared": true
+    },
+    {
+      "attributes": {},
+      "evidence": [
+        "b00080:0:427"
+      ],
+      "kind": "material",
+      "label": "Aluminum",
+      "ref": "material:aluminum",
+      "shared": true
+    },
+    {
+      "attributes": {},
+      "evidence": [
+        "b00080:0:427"
+      ],
+      "kind": "material",
+      "label": "Cobalt",
+      "ref": "material:cobalt",
+      "shared": true
+    },
+    {
+      "attributes": {},
+      "evidence": [
+        "b00080:0:427"
+      ],
+      "kind": "material",
+      "label": "Copper",
+      "ref": "material:copper",
+      "shared": true
+    },
+    {
+      "attributes": {},
+      "evidence": [
+        "b00080:0:427"
+      ],
+      "kind": "material",
+      "label": "Gold",
+      "ref": "material:gold",
+      "shared": true
+    },
+    {
+      "attributes": {},
+      "evidence": [
+        "b00080:0:427"
+      ],
+      "kind": "material",
+      "label": "Nickel",
+      "ref": "material:nickel",
+      "shared": true
+    },
+    {
+      "attributes": {},
+      "evidence": [
+        "b00080:0:427"
+      ],
+      "kind": "material",
+      "label": "Palladium",
+      "ref": "material:palladium",
+      "shared": true
+    },
+    {
+      "attributes": {},
+      "evidence": [
+        "b00080:0:427"
+      ],
+      "kind": "material",
+      "label": "Platinum",
+      "ref": "material:platinum",
+      "shared": true
+    },
+    {
+      "attributes": {},
+      "evidence": [
+        "b00080:0:427"
+      ],
+      "kind": "material",
+      "label": "Ruthenium",
+      "ref": "material:ruthenium",
+      "shared": true
+    },
+    {
+      "attributes": {},
+      "evidence": [
+        "b00080:0:427"
+      ],
+      "kind": "material",
+      "label": "Silver",
+      "ref": "material:silver",
+      "shared": true
+    },
+    {
+      "attributes": {},
+      "evidence": [
+        "b00080:0:427"
+      ],
+      "kind": "material",
+      "label": "Tin",
+      "ref": "material:tin",
+      "shared": true
+    },
+    {
+      "attributes": {},
+      "evidence": [
+        "b00128:0:1468"
+      ],
+      "kind": "material",
+      "label": "Iridium",
+      "ref": "material:iridium",
+      "shared": true
+    },
+    {
+      "attributes": {},
+      "evidence": [
+        "b00128:0:1468"
+      ],
+      "kind": "material",
+      "label": "Rhodium",
+      "ref": "material:rhodium",
+      "shared": true
+    },
+    {
+      "attributes": {},
+      "evidence": [
+        "b00128:0:1468"
+      ],
+      "kind": "material",
+      "label": "Niobium",
+      "ref": "material:niobium",
+      "shared": true
+    },
+    {
+      "attributes": {},
+      "evidence": [
+        "b00128:0:1468"
+      ],
+      "kind": "material",
+      "label": "Hafnium",
+      "ref": "material:hafnium",
+      "shared": true
+    },
+    {
+      "attributes": {},
+      "evidence": [
+        "b00128:0:1468"
+      ],
+      "kind": "material",
+      "label": "Tungsten",
+      "ref": "material:tungsten",
+      "shared": true
+    },
+    {
+      "attributes": {},
+      "evidence": [
+        "b00324:0:518"
+      ],
+      "kind": "material",
+      "label": "Rhenium",
+      "ref": "material:rhenium",
+      "shared": true
+    },
+    {
+      "attributes": {},
+      "evidence": [
+        "b00324:0:518"
+      ],
+      "kind": "material",
+      "label": "Osmium",
+      "ref": "material:osmium",
+      "shared": true
+    },
+    {
+      "attributes": {},
+      "evidence": [
+        "b00052:0:2315"
+      ],
+      "kind": "material",
+      "label": "Bertrandite ore",
+      "ref": "material:bertrandite-ore",
+      "shared": true
+    },
+    {
+      "attributes": {},
+      "evidence": [
+        "b00052:0:2315"
+      ],
+      "kind": "material",
+      "label": "Purchased beryl ore",
+      "ref": "material:purchased-beryl-ore",
+      "shared": true
+    },
+    {
+      "attributes": {},
+      "evidence": [
+        "b00052:0:2315"
+      ],
+      "kind": "material",
+      "label": "Beryllium hydroxide",
+      "ref": "material:beryllium-hydroxide",
+      "shared": true
+    },
+    {
+      "attributes": {},
+      "evidence": [
+        "b00139:0:474",
+        "b00429:0:562"
+      ],
+      "kind": "material_cohort",
+      "label": "Precious metals",
+      "ref": "material_cohort:precious-metals",
+      "shared": true
+    },
+    {
+      "attributes": {},
+      "evidence": [
+        "b00051:0:1029"
+      ],
+      "kind": "product",
+      "label": "Advanced Alloys",
+      "ref": "product:advanced-alloys",
+      "shared": false
+    },
+    {
+      "attributes": {},
+      "evidence": [
+        "b00051:0:1029"
+      ],
+      "kind": "product",
+      "label": "Specialty Materials",
+      "ref": "product:specialty-materials",
+      "shared": false
+    },
+    {
+      "attributes": {},
+      "evidence": [
+        "b00051:0:1029"
+      ],
+      "kind": "product",
+      "label": "Performance Solutions",
+      "ref": "product:performance-solutions",
+      "shared": false
+    },
+    {
+      "attributes": {},
+      "evidence": [
+        "b00052:0:2315"
+      ],
+      "kind": "product",
+      "label": "Alloyed Metals",
+      "ref": "product:alloyed-metals",
+      "shared": false
+    },
+    {
+      "attributes": {},
+      "evidence": [
+        "b00052:0:2315"
+      ],
+      "kind": "product",
+      "label": "High-Performance Beryllium Products",
+      "ref": "product:high-performance-beryllium-products",
+      "shared": false
+    },
+    {
+      "attributes": {},
+      "evidence": [
+        "b00052:0:2315"
+      ],
+      "kind": "product",
+      "label": "Beryllium Hydroxide Product",
+      "ref": "product:beryllium-hydroxide-product",
+      "shared": false
+    },
+    {
+      "attributes": {},
+      "evidence": [
+        "b00053:0:1174"
+      ],
+      "kind": "product",
+      "label": "Precision Strip, Rod and Wire",
+      "ref": "product:precision-strip-rod-and-wire",
+      "shared": false
+    },
+    {
+      "attributes": {},
+      "evidence": [
+        "b00053:0:1174"
+      ],
+      "kind": "product",
+      "label": "Engineered Strip Products",
+      "ref": "product:engineered-strip-products",
+      "shared": false
+    },
+    {
+      "attributes": {},
+      "evidence": [
+        "b00056:0:1584"
+      ],
+      "kind": "product",
+      "label": "Beryllium Components",
+      "ref": "product:beryllium-components",
+      "shared": false
+    },
+    {
+      "attributes": {},
+      "evidence": [
+        "b00056:0:1584"
+      ],
+      "kind": "product",
+      "label": "Copper-Beryllium Products",
+      "ref": "product:copper-beryllium-products",
+      "shared": false
+    },
+    {
+      "attributes": {},
+      "evidence": [
+        "b00056:0:1584"
+      ],
+      "kind": "product",
+      "label": "ToughMet Alloys",
+      "ref": "product:toughmet-alloys",
+      "shared": false
+    },
+    {
+      "attributes": {},
+      "evidence": [
+        "b00056:0:1584"
+      ],
+      "kind": "product",
+      "label": "SupremEX Products",
+      "ref": "product:supremex-products",
+      "shared": false
+    },
+    {
+      "attributes": {},
+      "evidence": [
+        "b00059:0:720"
+      ],
+      "kind": "product",
+      "label": "Advanced chemicals",
+      "ref": "product:advanced-chemicals",
+      "shared": false
+    },
+    {
+      "attributes": {},
+      "evidence": [
+        "b00059:0:720"
+      ],
+      "kind": "product",
+      "label": "Microelectronics packaging",
+      "ref": "product:microelectronics-packaging",
+      "shared": false
+    },
+    {
+      "attributes": {},
+      "evidence": [
+        "b00059:0:720"
+      ],
+      "kind": "product",
+      "label": "Vapor-deposition targets",
+      "ref": "product:vapor-deposition-targets",
+      "shared": false
+    },
+    {
+      "attributes": {},
+      "evidence": [
+        "b00059:0:720"
+      ],
+      "kind": "product",
+      "label": "Frame-lid assemblies",
+      "ref": "product:frame-lid-assemblies",
+      "shared": false
+    },
+    {
+      "attributes": {},
+      "evidence": [
+        "b00059:0:720"
+      ],
+      "kind": "product",
+      "label": "Clad and precious-metal preforms",
+      "ref": "product:clad-and-precious-metal-preforms",
+      "shared": false
+    },
+    {
+      "attributes": {},
+      "evidence": [
+        "b00059:0:720"
+      ],
+      "kind": "product",
+      "label": "High-temperature braze materials",
+      "ref": "product:high-temperature-braze-materials",
+      "shared": false
+    },
+    {
+      "attributes": {},
+      "evidence": [
+        "b00059:0:720"
+      ],
+      "kind": "product",
+      "label": "Precious-metal recovery and refining",
+      "ref": "product:precious-metal-recovery-and-refining",
+      "shared": false
+    },
+    {
+      "attributes": {},
+      "evidence": [
+        "b00063:0:379"
+      ],
+      "kind": "product",
+      "label": "Precision thin-film coatings",
+      "ref": "product:precision-thin-film-coatings",
+      "shared": false
+    },
+    {
+      "attributes": {},
+      "evidence": [
+        "b00063:0:379"
+      ],
+      "kind": "product",
+      "label": "Optical filters",
+      "ref": "product:optical-filters",
+      "shared": false
+    },
+    {
+      "attributes": {},
+      "evidence": [
+        "b00063:0:379"
+      ],
+      "kind": "product",
+      "label": "Optical assemblies",
+      "ref": "product:optical-assemblies",
+      "shared": false
+    },
+    {
+      "attributes": {},
+      "evidence": [
+        "b00595:row:0",
+        "b00595:row:3"
+      ],
+      "kind": "end_market",
+      "label": "Semiconductor",
+      "ref": "end_market:semiconductor",
+      "shared": false
+    },
+    {
+      "attributes": {},
+      "evidence": [
+        "b00595:row:0",
+        "b00595:row:4"
+      ],
+      "kind": "end_market",
+      "label": "Industrial",
+      "ref": "end_market:industrial",
+      "shared": false
+    },
+    {
+      "attributes": {},
+      "evidence": [
+        "b00595:row:0",
+        "b00595:row:5"
+      ],
+      "kind": "end_market",
+      "label": "Aerospace and Defense",
+      "ref": "end_market:aerospace-and-defense",
+      "shared": false
+    },
+    {
+      "attributes": {},
+      "evidence": [
+        "b00595:row:0",
+        "b00595:row:6"
+      ],
+      "kind": "end_market",
+      "label": "Consumer Electronics",
+      "ref": "end_market:consumer-electronics",
+      "shared": false
+    },
+    {
+      "attributes": {},
+      "evidence": [
+        "b00595:row:0",
+        "b00595:row:7"
+      ],
+      "kind": "end_market",
+      "label": "Automotive",
+      "ref": "end_market:automotive",
+      "shared": false
+    },
+    {
+      "attributes": {},
+      "evidence": [
+        "b00595:row:0",
+        "b00595:row:8"
+      ],
+      "kind": "end_market",
+      "label": "Energy",
+      "ref": "end_market:energy",
+      "shared": false
+    },
+    {
+      "attributes": {},
+      "evidence": [
+        "b00595:row:0",
+        "b00595:row:9"
+      ],
+      "kind": "end_market",
+      "label": "Life Sciences",
+      "ref": "end_market:life-sciences",
+      "shared": false
+    },
+    {
+      "attributes": {},
+      "evidence": [
+        "b00595:row:0",
+        "b00595:row:10"
+      ],
+      "kind": "end_market",
+      "label": "Other",
+      "ref": "end_market:other",
+      "shared": false
+    },
+    {
+      "attributes": {
+        "mapping_to_life_sciences": "unresolved"
+      },
+      "evidence": [
+        "b00063:0:379"
+      ],
+      "kind": "end_market",
+      "label": "Medical Applications",
+      "ref": "end_market:medical-applications",
+      "shared": false
+    },
+    {
+      "attributes": {
+        "area_is_not_capacity": "true",
+        "area_sq_ft_as_reported": "79,100",
+        "category": "Corporate and Administrative Offices",
+        "location_as_reported": "Mayfield Heights, Ohio",
+        "tenure": "Leased"
+      },
+      "evidence": [
+        "b00238:row:2",
+        "b00239:0:25",
+        "b00240:0:24",
+        "b00241:0:20"
+      ],
+      "kind": "facility",
+      "label": "Mayfield Heights, Ohio",
+      "ref": "facility:corporate-and-administrative-offices:mayfield-heights-ohio",
+      "shared": false
+    },
+    {
+      "attributes": {
+        "area_is_not_capacity": "true",
+        "area_sq_ft_as_reported": "23,460",
+        "category": "Manufacturing Facilities",
+        "location_as_reported": "Albuquerque, New Mexico",
+        "tenure": "Leased"
+      },
+      "evidence": [
+        "b00238:row:4",
+        "b00239:0:25",
+        "b00240:0:24",
+        "b00241:0:20"
+      ],
+      "kind": "facility",
+      "label": "Albuquerque, New Mexico",
+      "ref": "facility:manufacturing-facilities:albuquerque-new-mexico",
+      "shared": false
+    },
+    {
+      "attributes": {
+        "area_is_not_capacity": "true",
+        "area_sq_ft_as_reported": "136,400",
+        "category": "Manufacturing Facilities",
+        "location_as_reported": "Alzenau, Germany",
+        "tenure": "Leased"
+      },
+      "evidence": [
+        "b00238:row:5",
+        "b00239:0:25",
+        "b00240:0:24",
+        "b00241:0:20"
+      ],
+      "kind": "facility",
+      "label": "Alzenau, Germany",
+      "ref": "facility:manufacturing-facilities:alzenau-germany",
+      "shared": false
+    },
+    {
+      "attributes": {
+        "area_is_not_capacity": "true",
+        "area_sq_ft_as_reported": "83,400",
+        "category": "Manufacturing Facilities",
+        "location_as_reported": "Balzers, Lichtenstein",
+        "tenure": "Leased"
+      },
+      "evidence": [
+        "b00238:row:6",
+        "b00239:0:25",
+        "b00240:0:24",
+        "b00241:0:20"
+      ],
+      "kind": "facility",
+      "label": "Balzers, Lichtenstein",
+      "ref": "facility:manufacturing-facilities:balzers-lichtenstein",
+      "shared": false
+    },
+    {
+      "attributes": {
+        "area_is_not_capacity": "true",
+        "area_sq_ft_as_reported": "75,000",
+        "category": "Manufacturing Facilities",
+        "location_as_reported": "Brewster, New York",
+        "tenure": "Leased"
+      },
+      "evidence": [
+        "b00238:row:7",
+        "b00239:0:25",
+        "b00240:0:24",
+        "b00241:0:20"
+      ],
+      "kind": "facility",
+      "label": "Brewster, New York",
+      "ref": "facility:manufacturing-facilities:brewster-new-york",
+      "shared": false
+    },
+    {
+      "attributes": {
+        "area_is_not_capacity": "true",
+        "area_sq_ft_as_reported": "110,000",
+        "category": "Manufacturing Facilities",
+        "location_as_reported": "Buffalo, New York",
+        "tenure": "Owned"
+      },
+      "evidence": [
+        "b00238:row:8",
+        "b00239:0:25",
+        "b00240:0:24",
+        "b00241:0:20"
+      ],
+      "kind": "facility",
+      "label": "Buffalo, New York",
+      "ref": "facility:manufacturing-facilities:buffalo-new-york",
+      "shared": false
+    },
+    {
+      "attributes": {
+        "area_is_not_capacity": "true",
+        "area_sq_ft_as_reported": "31,538",
+        "category": "Manufacturing Facilities",
+        "location_as_reported": "Dangjin, Korea",
+        "tenure": "Leased"
+      },
+      "evidence": [
+        "b00238:row:9",
+        "b00239:0:25",
+        "b00240:0:24",
+        "b00241:0:20"
+      ],
+      "kind": "facility",
+      "label": "Dangjin, Korea",
+      "ref": "facility:manufacturing-facilities:dangjin-korea",
+      "shared": false
+    },
+    {
+      "attributes": {
+        "area_is_not_capacity": "true",
+        "area_sq_ft_as_reported": "100,800",
+        "category": "Manufacturing Facilities",
+        "location_as_reported": "Delta, Utah",
+        "tenure": "Owned"
+      },
+      "evidence": [
+        "b00238:row:10",
+        "b00239:0:25",
+        "b00240:0:24",
+        "b00241:0:20"
+      ],
+      "kind": "facility",
+      "label": "Delta, Utah",
+      "ref": "facility:manufacturing-facilities:delta-utah",
+      "shared": false
+    },
+    {
+      "attributes": {
+        "area_is_not_capacity": "true",
+        "area_sq_ft_as_reported": "681,000/191,000",
+        "category": "Manufacturing Facilities",
+        "location_as_reported": "Elmore, Ohio",
+        "tenure": "Owned/Leased"
+      },
+      "evidence": [
+        "b00238:row:11",
+        "b00239:0:25",
+        "b00240:0:24",
+        "b00241:0:20"
+      ],
+      "kind": "facility",
+      "label": "Elmore, Ohio",
+      "ref": "facility:manufacturing-facilities:elmore-ohio",
+      "shared": false
+    },
+    {
+      "attributes": {
+        "area_is_not_capacity": "true",
+        "area_sq_ft_as_reported": "10,000",
+        "category": "Manufacturing Facilities",
+        "location_as_reported": "Farnborough, England",
+        "tenure": "Leased"
+      },
+      "evidence": [
+        "b00238:row:12",
+        "b00239:0:25",
+        "b00240:0:24",
+        "b00241:0:20"
+      ],
+      "kind": "facility",
+      "label": "Farnborough, England",
+      "ref": "facility:manufacturing-facilities:farnborough-england",
+      "shared": false
+    },
+    {
+      "attributes": {
+        "area_is_not_capacity": "true",
+        "area_sq_ft_as_reported": "102,700",
+        "category": "Manufacturing Facilities",
+        "location_as_reported": "Jena, Germany",
+        "tenure": "Owned"
+      },
+      "evidence": [
+        "b00238:row:13",
+        "b00239:0:25",
+        "b00240:0:24",
+        "b00241:0:20"
+      ],
+      "kind": "facility",
+      "label": "Jena, Germany",
+      "ref": "facility:manufacturing-facilities:jena-germany",
+      "shared": false
+    },
+    {
+      "attributes": {
+        "area_is_not_capacity": "true",
+        "area_sq_ft_as_reported": "23,000",
+        "category": "Manufacturing Facilities",
+        "location_as_reported": "Limerick, Ireland",
+        "tenure": "Leased"
+      },
+      "evidence": [
+        "b00238:row:14",
+        "b00239:0:25",
+        "b00240:0:24",
+        "b00241:0:20"
+      ],
+      "kind": "facility",
+      "label": "Limerick, Ireland",
+      "ref": "facility:manufacturing-facilities:limerick-ireland",
+      "shared": false
+    },
+    {
+      "attributes": {
+        "area_is_not_capacity": "true",
+        "area_sq_ft_as_reported": "166,500/27,100",
+        "category": "Manufacturing Facilities",
+        "location_as_reported": "Lincoln, Rhode Island",
+        "tenure": "Owned/Leased"
+      },
+      "evidence": [
+        "b00238:row:15",
+        "b00239:0:25",
+        "b00240:0:24",
+        "b00241:0:20"
+      ],
+      "kind": "facility",
+      "label": "Lincoln, Rhode Island",
+      "ref": "facility:manufacturing-facilities:lincoln-rhode-island",
+      "shared": false
+    },
+    {
+      "attributes": {
+        "area_is_not_capacity": "true",
+        "area_sq_ft_as_reported": "55,000",
+        "category": "Manufacturing Facilities",
+        "location_as_reported": "Lorain, Ohio",
+        "tenure": "Owned"
+      },
+      "evidence": [
+        "b00238:row:16",
+        "b00239:0:25",
+        "b00240:0:24",
+        "b00241:0:20"
+      ],
+      "kind": "facility",
+      "label": "Lorain, Ohio",
+      "ref": "facility:manufacturing-facilities:lorain-ohio",
+      "shared": false
+    },
+    {
+      "attributes": {
+        "area_is_not_capacity": "true",
+        "area_sq_ft_as_reported": "106,000/150,000",
+        "category": "Manufacturing Facilities",
+        "location_as_reported": "Milwaukee, Wisconsin",
+        "tenure": "Owned/Leased"
+      },
+      "evidence": [
+        "b00238:row:17",
+        "b00239:0:25",
+        "b00240:0:24",
+        "b00241:0:20"
+      ],
+      "kind": "facility",
+      "label": "Milwaukee, Wisconsin",
+      "ref": "facility:manufacturing-facilities:milwaukee-wisconsin",
+      "shared": false
+    },
+    {
+      "attributes": {
+        "area_is_not_capacity": "true",
+        "area_sq_ft_as_reported": "125,000/110,800",
+        "category": "Manufacturing Facilities",
+        "location_as_reported": "Newton, MA",
+        "tenure": "Owned/Leased"
+      },
+      "evidence": [
+        "b00238:row:18",
+        "b00239:0:25",
+        "b00240:0:24",
+        "b00241:0:20"
+      ],
+      "kind": "facility",
+      "label": "Newton, MA",
+      "ref": "facility:manufacturing-facilities:newton-ma",
+      "shared": false
+    },
+    {
+      "attributes": {
+        "area_is_not_capacity": "true",
+        "area_sq_ft_as_reported": "68,000",
+        "category": "Manufacturing Facilities",
+        "location_as_reported": "Penang, Malaysia",
+        "tenure": "Leased"
+      },
+      "evidence": [
+        "b00238:row:19",
+        "b00239:0:25",
+        "b00240:0:24",
+        "b00241:0:20"
+      ],
+      "kind": "facility",
+      "label": "Penang, Malaysia",
+      "ref": "facility:manufacturing-facilities:penang-malaysia",
+      "shared": false
+    },
+    {
+      "attributes": {
+        "area_is_not_capacity": "true",
+        "area_sq_ft_as_reported": "128,800/287,000",
+        "category": "Manufacturing Facilities",
+        "location_as_reported": "Reading, Pennsylvania",
+        "tenure": "Owned/Leased"
+      },
+      "evidence": [
+        "b00238:row:20",
+        "b00239:0:25",
+        "b00240:0:24",
+        "b00241:0:20"
+      ],
+      "kind": "facility",
+      "label": "Reading, Pennsylvania",
+      "ref": "facility:manufacturing-facilities:reading-pennsylvania",
+      "shared": false
+    },
+    {
+      "attributes": {
+        "area_is_not_capacity": "true",
+        "area_sq_ft_as_reported": "5,800",
+        "category": "Manufacturing Facilities",
+        "location_as_reported": "Santa Clara, California",
+        "tenure": "Leased"
+      },
+      "evidence": [
+        "b00238:row:21",
+        "b00239:0:25",
+        "b00240:0:24",
+        "b00241:0:20"
+      ],
+      "kind": "facility",
+      "label": "Santa Clara, California",
+      "ref": "facility:manufacturing-facilities:santa-clara-california",
+      "shared": false
+    },
+    {
+      "attributes": {
+        "area_is_not_capacity": "true",
+        "area_sq_ft_as_reported": "101,400",
+        "category": "Manufacturing Facilities",
+        "location_as_reported": "Shanghai, China",
+        "tenure": "Leased"
+      },
+      "evidence": [
+        "b00238:row:22",
+        "b00239:0:25",
+        "b00240:0:24",
+        "b00241:0:20"
+      ],
+      "kind": "facility",
+      "label": "Shanghai, China",
+      "ref": "facility:manufacturing-facilities:shanghai-china",
+      "shared": false
+    },
+    {
+      "attributes": {
+        "area_is_not_capacity": "true",
+        "area_sq_ft_as_reported": "24,500",
+        "category": "Manufacturing Facilities",
+        "location_as_reported": "Singapore",
+        "tenure": "Leased"
+      },
+      "evidence": [
+        "b00238:row:23",
+        "b00239:0:25",
+        "b00240:0:24",
+        "b00241:0:20"
+      ],
+      "kind": "facility",
+      "label": "Singapore",
+      "ref": "facility:manufacturing-facilities:singapore",
+      "shared": false
+    },
+    {
+      "attributes": {
+        "area_is_not_capacity": "true",
+        "area_sq_ft_as_reported": "5,000",
+        "category": "Manufacturing Facilities",
+        "location_as_reported": "Subic Bay, Philippines",
+        "tenure": "Leased"
+      },
+      "evidence": [
+        "b00238:row:24",
+        "b00239:0:25",
+        "b00240:0:24",
+        "b00241:0:20"
+      ],
+      "kind": "facility",
+      "label": "Subic Bay, Philippines",
+      "ref": "facility:manufacturing-facilities:subic-bay-philippines",
+      "shared": false
+    },
+    {
+      "attributes": {
+        "area_is_not_capacity": "true",
+        "area_sq_ft_as_reported": "32,500",
+        "category": "Manufacturing Facilities",
+        "location_as_reported": "Taoyuan City, Taiwan",
+        "tenure": "Leased"
+      },
+      "evidence": [
+        "b00238:row:25",
+        "b00239:0:25",
+        "b00240:0:24",
+        "b00241:0:20"
+      ],
+      "kind": "facility",
+      "label": "Taoyuan City, Taiwan",
+      "ref": "facility:manufacturing-facilities:taoyuan-city-taiwan",
+      "shared": false
+    },
+    {
+      "attributes": {
+        "area_is_not_capacity": "true",
+        "area_sq_ft_as_reported": "53,000",
+        "category": "Manufacturing Facilities",
+        "location_as_reported": "Tucson, Arizona",
+        "tenure": "Owned"
+      },
+      "evidence": [
+        "b00238:row:26",
+        "b00239:0:25",
+        "b00240:0:24",
+        "b00241:0:20"
+      ],
+      "kind": "facility",
+      "label": "Tucson, Arizona",
+      "ref": "facility:manufacturing-facilities:tucson-arizona",
+      "shared": false
+    },
+    {
+      "attributes": {
+        "area_is_not_capacity": "true",
+        "area_sq_ft_as_reported": "38,000",
+        "category": "Manufacturing Facilities",
+        "location_as_reported": "Tyngsboro, Massachusetts",
+        "tenure": "Leased"
+      },
+      "evidence": [
+        "b00238:row:27",
+        "b00239:0:25",
+        "b00240:0:24",
+        "b00241:0:20"
+      ],
+      "kind": "facility",
+      "label": "Tyngsboro, Massachusetts",
+      "ref": "facility:manufacturing-facilities:tyngsboro-massachusetts",
+      "shared": false
+    },
+    {
+      "attributes": {
+        "area_is_not_capacity": "true",
+        "area_sq_ft_as_reported": "78,000",
+        "category": "Manufacturing Facilities",
+        "location_as_reported": "Westford, Massachusetts",
+        "tenure": "Leased"
+      },
+      "evidence": [
+        "b00238:row:28",
+        "b00239:0:25",
+        "b00240:0:24",
+        "b00241:0:20"
+      ],
+      "kind": "facility",
+      "label": "Westford, Massachusetts",
+      "ref": "facility:manufacturing-facilities:westford-massachusetts",
+      "shared": false
+    },
+    {
+      "attributes": {
+        "area_is_not_capacity": "true",
+        "area_sq_ft_as_reported": "35,000",
+        "category": "Manufacturing Facilities",
+        "location_as_reported": "Wheatfield, New York",
+        "tenure": "Owned"
+      },
+      "evidence": [
+        "b00238:row:29",
+        "b00239:0:25",
+        "b00240:0:24",
+        "b00241:0:20"
+      ],
+      "kind": "facility",
+      "label": "Wheatfield, New York",
+      "ref": "facility:manufacturing-facilities:wheatfield-new-york",
+      "shared": false
+    },
+    {
+      "attributes": {
+        "area_is_not_capacity": "true",
+        "area_sq_ft_as_reported": "28,000",
+        "category": "Service, Sales, and Distribution Centers",
+        "location_as_reported": "Elmhurst, Illinois",
+        "tenure": "Leased"
+      },
+      "evidence": [
+        "b00238:row:31",
+        "b00239:0:25",
+        "b00240:0:24",
+        "b00241:0:20"
+      ],
+      "kind": "facility",
+      "label": "Elmhurst, Illinois",
+      "ref": "facility:service-sales-and-distribution-centers:elmhurst-illinois",
+      "shared": false
+    },
+    {
+      "attributes": {
+        "area_is_not_capacity": "true",
+        "area_sq_ft_as_reported": "500",
+        "category": "Service, Sales, and Distribution Centers",
+        "location_as_reported": "Eschborn, Germany",
+        "tenure": "Leased"
+      },
+      "evidence": [
+        "b00238:row:32",
+        "b00239:0:25",
+        "b00240:0:24",
+        "b00241:0:20"
+      ],
+      "kind": "facility",
+      "label": "Eschborn, Germany",
+      "ref": "facility:service-sales-and-distribution-centers:eschborn-germany",
+      "shared": false
+    },
+    {
+      "attributes": {
+        "area_is_not_capacity": "true",
+        "area_sq_ft_as_reported": "2,200",
+        "category": "Service, Sales, and Distribution Centers",
+        "location_as_reported": "Seoul, Korea",
+        "tenure": "Leased"
+      },
+      "evidence": [
+        "b00238:row:33",
+        "b00239:0:25",
+        "b00240:0:24",
+        "b00241:0:20"
+      ],
+      "kind": "facility",
+      "label": "Seoul, Korea",
+      "ref": "facility:service-sales-and-distribution-centers:seoul-korea",
+      "shared": false
+    },
+    {
+      "attributes": {
+        "area_is_not_capacity": "true",
+        "area_sq_ft_as_reported": "5,000",
+        "category": "Service, Sales, and Distribution Centers",
+        "location_as_reported": "Shanghai, China",
+        "tenure": "Leased"
+      },
+      "evidence": [
+        "b00238:row:34",
+        "b00239:0:25",
+        "b00240:0:24",
+        "b00241:0:20"
+      ],
+      "kind": "facility",
+      "label": "Shanghai, China",
+      "ref": "facility:service-sales-and-distribution-centers:shanghai-china",
+      "shared": false
+    },
+    {
+      "attributes": {
+        "area_is_not_capacity": "true",
+        "area_sq_ft_as_reported": "49,000",
+        "category": "Service, Sales, and Distribution Centers",
+        "location_as_reported": "Stuttgart, Germany",
+        "tenure": "Leased"
+      },
+      "evidence": [
+        "b00238:row:35",
+        "b00239:0:25",
+        "b00240:0:24",
+        "b00241:0:20"
+      ],
+      "kind": "facility",
+      "label": "Stuttgart, Germany",
+      "ref": "facility:service-sales-and-distribution-centers:stuttgart-germany",
+      "shared": false
+    },
+    {
+      "attributes": {
+        "area_is_not_capacity": "true",
+        "area_sq_ft_as_reported": "5,400",
+        "category": "Service, Sales, and Distribution Centers",
+        "location_as_reported": "Tokyo, Japan",
+        "tenure": "Leased"
+      },
+      "evidence": [
+        "b00238:row:36",
+        "b00239:0:25",
+        "b00240:0:24",
+        "b00241:0:20"
+      ],
+      "kind": "facility",
+      "label": "Tokyo, Japan",
+      "ref": "facility:service-sales-and-distribution-centers:tokyo-japan",
+      "shared": false
+    },
+    {
+      "attributes": {},
+      "evidence": [
+        "b00244:0:1034"
+      ],
+      "kind": "operation",
+      "label": "Spor Mountain Mine",
+      "ref": "operation:spor-mountain-mine",
+      "shared": false
+    },
+    {
+      "attributes": {
+        "identity_with_utah_milling": "unresolved"
+      },
+      "evidence": [
+        "b00244:0:1034"
+      ],
+      "kind": "operation",
+      "label": "Spor Mountain Mill",
+      "ref": "operation:spor-mountain-mill",
+      "shared": false
+    },
+    {
+      "attributes": {
+        "identity_with_named_mine_and_mill": "not_collapsed"
+      },
+      "evidence": [
+        "b00051:0:1029",
+        "b00141:0:1271"
+      ],
+      "kind": "operation",
+      "label": "Utah mining operation",
+      "ref": "operation:utah-mining-operation",
+      "shared": false
+    },
+    {
+      "attributes": {
+        "identity_with_delta_and_spor_mountain_mill": "unresolved"
+      },
+      "evidence": [
+        "b00052:0:2315"
+      ],
+      "kind": "operation",
+      "label": "Utah milling operation",
+      "ref": "operation:utah-milling-operation",
+      "shared": false
+    },
+    {
+      "attributes": {
+        "identity": "anonymous disclosed cohort; no named counterparties"
+      },
+      "evidence": [
+        "b00139:0:474"
+      ],
+      "kind": "supplier_pool",
+      "label": "Precious-metal consignors",
+      "ref": "supplier_pool:precious-metal-consignors",
+      "shared": false
+    },
+    {
+      "attributes": {
+        "identity": "anonymous disclosed cohort; no named counterparties"
+      },
+      "evidence": [
+        "b00437:0:571"
+      ],
+      "kind": "supplier_pool",
+      "label": "Copper consignor pool",
+      "ref": "supplier_pool:copper-consignor-pool",
+      "shared": false
+    },
+    {
+      "attributes": {
+        "identity": "anonymous disclosed cohort; no named counterparties"
+      },
+      "evidence": [
+        "b00052:0:2315"
+      ],
+      "kind": "supplier_pool",
+      "label": "Purchased beryl ore supplier pool",
+      "ref": "supplier_pool:purchased-beryl-ore-supplier-pool",
+      "shared": false
+    },
+    {
+      "attributes": {},
+      "evidence": [
+        "b00431:0:275"
+      ],
+      "kind": "mechanism",
+      "label": "Customer-supplied metal",
+      "ref": "mechanism:customer-supplied-metal",
+      "shared": false
+    },
+    {
+      "attributes": {},
+      "evidence": [
+        "b00325:0:708"
+      ],
+      "kind": "mechanism",
+      "label": "Toll processing",
+      "ref": "mechanism:toll-processing",
+      "shared": false
+    },
+    {
+      "attributes": {},
+      "evidence": [
+        "b00324:0:518"
+      ],
+      "kind": "mechanism",
+      "label": "Metal-cost pass-through",
+      "ref": "mechanism:metal-cost-pass-through",
+      "shared": false
+    },
+    {
+      "attributes": {},
+      "evidence": [
+        "b00434:0:246"
+      ],
+      "kind": "mechanism",
+      "label": "Copper price adders/reductions",
+      "ref": "mechanism:copper-price-adders-reductions",
+      "shared": false
+    },
+    {
+      "attributes": {},
+      "evidence": [
+        "b00430:0:779"
+      ],
+      "kind": "mechanism",
+      "label": "Consignment financing",
+      "ref": "mechanism:consignment-financing",
+      "shared": false
+    },
+    {
+      "attributes": {},
+      "evidence": [
+        "b00434:0:246",
+        "b00436:0:153"
+      ],
+      "kind": "mechanism",
+      "label": "Pass-through lag",
+      "ref": "mechanism:pass-through-lag",
+      "shared": false
+    },
+    {
+      "attributes": {},
+      "evidence": [
+        "b00432:0:1055"
+      ],
+      "kind": "mechanism",
+      "label": "Consignment-line capacity",
+      "ref": "mechanism:consignment-line-capacity",
+      "shared": false
+    },
+    {
+      "attributes": {},
+      "evidence": [
+        "b00324:0:518"
+      ],
+      "kind": "exposure",
+      "label": "Passed-through metal cost",
+      "ref": "exposure:passed-through-metal-cost",
+      "shared": false
+    },
+    {
+      "attributes": {},
+      "evidence": [
+        "b00430:0:779"
+      ],
+      "kind": "exposure",
+      "label": "Consignment-fee expense",
+      "ref": "exposure:consignment-fee-expense",
+      "shared": false
+    },
+    {
+      "attributes": {},
+      "evidence": [
+        "b00432:0:1055"
+      ],
+      "kind": "exposure",
+      "label": "Consignment-capacity pressure",
+      "ref": "exposure:consignment-capacity-pressure",
+      "shared": false
+    },
+    {
+      "attributes": {},
+      "evidence": [
+        "b00438:0:1277"
+      ],
+      "kind": "exposure",
+      "label": "Inventory valuation exposure",
+      "ref": "exposure:inventory-valuation-exposure",
+      "shared": false
+    },
+    {
+      "attributes": {},
+      "evidence": [
+        "b00355:0:622"
+      ],
+      "kind": "exposure",
+      "label": "Working-capital investment",
+      "ref": "exposure:working-capital-investment",
+      "shared": false
+    },
+    {
+      "attributes": {},
+      "evidence": [
+        "b00141:0:1271"
+      ],
+      "kind": "exposure",
+      "label": "Production interruption",
+      "ref": "exposure:production-interruption",
+      "shared": false
+    },
+    {
+      "attributes": {},
+      "evidence": [
+        "b00142:0:360"
+      ],
+      "kind": "exposure",
+      "label": "Lost sales",
+      "ref": "exposure:lost-sales",
+      "shared": false
+    },
+    {
+      "attributes": {},
+      "evidence": [
+        "b00141:0:1271"
+      ],
+      "kind": "exposure",
+      "label": "Additional operating costs",
+      "ref": "exposure:additional-operating-costs",
+      "shared": false
+    },
+    {
+      "attributes": {},
+      "evidence": [
+        "b00141:0:1271"
+      ],
+      "kind": "exposure",
+      "label": "Additional capital expenditures",
+      "ref": "exposure:additional-capital-expenditures",
+      "shared": false
+    },
+    {
+      "attributes": {},
+      "evidence": [
+        "b00324:0:518"
+      ],
+      "kind": "kpi",
+      "label": "Net sales",
+      "ref": "kpi:net-sales",
+      "shared": false
+    },
+    {
+      "attributes": {},
+      "evidence": [
+        "b00325:0:708"
+      ],
+      "kind": "kpi",
+      "label": "Value-added sales",
+      "ref": "kpi:value-added-sales",
+      "shared": false
+    },
+    {
+      "attributes": {},
+      "evidence": [
+        "b00325:0:708"
+      ],
+      "kind": "kpi",
+      "label": "Cost of sales",
+      "ref": "kpi:cost-of-sales",
+      "shared": false
+    },
+    {
+      "attributes": {},
+      "evidence": [
+        "b00409:0:912"
+      ],
+      "kind": "kpi",
+      "label": "Gross margin",
+      "ref": "kpi:gross-margin",
+      "shared": false
+    },
+    {
+      "attributes": {
+        "measure_basis": "segment performance measure; do not assume GAAP operating income"
+      },
+      "evidence": [
+        "b00575:0:269"
+      ],
+      "kind": "kpi",
+      "label": "EBITDA",
+      "ref": "kpi:ebitda",
+      "shared": false
+    },
+    {
+      "attributes": {},
+      "evidence": [
+        "b00428:0:992"
+      ],
+      "kind": "kpi",
+      "label": "Pre-tax income",
+      "ref": "kpi:pre-tax-income",
+      "shared": false
+    },
+    {
+      "attributes": {},
+      "evidence": [
+        "b00438:0:1277"
+      ],
+      "kind": "kpi",
+      "label": "Inventory",
+      "ref": "kpi:inventory",
+      "shared": false
+    },
+    {
+      "attributes": {},
+      "evidence": [
+        "b00355:0:622"
+      ],
+      "kind": "kpi",
+      "label": "Working capital",
+      "ref": "kpi:working-capital",
+      "shared": false
+    },
+    {
+      "attributes": {},
+      "evidence": [
+        "b00332:0:869"
+      ],
+      "kind": "kpi",
+      "label": "Operating cash flow",
+      "ref": "kpi:operating-cash-flow",
+      "shared": false
+    },
+    {
+      "attributes": {
+        "measure_definition": "not specified in the timing-lag passage"
+      },
+      "evidence": [
+        "b00434:0:246",
+        "b00436:0:153"
+      ],
+      "kind": "kpi",
+      "label": "Margin (unspecified measure)",
+      "ref": "kpi:margin-unspecified-measure",
+      "shared": false
+    },
+    {
+      "attributes": {
+        "event_date": "2025-07-09",
+        "not_ongoing_supplier_relationship": "true"
+      },
+      "evidence": [
+        "b00565:0:378"
+      ],
+      "kind": "event",
+      "label": "2025 acquisition of Konasol manufacturing assets",
+      "ref": "event:2025-acquisition-of-konasol-manufacturing-assets",
+      "shared": false
+    }
+  ],
+  "observations": [
+    {
+      "as_of": "2025-12-31",
+      "assumptions": [
+        "Disclosed hypothetical sensitivity, not realized annual expense.",
+        "20% price increase from December 31, 2025 prices.",
+        "Unchanged quantity of inventory/consigned metal.",
+        "Unchanged underlying fee.",
+        "None of the additional fees charged to customers.",
+        "Approximate company-level amount; no segment or individual-metal allocation."
+      ],
+      "currency": "USD",
+      "evidence": [
+        "b00437:0:571"
+      ],
+      "horizon": "annual",
+      "metric": "additional_pre_tax_consignment_fee_cost_at_20_percent_price_increase",
+      "observation_id": "sensitivity:copper:consignment-fee",
+      "period_end": "2025-12-31",
+      "period_start": "2025-12-31",
+      "related_entity_id": "material:copper",
+      "subject": "company",
+      "unit": "currency_millions",
+      "value": "0.8"
+    },
+    {
+      "as_of": "2025-12-31",
+      "assumptions": [
+        "Disclosed hypothetical sensitivity, not realized annual expense.",
+        "20% price increase from December 31, 2025 prices.",
+        "Unchanged quantity of inventory/consigned metal.",
+        "Unchanged underlying fee.",
+        "None of the additional fees charged to customers.",
+        "Approximate company-level amount; no segment or individual-metal allocation."
+      ],
+      "currency": "USD",
+      "evidence": [
+        "b00430:0:779"
+      ],
+      "horizon": "annual",
+      "metric": "additional_pre_tax_consignment_fee_cost_at_20_percent_price_increase",
+      "observation_id": "sensitivity:precious-metals:consignment-fee",
+      "period_end": "2025-12-31",
+      "period_start": "2025-12-31",
+      "related_entity_id": "material_cohort:precious-metals",
+      "subject": "company",
+      "unit": "currency_millions",
+      "value": "4.5"
+    }
+  ],
+  "revenue_tables": [
+    {
+      "active_year": "2025",
+      "block_id": "b00595",
+      "currency": "USD",
+      "dash_is_zero": true,
+      "market_order": [
+        "Semiconductor",
+        "Industrial",
+        "Aerospace and Defense",
+        "Consumer Electronics",
+        "Automotive",
+        "Energy",
+        "Life Sciences",
+        "Other"
+      ],
+      "markets": {
+        "Aerospace and Defense": "end_market:aerospace-and-defense",
+        "Automotive": "end_market:automotive",
+        "Consumer Electronics": "end_market:consumer-electronics",
+        "Energy": "end_market:energy",
+        "Industrial": "end_market:industrial",
+        "Life Sciences": "end_market:life-sciences",
+        "Other": "end_market:other",
+        "Semiconductor": "end_market:semiconductor"
+      },
+      "segment_labels": [
+        "Performance Materials",
+        "Electronic Materials",
+        "Precision Optics",
+        "Other"
+      ],
+      "segments": [
+        "segment:performance-materials",
+        "segment:electronic-materials",
+        "segment:precision-optics",
+        "segment:other"
+      ],
+      "unit": "currency_thousands",
+      "unit_label": "(Thousands)",
+      "years": [
+        "2025",
+        "2024",
+        "2023"
+      ]
+    }
+  ],
+  "reviewed_by": "Codex source review (not human approval)",
+  "reviewed_on": "2026-09-21",
+  "snapshot_id": "mtrn-2025-evidence-v1",
+  "source": {
+    "accession": "0001104657-26-000011",
+    "content_sha256": "d8a51e4ee75c42c0cefb975a907237ce6c46e6413068a029e8420716b3c5b36a",
+    "expected_metadata": {
+      "DocumentPeriodEndDate": [
+        "December 31 , 2025"
+      ],
+      "DocumentType": [
+        "10-K"
+      ],
+      "EntityCentralIndexKey": [
+        "0001104657"
+      ],
+      "EntityRegistrantName": [
+        "MATERION CORPORATION"
+      ],
+      "TradingSymbol": [
+        "MTRN"
+      ]
+    },
+    "filing_date": "2026-02-12",
+    "form": "10-K",
+    "local_path": "sec_filings/MTRN_10K.txt",
+    "parsing_version": "sec-visible-blocks-v1",
+    "period_end": "2025-12-31",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/1104657/000110465726000011/mtrn-20251231.htm",
+    "title": "Materion 2025 Form 10-K"
+  }
+}

@@ -1,0 +1,97 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.json
+credentials.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE and operating system
+.vscode/
+.idea/
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Logs and temporary files
+*.log
+logs/
+tmp/
+temp/
+
+# Local databases and vector stores
+*.db
+*.sqlite
+*.sqlite3
+*.duckdb
+chroma/
+chroma_db/
+vectorstore/
+vector_store/
+
+# Generated outputs and caches
+cache/
+outputs/
+artifacts/
+
+# Raw or proprietary data
+data/raw/
+data/private/
+data/proprietary/
+
+# Large downloaded documents
+*.pdf
+
+# Model files
+*.pt
+*.pth
+*.ckpt
+*.bin
+
+# Testing
+test_llm.py
+test_network.py
+
+# Raw SEC downloads (including the legacy single-company filing)
+sec_filings/
+
+# Local market refresh coordination
+*.duckdb.refresh.lock
+
+# Database sidecars and local model artifacts
+*.db-wal
+*.db-shm
+*.sqlite-wal
+*.sqlite-shm
+*.sqlite3-wal
+*.sqlite3-shm
+*.duckdb.wal
+*.safetensors
+*.onnx
+*.h5
+*.webm
+*.mov
+
+# Publish only the curated demo exports, not recording intermediates
+/docs/recording/*
+!/docs/recording/dow-walkthrough-preview.jpg

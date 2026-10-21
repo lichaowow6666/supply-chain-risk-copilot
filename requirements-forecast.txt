@@ -1,0 +1,6 @@
+# Optional forecast-model dependency; not a full application environment lock.
+# macOS also requires an OpenMP runtime. See docs/forecasting_workbench.md.
+xgboost==3.4.1
+
+# Optional CPU LSTM challenger. Verified in the local Python 3.14 environment.
+torch==2.13.0

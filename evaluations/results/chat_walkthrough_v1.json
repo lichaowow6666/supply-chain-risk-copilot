@@ -1,0 +1,63 @@
+{
+  "created_at": "2026-09-22T16:44:07.289787+00:00",
+  "status": "completed",
+  "summary": [
+    {
+      "Check": "Exposure answer has selected-report citations",
+      "Passed": true
+    },
+    {
+      "Check": "Graph paths and highlights exist",
+      "Passed": true
+    },
+    {
+      "Check": "Scenario pauses for explicit confirmation",
+      "Passed": true
+    },
+    {
+      "Check": "Gross 16M / recovered 8M / absorbed 8M",
+      "Passed": true
+    },
+    {
+      "Check": "Operating income decreases 8M",
+      "Passed": true
+    },
+    {
+      "Check": "Contribution explains the same saved run",
+      "Passed": true
+    },
+    {
+      "Check": "Unsupported allocation exposes evidence gap",
+      "Passed": true
+    },
+    {
+      "Check": "Synthetic restricted resource denied",
+      "Passed": true
+    },
+    {
+      "Check": "Evaluation panel is linked",
+      "Passed": true
+    },
+    {
+      "Check": "Missing assumptions trigger clarification",
+      "Passed": true
+    },
+    {
+      "Check": "Changed report cannot see previous history",
+      "Passed": true
+    },
+    {
+      "Check": "Provider outage has source fallback and redacted error",
+      "Passed": true
+    },
+    {
+      "Check": "Prompt injection does not switch company",
+      "Passed": true
+    }
+  ],
+  "synthetic": true,
+  "warnings": [
+    "Offline walkthrough uses deterministic routing and quoted excerpts, not live LLM answer quality.",
+    "Synthetic permission denial is a policy demonstration; multi-user authentication is not implemented."
+  ]
+}

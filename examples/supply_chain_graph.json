@@ -1,0 +1,107 @@
+{
+    "directed": true,
+    "multigraph": true,
+    "graph": {},
+    "nodes": [
+        {
+            "type": "Material",
+            "market_volatility": 0.45,
+            "id": "Platinum"
+        },
+        {
+            "type": "Material",
+            "market_volatility": 0.4,
+            "id": "Palladium"
+        },
+        {
+            "type": "Material",
+            "market_volatility": 0.17,
+            "id": "Copper"
+        },
+        {
+            "type": "Supplier",
+            "region": "Global",
+            "id": "PMChem (Internal)"
+        },
+        {
+            "type": "Customer",
+            "industry": "Specialty Materials",
+            "tier": 1,
+            "id": "Advanced_Material"
+        },
+        {
+            "type": "Customer",
+            "industry": "Automotive",
+            "tier": 1,
+            "id": "AutoCorp_Global"
+        },
+        {
+            "type": "Customer",
+            "industry": "Semiconductors",
+            "tier": 2,
+            "id": "TechSemi_Inc"
+        }
+    ],
+    "edges": [
+        {
+            "relation": "CONSUMES",
+            "dependency_weight": 0.9,
+            "source": "Platinum",
+            "target": "AutoCorp_Global",
+            "key": 0
+        },
+        {
+            "relation": "CONSUMES",
+            "dependency_weight": 0.6,
+            "source": "Palladium",
+            "target": "TechSemi_Inc",
+            "key": 0
+        },
+        {
+            "relation": "CONSUMES",
+            "dependency_weight": 0.8,
+            "source": "Copper",
+            "target": "Advanced_Material",
+            "key": 0
+        },
+        {
+            "relation": "SUPPLIES",
+            "npm_sales": 30653330.29,
+            "gross_margin": 0.214,
+            "metal_handling_charge": 0.06,
+            "fulfillment_rate": 0.93,
+            "churn_risk": 0.28,
+            "open_ops": 1,
+            "quote_status": "Pending",
+            "source": "PMChem (Internal)",
+            "target": "Advanced_Material",
+            "key": 0
+        },
+        {
+            "relation": "SUPPLIES",
+            "npm_sales": 36836641.11,
+            "gross_margin": 0.207,
+            "metal_handling_charge": 0.04,
+            "fulfillment_rate": 0.982,
+            "churn_risk": 0.5,
+            "open_ops": 0,
+            "quote_status": "Negotiating",
+            "source": "PMChem (Internal)",
+            "target": "AutoCorp_Global",
+            "key": 0
+        },
+        {
+            "relation": "SUPPLIES",
+            "npm_sales": 31189480.99,
+            "gross_margin": 0.125,
+            "metal_handling_charge": 0.05,
+            "fulfillment_rate": 0.905,
+            "churn_risk": 0.82,
+            "open_ops": 5,
+            "quote_status": "Negotiating",
+            "source": "PMChem (Internal)",
+            "target": "TechSemi_Inc",
+            "key": 0
+        }
+    ]
+}

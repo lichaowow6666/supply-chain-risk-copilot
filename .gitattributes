@@ -1,0 +1,2 @@
+# Preserve reproducible evaluation evidence without overwhelming source diffs.
+evaluations/results/*.json linguist-generated=true

@@ -1,0 +1,170 @@
+{
+  "created_at": "2026-09-22T18:17:01.845302+00:00",
+  "generator_model": "deepseek-chat",
+  "judge_model": "deepseek-chat",
+  "ragas_version": "0.4.3",
+  "results": [
+    {
+      "backend": "BM25 + BAAI/bge-m3:5617a9f61b028005a4858fdac845db406aefb181:dense:512 (RRF k=60)",
+      "case_id": "R01",
+      "errors": {},
+      "question": "What was annual revenue in 2025?",
+      "reference": "USD 1000 million, annual 2025.",
+      "response": "Synthetic Alpha reported annual revenue of USD 1000 million for the period January 1 to December 31, 2025 [1].",
+      "retrieved_contexts": [
+        "Synthetic Alpha reported annual revenue of USD 1000 million for January 1 to December 31, 2025. Annual operating income was USD 100 million.",
+        "Copper annual spend was USD 100 million in 2025. The unhedged copper exposure was 80 percent. Copper cost pass-through was 50 percent.",
+        "Natural gas powers Components segment furnaces. Natural gas annual spend was USD 25 million in 2025. Natural gas unhedged exposure was 80 percent and cost pass-through was 75 percent."
+      ],
+      "scores": {
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0,
+        "factual_correctness": 0.0,
+        "faithfulness": 1.0
+      },
+      "status": "completed",
+      "warnings": []
+    },
+    {
+      "backend": "BM25 + BAAI/bge-m3:5617a9f61b028005a4858fdac845db406aefb181:dense:512 (RRF k=60)",
+      "case_id": "R06",
+      "errors": {},
+      "question": "What is copper spend and unhedged exposure?",
+      "reference": "USD 30 million for the quarter; 50 percent unhedged at June 30.",
+      "response": "Copper spend was USD 30 million for the quarter April 1 to June 30, 2026 [1]. The unhedged copper exposure was 50 percent at June 30, 2026 [1]. No annual copper spend is disclosed in this quarterly report [1].",
+      "retrieved_contexts": [
+        "Copper spend was USD 30 million for April 1 to June 30, 2026 (quarter). The unhedged copper exposure was 50 percent at June 30, 2026. No annual copper spend is disclosed in this quarterly report.",
+        "Synthetic Alpha revenue was USD 300 million for April 1 to June 30, 2026 (quarter), and USD 550 million for January 1 to June 30, 2026 (six months year-to-date).",
+        "Natural gas spend was USD 7 million for April 1 to June 30, 2026 (quarter). No natural gas hedge ratio is disclosed in this quarterly report."
+      ],
+      "scores": {
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0,
+        "factual_correctness": 0.0,
+        "faithfulness": 1.0
+      },
+      "status": "completed",
+      "warnings": []
+    },
+    {
+      "backend": "BM25 + BAAI/bge-m3:5617a9f61b028005a4858fdac845db406aefb181:dense:512 (RRF k=60)",
+      "case_id": "R13",
+      "errors": {},
+      "question": "What is platinum annual spend?",
+      "reference": "Not disclosed. Do not supply a default as a reported fact.",
+      "response": "The platinum annual spend is not disclosed. The filing states that platinum is used in Catalyst products, but that platinum annual spend, hedge ratio and product-level cost allocation are not disclosed [1]. No figure for platinum annual spend is provided in the supplied evidence.",
+      "retrieved_contexts": [
+        "Platinum is used in Catalyst products. Platinum annual spend, hedge ratio and product-level cost allocation are not disclosed.",
+        "Synthetic Alpha reported annual revenue of USD 1000 million for January 1 to December 31, 2025. Annual operating income was USD 100 million.",
+        "Copper annual spend was USD 100 million in 2025. The unhedged copper exposure was 80 percent. Copper cost pass-through was 50 percent."
+      ],
+      "scores": {
+        "context_precision": 0.9999999999,
+        "context_recall": 0.5,
+        "factual_correctness": 0.5,
+        "faithfulness": 1.0
+      },
+      "status": "completed",
+      "warnings": []
+    },
+    {
+      "backend": "BM25 + BAAI/bge-m3:5617a9f61b028005a4858fdac845db406aefb181:dense:512 (RRF k=60)",
+      "case_id": "R16",
+      "errors": {},
+      "question": "本季度营业收入是多少？",
+      "reference": "3亿美元，2026年4月至6月；不可混用半年累计收入。",
+      "response": "本季度（2026年4月1日至6月30日）营业收入为3亿美元（USD 300 million）[1]。",
+      "retrieved_contexts": [
+        "Synthetic Alpha revenue was USD 300 million for April 1 to June 30, 2026 (quarter), and USD 550 million for January 1 to June 30, 2026 (six months year-to-date).",
+        "Natural gas spend was USD 7 million for April 1 to June 30, 2026 (quarter). No natural gas hedge ratio is disclosed in this quarterly report.",
+        "Copper spend was USD 30 million for April 1 to June 30, 2026 (quarter). The unhedged copper exposure was 50 percent at June 30, 2026. No annual copper spend is disclosed in this quarterly report."
+      ],
+      "scores": {
+        "context_precision": 0.8333333332916666,
+        "context_recall": 0.5,
+        "factual_correctness": 0.0,
+        "faithfulness": 0.75
+      },
+      "status": "completed",
+      "warnings": []
+    },
+    {
+      "backend": "BM25 + BAAI/bge-m3:5617a9f61b028005a4858fdac845db406aefb181:dense:512 (RRF k=60)",
+      "case_id": "R18",
+      "errors": {},
+      "question": "铜用于哪些产品和业务分部？",
+      "reference": "铜用于包装分部的箔产品。",
+      "response": "根据所提供的证据，铜用于 Packaging 分部的 Foil 产品 [1]。该 Packaging 分部隶属于 Synthetic Beta [1]。证据未披露铜用于其他产品或业务分部。",
+      "retrieved_contexts": [
+        "Copper is used in Foil products in the Packaging segment. The Packaging segment belongs to Synthetic Beta.",
+        "Copper spend was USD 45 million for April 1 to June 30, 2026 (quarter). Unhedged copper exposure was 20 percent at June 30, 2026.",
+        "Natural gas powers Packaging segment furnaces. Natural gas spend was USD 9 million for April 1 to June 30, 2026 (quarter)."
+      ],
+      "scores": {
+        "context_precision": 0.9999999999,
+        "context_recall": 1.0,
+        "factual_correctness": 0.5,
+        "faithfulness": 0.6666666666666666
+      },
+      "status": "completed",
+      "warnings": []
+    }
+  ],
+  "status": "completed",
+  "suite_sha256": "88bd3e40bc79c049e30ddad9b0178a92adefa57fea4516f9527ef95134b96073",
+  "summary": [
+    {
+      "Case": "R01",
+      "Retrieval": "BM25 + BAAI/bge-m3:5617a9f61b028005a4858fdac845db406aefb181:dense:512 (RRF k=60)",
+      "Status": "completed",
+      "context_precision": 0.9999999999,
+      "context_recall": 1.0,
+      "factual_correctness": 0.0,
+      "faithfulness": 1.0
+    },
+    {
+      "Case": "R06",
+      "Retrieval": "BM25 + BAAI/bge-m3:5617a9f61b028005a4858fdac845db406aefb181:dense:512 (RRF k=60)",
+      "Status": "completed",
+      "context_precision": 0.9999999999,
+      "context_recall": 1.0,
+      "factual_correctness": 0.0,
+      "faithfulness": 1.0
+    },
+    {
+      "Case": "R13",
+      "Retrieval": "BM25 + BAAI/bge-m3:5617a9f61b028005a4858fdac845db406aefb181:dense:512 (RRF k=60)",
+      "Status": "completed",
+      "context_precision": 0.9999999999,
+      "context_recall": 0.5,
+      "factual_correctness": 0.5,
+      "faithfulness": 1.0
+    },
+    {
+      "Case": "R16",
+      "Retrieval": "BM25 + BAAI/bge-m3:5617a9f61b028005a4858fdac845db406aefb181:dense:512 (RRF k=60)",
+      "Status": "completed",
+      "context_precision": 0.8333333332916666,
+      "context_recall": 0.5,
+      "factual_correctness": 0.0,
+      "faithfulness": 0.75
+    },
+    {
+      "Case": "R18",
+      "Retrieval": "BM25 + BAAI/bge-m3:5617a9f61b028005a4858fdac845db406aefb181:dense:512 (RRF k=60)",
+      "Status": "completed",
+      "context_precision": 0.9999999999,
+      "context_recall": 1.0,
+      "factual_correctness": 0.5,
+      "faithfulness": 0.6666666666666666
+    }
+  ],
+  "synthetic": true,
+  "target": "Generated evidence answers; routing/permissions/numeric correctness are tested separately.",
+  "temperature": 0,
+  "warnings": [
+    "Small authored synthetic sample; scores are model judgments, not proof of financial correctness.",
+    "Generator and judge use the same provider/model in this run; correlated judge bias is possible.",
+    "Low factual-correctness and bilingual faithfulness scores require human review. Reference answers are brief and sometimes mix answer content with behavioral instructions; judge/reference calibration is unfinished."
+  ]
+}

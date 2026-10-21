@@ -1,0 +1,1233 @@
+{
+  "version": "synthetic-company-holdout-v1",
+  "seed": 20260923,
+  "synthetic": true,
+  "review_status": "authored_not_independently_reviewed",
+  "split_policy": "company-disjoint; bilingual paraphrases grouped with their source; templates overlap across splits",
+  "records": [
+    {
+      "id": "alder-copper-spend",
+      "company": "Synthetic Alder",
+      "report": "alder-2025",
+      "split": "train",
+      "text": "Synthetic Alder annual copper procurement spend was USD 98 million for fiscal 2025.",
+      "queries": [
+        {
+          "language": "en",
+          "text": "How much did Synthetic Alder spend buying copper during the year?"
+        },
+        {
+          "language": "zh",
+          "text": "Synthetic Alder在全年采购铜花费了多少钱？"
+        }
+      ]
+    },
+    {
+      "id": "alder-copper-hedge",
+      "company": "Synthetic Alder",
+      "report": "alder-2025",
+      "split": "train",
+      "text": "Synthetic Alder disclosed that 40 percent of its copper purchases were unhedged at December 31, 2025.",
+      "queries": [
+        {
+          "language": "en",
+          "text": "What share of Synthetic Alder copper buying remains exposed without hedges?"
+        },
+        {
+          "language": "zh",
+          "text": "Synthetic Alder的铜采购有多少比例没有套期保值？"
+        }
+      ]
+    },
+    {
+      "id": "alder-copper-pass",
+      "company": "Synthetic Alder",
+      "report": "alder-2025",
+      "split": "train",
+      "text": "Synthetic Alder passes 50 percent of copper cost changes to customers through contractual price adjustments.",
+      "queries": [
+        {
+          "language": "en",
+          "text": "How much of a copper cost change can Synthetic Alder recover from customers?"
+        },
+        {
+          "language": "zh",
+          "text": "Synthetic Alder能向客户转嫁多少铜成本变动？"
+        }
+      ]
+    },
+    {
+      "id": "alder-natural-gas-spend",
+      "company": "Synthetic Alder",
+      "report": "alder-2025",
+      "split": "train",
+      "text": "Synthetic Alder annual natural gas procurement spend was USD 104 million for fiscal 2025.",
+      "queries": [
+        {
+          "language": "en",
+          "text": "How much did Synthetic Alder spend buying natural gas during the year?"
+        },
+        {
+          "language": "zh",
+          "text": "Synthetic Alder在全年采购天然气花费了多少钱？"
+        }
+      ]
+    },
+    {
+      "id": "alder-natural-gas-hedge",
+      "company": "Synthetic Alder",
+      "report": "alder-2025",
+      "split": "train",
+      "text": "Synthetic Alder disclosed that 40 percent of its natural gas purchases were unhedged at December 31, 2025.",
+      "queries": [
+        {
+          "language": "en",
+          "text": "What share of Synthetic Alder natural gas buying remains exposed without hedges?"
+        },
+        {
+          "language": "zh",
+          "text": "Synthetic Alder的天然气采购有多少比例没有套期保值？"
+        }
+      ]
+    },
+    {
+      "id": "alder-natural-gas-pass",
+      "company": "Synthetic Alder",
+      "report": "alder-2025",
+      "split": "train",
+      "text": "Synthetic Alder passes 50 percent of natural gas cost changes to customers through contractual price adjustments.",
+      "queries": [
+        {
+          "language": "en",
+          "text": "How much of a natural gas cost change can Synthetic Alder recover from customers?"
+        },
+        {
+          "language": "zh",
+          "text": "Synthetic Alder能向客户转嫁多少天然气成本变动？"
+        }
+      ]
+    },
+    {
+      "id": "alder-silver-spend",
+      "company": "Synthetic Alder",
+      "report": "alder-2025",
+      "split": "train",
+      "text": "Synthetic Alder annual silver procurement spend was USD 136 million for fiscal 2025.",
+      "queries": [
+        {
+          "language": "en",
+          "text": "How much did Synthetic Alder spend buying silver during the year?"
+        },
+        {
+          "language": "zh",
+          "text": "Synthetic Alder在全年采购白银花费了多少钱？"
+        }
+      ]
+    },
+    {
+      "id": "alder-silver-hedge",
+      "company": "Synthetic Alder",
+      "report": "alder-2025",
+      "split": "train",
+      "text": "Synthetic Alder disclosed that 40 percent of its silver purchases were unhedged at December 31, 2025.",
+      "queries": [
+        {
+          "language": "en",
+          "text": "What share of Synthetic Alder silver buying remains exposed without hedges?"
+        },
+        {
+          "language": "zh",
+          "text": "Synthetic Alder的白银采购有多少比例没有套期保值？"
+        }
+      ]
+    },
+    {
+      "id": "alder-silver-pass",
+      "company": "Synthetic Alder",
+      "report": "alder-2025",
+      "split": "train",
+      "text": "Synthetic Alder passes 25 percent of silver cost changes to customers through contractual price adjustments.",
+      "queries": [
+        {
+          "language": "en",
+          "text": "How much of a silver cost change can Synthetic Alder recover from customers?"
+        },
+        {
+          "language": "zh",
+          "text": "Synthetic Alder能向客户转嫁多少白银成本变动？"
+        }
+      ]
+    },
+    {
+      "id": "birch-copper-spend",
+      "company": "Synthetic Birch",
+      "report": "birch-2025",
+      "split": "train",
+      "text": "Synthetic Birch annual copper procurement spend was USD 18 million for fiscal 2025.",
+      "queries": [
+        {
+          "language": "en",
+          "text": "How much did Synthetic Birch spend buying copper during the year?"
+        },
+        {
+          "language": "zh",
+          "text": "Synthetic Birch在全年采购铜花费了多少钱？"
+        }
+      ]
+    },
+    {
+      "id": "birch-copper-hedge",
+      "company": "Synthetic Birch",
+      "report": "birch-2025",
+      "split": "train",
+      "text": "Synthetic Birch disclosed that 40 percent of its copper purchases were unhedged at December 31, 2025.",
+      "queries": [
+        {
+          "language": "en",
+          "text": "What share of Synthetic Birch copper buying remains exposed without hedges?"
+        },
+        {
+          "language": "zh",
+          "text": "Synthetic Birch的铜采购有多少比例没有套期保值？"
+        }
+      ]
+    },
+    {
+      "id": "birch-copper-pass",
+      "company": "Synthetic Birch",
+      "report": "birch-2025",
+      "split": "train",
+      "text": "Synthetic Birch passes 75 percent of copper cost changes to customers through contractual price adjustments.",
+      "queries": [
+        {
+          "language": "en",
+          "text": "How much of a copper cost change can Synthetic Birch recover from customers?"
+        },
+        {
+          "language": "zh",
+          "text": "Synthetic Birch能向客户转嫁多少铜成本变动？"
+        }
+      ]
+    },
+    {
+      "id": "birch-natural-gas-spend",
+      "company": "Synthetic Birch",
+      "report": "birch-2025",
+      "split": "train",
+      "text": "Synthetic Birch annual natural gas procurement spend was USD 24 million for fiscal 2025.",
+      "queries": [
+        {
+          "language": "en",
+          "text": "How much did Synthetic Birch spend buying natural gas during the year?"
+        },
+        {
+          "language": "zh",
+          "text": "Synthetic Birch在全年采购天然气花费了多少钱？"
+        }
+      ]
+    },
+    {
+      "id": "birch-natural-gas-hedge",
+      "company": "Synthetic Birch",
+      "report": "birch-2025",
+      "split": "train",
+      "text": "Synthetic Birch disclosed that 80 percent of its natural gas purchases were unhedged at December 31, 2025.",
+      "queries": [
+        {
+          "language": "en",
+          "text": "What share of Synthetic Birch natural gas buying remains exposed without hedges?"
+        },
+        {
+          "language": "zh",
+          "text": "Synthetic Birch的天然气采购有多少比例没有套期保值？"
+        }
+      ]
+    },
+    {
+      "id": "birch-natural-gas-pass",
+      "company": "Synthetic Birch",
+      "report": "birch-2025",
+      "split": "train",
+      "text": "Synthetic Birch passes 75 percent of natural gas cost changes to customers through contractual price adjustments.",
+      "queries": [
+        {
+          "language": "en",
+          "text": "How much of a natural gas cost change can Synthetic Birch recover from customers?"
+        },
+        {
+          "language": "zh",
+          "text": "Synthetic Birch能向客户转嫁多少天然气成本变动？"
+        }
+      ]
+    },
+    {
+      "id": "birch-silver-spend",
+      "company": "Synthetic Birch",
+      "report": "birch-2025",
+      "split": "train",
+      "text": "Synthetic Birch annual silver procurement spend was USD 31 million for fiscal 2025.",
+      "queries": [
+        {
+          "language": "en",
+          "text": "How much did Synthetic Birch spend buying silver during the year?"
+        },
+        {
+          "language": "zh",
+          "text": "Synthetic Birch在全年采购白银花费了多少钱？"
+        }
+      ]
+    },
+    {
+      "id": "birch-silver-hedge",
+      "company": "Synthetic Birch",
+      "report": "birch-2025",
+      "split": "train",
+      "text": "Synthetic Birch disclosed that 20 percent of its silver purchases were unhedged at December 31, 2025.",
+      "queries": [
+        {
+          "language": "en",
+          "text": "What share of Synthetic Birch silver buying remains exposed without hedges?"
+        },
+        {
+          "language": "zh",
+          "text": "Synthetic Birch的白银采购有多少比例没有套期保值？"
+        }
+      ]
+    },
+    {
+      "id": "birch-silver-pass",
+      "company": "Synthetic Birch",
+      "report": "birch-2025",
+      "split": "train",
+      "text": "Synthetic Birch passes 50 percent of silver cost changes to customers through contractual price adjustments.",
+      "queries": [
+        {
+          "language": "en",
+          "text": "How much of a silver cost change can Synthetic Birch recover from customers?"
+        },
+        {
+          "language": "zh",
+          "text": "Synthetic Birch能向客户转嫁多少白银成本变动？"
+        }
+      ]
+    },
+    {
+      "id": "cedar-copper-spend",
+      "company": "Synthetic Cedar",
+      "report": "cedar-2025",
+      "split": "train",
+      "text": "Synthetic Cedar annual copper procurement spend was USD 67 million for fiscal 2025.",
+      "queries": [
+        {
+          "language": "en",
+          "text": "How much did Synthetic Cedar spend buying copper during the year?"
+        },
+        {
+          "language": "zh",
+          "text": "Synthetic Cedar在全年采购铜花费了多少钱？"
+        }
+      ]
+    },
+    {
+      "id": "cedar-copper-hedge",
+      "company": "Synthetic Cedar",
+      "report": "cedar-2025",
+      "split": "train",
+      "text": "Synthetic Cedar disclosed that 20 percent of its copper purchases were unhedged at December 31, 2025.",
+      "queries": [
+        {
+          "language": "en",
+          "text": "What share of Synthetic Cedar copper buying remains exposed without hedges?"
+        },
+        {
+          "language": "zh",
+          "text": "Synthetic Cedar的铜采购有多少比例没有套期保值？"
+        }
+      ]
+    },
+    {
+      "id": "cedar-copper-pass",
+      "company": "Synthetic Cedar",
+      "report": "cedar-2025",
+      "split": "train",
+      "text": "Synthetic Cedar passes 75 percent of copper cost changes to customers through contractual price adjustments.",
+      "queries": [
+        {
+          "language": "en",
+          "text": "How much of a copper cost change can Synthetic Cedar recover from customers?"
+        },
+        {
+          "language": "zh",
+          "text": "Synthetic Cedar能向客户转嫁多少铜成本变动？"
+        }
+      ]
+    },
+    {
+      "id": "cedar-natural-gas-spend",
+      "company": "Synthetic Cedar",
+      "report": "cedar-2025",
+      "split": "train",
+      "text": "Synthetic Cedar annual natural gas procurement spend was USD 104 million for fiscal 2025.",
+      "queries": [
+        {
+          "language": "en",
+          "text": "How much did Synthetic Cedar spend buying natural gas during the year?"
+        },
+        {
+          "language": "zh",
+          "text": "Synthetic Cedar在全年采购天然气花费了多少钱？"
+        }
+      ]
+    },
+    {
+      "id": "cedar-natural-gas-hedge",
+      "company": "Synthetic Cedar",
+      "report": "cedar-2025",
+      "split": "train",
+      "text": "Synthetic Cedar disclosed that 60 percent of its natural gas purchases were unhedged at December 31, 2025.",
+      "queries": [
+        {
+          "language": "en",
+          "text": "What share of Synthetic Cedar natural gas buying remains exposed without hedges?"
+        },
+        {
+          "language": "zh",
+          "text": "Synthetic Cedar的天然气采购有多少比例没有套期保值？"
+        }
+      ]
+    },
+    {
+      "id": "cedar-natural-gas-pass",
+      "company": "Synthetic Cedar",
+      "report": "cedar-2025",
+      "split": "train",
+      "text": "Synthetic Cedar passes 25 percent of natural gas cost changes to customers through contractual price adjustments.",
+      "queries": [
+        {
+          "language": "en",
+          "text": "How much of a natural gas cost change can Synthetic Cedar recover from customers?"
+        },
+        {
+          "language": "zh",
+          "text": "Synthetic Cedar能向客户转嫁多少天然气成本变动？"
+        }
+      ]
+    },
+    {
+      "id": "cedar-silver-spend",
+      "company": "Synthetic Cedar",
+      "report": "cedar-2025",
+      "split": "train",
+      "text": "Synthetic Cedar annual silver procurement spend was USD 58 million for fiscal 2025.",
+      "queries": [
+        {
+          "language": "en",
+          "text": "How much did Synthetic Cedar spend buying silver during the year?"
+        },
+        {
+          "language": "zh",
+          "text": "Synthetic Cedar在全年采购白银花费了多少钱？"
+        }
+      ]
+    },
+    {
+      "id": "cedar-silver-hedge",
+      "company": "Synthetic Cedar",
+      "report": "cedar-2025",
+      "split": "train",
+      "text": "Synthetic Cedar disclosed that 80 percent of its silver purchases were unhedged at December 31, 2025.",
+      "queries": [
+        {
+          "language": "en",
+          "text": "What share of Synthetic Cedar silver buying remains exposed without hedges?"
+        },
+        {
+          "language": "zh",
+          "text": "Synthetic Cedar的白银采购有多少比例没有套期保值？"
+        }
+      ]
+    },
+    {
+      "id": "cedar-silver-pass",
+      "company": "Synthetic Cedar",
+      "report": "cedar-2025",
+      "split": "train",
+      "text": "Synthetic Cedar passes 75 percent of silver cost changes to customers through contractual price adjustments.",
+      "queries": [
+        {
+          "language": "en",
+          "text": "How much of a silver cost change can Synthetic Cedar recover from customers?"
+        },
+        {
+          "language": "zh",
+          "text": "Synthetic Cedar能向客户转嫁多少白银成本变动？"
+        }
+      ]
+    },
+    {
+      "id": "elm-copper-spend",
+      "company": "Synthetic Elm",
+      "report": "elm-2025",
+      "split": "train",
+      "text": "Synthetic Elm annual copper procurement spend was USD 95 million for fiscal 2025.",
+      "queries": [
+        {
+          "language": "en",
+          "text": "How much did Synthetic Elm spend buying copper during the year?"
+        },
+        {
+          "language": "zh",
+          "text": "Synthetic Elm在全年采购铜花费了多少钱？"
+        }
+      ]
+    },
+    {
+      "id": "elm-copper-hedge",
+      "company": "Synthetic Elm",
+      "report": "elm-2025",
+      "split": "train",
+      "text": "Synthetic Elm disclosed that 80 percent of its copper purchases were unhedged at December 31, 2025.",
+      "queries": [
+        {
+          "language": "en",
+          "text": "What share of Synthetic Elm copper buying remains exposed without hedges?"
+        },
+        {
+          "language": "zh",
+          "text": "Synthetic Elm的铜采购有多少比例没有套期保值？"
+        }
+      ]
+    },
+    {
+      "id": "elm-copper-pass",
+      "company": "Synthetic Elm",
+      "report": "elm-2025",
+      "split": "train",
+      "text": "Synthetic Elm passes 75 percent of copper cost changes to customers through contractual price adjustments.",
+      "queries": [
+        {
+          "language": "en",
+          "text": "How much of a copper cost change can Synthetic Elm recover from customers?"
+        },
+        {
+          "language": "zh",
+          "text": "Synthetic Elm能向客户转嫁多少铜成本变动？"
+        }
+      ]
+    },
+    {
+      "id": "elm-natural-gas-spend",
+      "company": "Synthetic Elm",
+      "report": "elm-2025",
+      "split": "train",
+      "text": "Synthetic Elm annual natural gas procurement spend was USD 48 million for fiscal 2025.",
+      "queries": [
+        {
+          "language": "en",
+          "text": "How much did Synthetic Elm spend buying natural gas during the year?"
+        },
+        {
+          "language": "zh",
+          "text": "Synthetic Elm在全年采购天然气花费了多少钱？"
+        }
+      ]
+    },
+    {
+      "id": "elm-natural-gas-hedge",
+      "company": "Synthetic Elm",
+      "report": "elm-2025",
+      "split": "train",
+      "text": "Synthetic Elm disclosed that 60 percent of its natural gas purchases were unhedged at December 31, 2025.",
+      "queries": [
+        {
+          "language": "en",
+          "text": "What share of Synthetic Elm natural gas buying remains exposed without hedges?"
+        },
+        {
+          "language": "zh",
+          "text": "Synthetic Elm的天然气采购有多少比例没有套期保值？"
+        }
+      ]
+    },
+    {
+      "id": "elm-natural-gas-pass",
+      "company": "Synthetic Elm",
+      "report": "elm-2025",
+      "split": "train",
+      "text": "Synthetic Elm passes 25 percent of natural gas cost changes to customers through contractual price adjustments.",
+      "queries": [
+        {
+          "language": "en",
+          "text": "How much of a natural gas cost change can Synthetic Elm recover from customers?"
+        },
+        {
+          "language": "zh",
+          "text": "Synthetic Elm能向客户转嫁多少天然气成本变动？"
+        }
+      ]
+    },
+    {
+      "id": "elm-silver-spend",
+      "company": "Synthetic Elm",
+      "report": "elm-2025",
+      "split": "train",
+      "text": "Synthetic Elm annual silver procurement spend was USD 87 million for fiscal 2025.",
+      "queries": [
+        {
+          "language": "en",
+          "text": "How much did Synthetic Elm spend buying silver during the year?"
+        },
+        {
+          "language": "zh",
+          "text": "Synthetic Elm在全年采购白银花费了多少钱？"
+        }
+      ]
+    },
+    {
+      "id": "elm-silver-hedge",
+      "company": "Synthetic Elm",
+      "report": "elm-2025",
+      "split": "train",
+      "text": "Synthetic Elm disclosed that 60 percent of its silver purchases were unhedged at December 31, 2025.",
+      "queries": [
+        {
+          "language": "en",
+          "text": "What share of Synthetic Elm silver buying remains exposed without hedges?"
+        },
+        {
+          "language": "zh",
+          "text": "Synthetic Elm的白银采购有多少比例没有套期保值？"
+        }
+      ]
+    },
+    {
+      "id": "elm-silver-pass",
+      "company": "Synthetic Elm",
+      "report": "elm-2025",
+      "split": "train",
+      "text": "Synthetic Elm passes 75 percent of silver cost changes to customers through contractual price adjustments.",
+      "queries": [
+        {
+          "language": "en",
+          "text": "How much of a silver cost change can Synthetic Elm recover from customers?"
+        },
+        {
+          "language": "zh",
+          "text": "Synthetic Elm能向客户转嫁多少白银成本变动？"
+        }
+      ]
+    },
+    {
+      "id": "maple-copper-spend",
+      "company": "Synthetic Maple",
+      "report": "maple-2025",
+      "split": "development",
+      "text": "Synthetic Maple annual copper procurement spend was USD 24 million for fiscal 2025.",
+      "queries": [
+        {
+          "language": "en",
+          "text": "How much did Synthetic Maple spend buying copper during the year?"
+        },
+        {
+          "language": "zh",
+          "text": "Synthetic Maple在全年采购铜花费了多少钱？"
+        }
+      ]
+    },
+    {
+      "id": "maple-copper-hedge",
+      "company": "Synthetic Maple",
+      "report": "maple-2025",
+      "split": "development",
+      "text": "Synthetic Maple disclosed that 60 percent of its copper purchases were unhedged at December 31, 2025.",
+      "queries": [
+        {
+          "language": "en",
+          "text": "What share of Synthetic Maple copper buying remains exposed without hedges?"
+        },
+        {
+          "language": "zh",
+          "text": "Synthetic Maple的铜采购有多少比例没有套期保值？"
+        }
+      ]
+    },
+    {
+      "id": "maple-copper-pass",
+      "company": "Synthetic Maple",
+      "report": "maple-2025",
+      "split": "development",
+      "text": "Synthetic Maple passes 25 percent of copper cost changes to customers through contractual price adjustments.",
+      "queries": [
+        {
+          "language": "en",
+          "text": "How much of a copper cost change can Synthetic Maple recover from customers?"
+        },
+        {
+          "language": "zh",
+          "text": "Synthetic Maple能向客户转嫁多少铜成本变动？"
+        }
+      ]
+    },
+    {
+      "id": "maple-natural-gas-spend",
+      "company": "Synthetic Maple",
+      "report": "maple-2025",
+      "split": "development",
+      "text": "Synthetic Maple annual natural gas procurement spend was USD 54 million for fiscal 2025.",
+      "queries": [
+        {
+          "language": "en",
+          "text": "How much did Synthetic Maple spend buying natural gas during the year?"
+        },
+        {
+          "language": "zh",
+          "text": "Synthetic Maple在全年采购天然气花费了多少钱？"
+        }
+      ]
+    },
+    {
+      "id": "maple-natural-gas-hedge",
+      "company": "Synthetic Maple",
+      "report": "maple-2025",
+      "split": "development",
+      "text": "Synthetic Maple disclosed that 80 percent of its natural gas purchases were unhedged at December 31, 2025.",
+      "queries": [
+        {
+          "language": "en",
+          "text": "What share of Synthetic Maple natural gas buying remains exposed without hedges?"
+        },
+        {
+          "language": "zh",
+          "text": "Synthetic Maple的天然气采购有多少比例没有套期保值？"
+        }
+      ]
+    },
+    {
+      "id": "maple-natural-gas-pass",
+      "company": "Synthetic Maple",
+      "report": "maple-2025",
+      "split": "development",
+      "text": "Synthetic Maple passes 75 percent of natural gas cost changes to customers through contractual price adjustments.",
+      "queries": [
+        {
+          "language": "en",
+          "text": "How much of a natural gas cost change can Synthetic Maple recover from customers?"
+        },
+        {
+          "language": "zh",
+          "text": "Synthetic Maple能向客户转嫁多少天然气成本变动？"
+        }
+      ]
+    },
+    {
+      "id": "maple-silver-spend",
+      "company": "Synthetic Maple",
+      "report": "maple-2025",
+      "split": "development",
+      "text": "Synthetic Maple annual silver procurement spend was USD 140 million for fiscal 2025.",
+      "queries": [
+        {
+          "language": "en",
+          "text": "How much did Synthetic Maple spend buying silver during the year?"
+        },
+        {
+          "language": "zh",
+          "text": "Synthetic Maple在全年采购白银花费了多少钱？"
+        }
+      ]
+    },
+    {
+      "id": "maple-silver-hedge",
+      "company": "Synthetic Maple",
+      "report": "maple-2025",
+      "split": "development",
+      "text": "Synthetic Maple disclosed that 80 percent of its silver purchases were unhedged at December 31, 2025.",
+      "queries": [
+        {
+          "language": "en",
+          "text": "What share of Synthetic Maple silver buying remains exposed without hedges?"
+        },
+        {
+          "language": "zh",
+          "text": "Synthetic Maple的白银采购有多少比例没有套期保值？"
+        }
+      ]
+    },
+    {
+      "id": "maple-silver-pass",
+      "company": "Synthetic Maple",
+      "report": "maple-2025",
+      "split": "development",
+      "text": "Synthetic Maple passes 75 percent of silver cost changes to customers through contractual price adjustments.",
+      "queries": [
+        {
+          "language": "en",
+          "text": "How much of a silver cost change can Synthetic Maple recover from customers?"
+        },
+        {
+          "language": "zh",
+          "text": "Synthetic Maple能向客户转嫁多少白银成本变动？"
+        }
+      ]
+    },
+    {
+      "id": "pine-copper-spend",
+      "company": "Synthetic Pine",
+      "report": "pine-2025",
+      "split": "development",
+      "text": "Synthetic Pine annual copper procurement spend was USD 29 million for fiscal 2025.",
+      "queries": [
+        {
+          "language": "en",
+          "text": "How much did Synthetic Pine spend buying copper during the year?"
+        },
+        {
+          "language": "zh",
+          "text": "Synthetic Pine在全年采购铜花费了多少钱？"
+        }
+      ]
+    },
+    {
+      "id": "pine-copper-hedge",
+      "company": "Synthetic Pine",
+      "report": "pine-2025",
+      "split": "development",
+      "text": "Synthetic Pine disclosed that 80 percent of its copper purchases were unhedged at December 31, 2025.",
+      "queries": [
+        {
+          "language": "en",
+          "text": "What share of Synthetic Pine copper buying remains exposed without hedges?"
+        },
+        {
+          "language": "zh",
+          "text": "Synthetic Pine的铜采购有多少比例没有套期保值？"
+        }
+      ]
+    },
+    {
+      "id": "pine-copper-pass",
+      "company": "Synthetic Pine",
+      "report": "pine-2025",
+      "split": "development",
+      "text": "Synthetic Pine passes 25 percent of copper cost changes to customers through contractual price adjustments.",
+      "queries": [
+        {
+          "language": "en",
+          "text": "How much of a copper cost change can Synthetic Pine recover from customers?"
+        },
+        {
+          "language": "zh",
+          "text": "Synthetic Pine能向客户转嫁多少铜成本变动？"
+        }
+      ]
+    },
+    {
+      "id": "pine-natural-gas-spend",
+      "company": "Synthetic Pine",
+      "report": "pine-2025",
+      "split": "development",
+      "text": "Synthetic Pine annual natural gas procurement spend was USD 72 million for fiscal 2025.",
+      "queries": [
+        {
+          "language": "en",
+          "text": "How much did Synthetic Pine spend buying natural gas during the year?"
+        },
+        {
+          "language": "zh",
+          "text": "Synthetic Pine在全年采购天然气花费了多少钱？"
+        }
+      ]
+    },
+    {
+      "id": "pine-natural-gas-hedge",
+      "company": "Synthetic Pine",
+      "report": "pine-2025",
+      "split": "development",
+      "text": "Synthetic Pine disclosed that 60 percent of its natural gas purchases were unhedged at December 31, 2025.",
+      "queries": [
+        {
+          "language": "en",
+          "text": "What share of Synthetic Pine natural gas buying remains exposed without hedges?"
+        },
+        {
+          "language": "zh",
+          "text": "Synthetic Pine的天然气采购有多少比例没有套期保值？"
+        }
+      ]
+    },
+    {
+      "id": "pine-natural-gas-pass",
+      "company": "Synthetic Pine",
+      "report": "pine-2025",
+      "split": "development",
+      "text": "Synthetic Pine passes 75 percent of natural gas cost changes to customers through contractual price adjustments.",
+      "queries": [
+        {
+          "language": "en",
+          "text": "How much of a natural gas cost change can Synthetic Pine recover from customers?"
+        },
+        {
+          "language": "zh",
+          "text": "Synthetic Pine能向客户转嫁多少天然气成本变动？"
+        }
+      ]
+    },
+    {
+      "id": "pine-silver-spend",
+      "company": "Synthetic Pine",
+      "report": "pine-2025",
+      "split": "development",
+      "text": "Synthetic Pine annual silver procurement spend was USD 71 million for fiscal 2025.",
+      "queries": [
+        {
+          "language": "en",
+          "text": "How much did Synthetic Pine spend buying silver during the year?"
+        },
+        {
+          "language": "zh",
+          "text": "Synthetic Pine在全年采购白银花费了多少钱？"
+        }
+      ]
+    },
+    {
+      "id": "pine-silver-hedge",
+      "company": "Synthetic Pine",
+      "report": "pine-2025",
+      "split": "development",
+      "text": "Synthetic Pine disclosed that 80 percent of its silver purchases were unhedged at December 31, 2025.",
+      "queries": [
+        {
+          "language": "en",
+          "text": "What share of Synthetic Pine silver buying remains exposed without hedges?"
+        },
+        {
+          "language": "zh",
+          "text": "Synthetic Pine的白银采购有多少比例没有套期保值？"
+        }
+      ]
+    },
+    {
+      "id": "pine-silver-pass",
+      "company": "Synthetic Pine",
+      "report": "pine-2025",
+      "split": "development",
+      "text": "Synthetic Pine passes 25 percent of silver cost changes to customers through contractual price adjustments.",
+      "queries": [
+        {
+          "language": "en",
+          "text": "How much of a silver cost change can Synthetic Pine recover from customers?"
+        },
+        {
+          "language": "zh",
+          "text": "Synthetic Pine能向客户转嫁多少白银成本变动？"
+        }
+      ]
+    },
+    {
+      "id": "rowan-copper-spend",
+      "company": "Synthetic Rowan",
+      "report": "rowan-2025",
+      "split": "audit",
+      "text": "Synthetic Rowan annual copper procurement spend was USD 30 million for fiscal 2025.",
+      "queries": [
+        {
+          "language": "en",
+          "text": "How much did Synthetic Rowan spend buying copper during the year?"
+        },
+        {
+          "language": "zh",
+          "text": "Synthetic Rowan在全年采购铜花费了多少钱？"
+        }
+      ]
+    },
+    {
+      "id": "rowan-copper-hedge",
+      "company": "Synthetic Rowan",
+      "report": "rowan-2025",
+      "split": "audit",
+      "text": "Synthetic Rowan disclosed that 40 percent of its copper purchases were unhedged at December 31, 2025.",
+      "queries": [
+        {
+          "language": "en",
+          "text": "What share of Synthetic Rowan copper buying remains exposed without hedges?"
+        },
+        {
+          "language": "zh",
+          "text": "Synthetic Rowan的铜采购有多少比例没有套期保值？"
+        }
+      ]
+    },
+    {
+      "id": "rowan-copper-pass",
+      "company": "Synthetic Rowan",
+      "report": "rowan-2025",
+      "split": "audit",
+      "text": "Synthetic Rowan passes 25 percent of copper cost changes to customers through contractual price adjustments.",
+      "queries": [
+        {
+          "language": "en",
+          "text": "How much of a copper cost change can Synthetic Rowan recover from customers?"
+        },
+        {
+          "language": "zh",
+          "text": "Synthetic Rowan能向客户转嫁多少铜成本变动？"
+        }
+      ]
+    },
+    {
+      "id": "rowan-natural-gas-spend",
+      "company": "Synthetic Rowan",
+      "report": "rowan-2025",
+      "split": "audit",
+      "text": "Synthetic Rowan annual natural gas procurement spend was USD 148 million for fiscal 2025.",
+      "queries": [
+        {
+          "language": "en",
+          "text": "How much did Synthetic Rowan spend buying natural gas during the year?"
+        },
+        {
+          "language": "zh",
+          "text": "Synthetic Rowan在全年采购天然气花费了多少钱？"
+        }
+      ]
+    },
+    {
+      "id": "rowan-natural-gas-hedge",
+      "company": "Synthetic Rowan",
+      "report": "rowan-2025",
+      "split": "audit",
+      "text": "Synthetic Rowan disclosed that 80 percent of its natural gas purchases were unhedged at December 31, 2025.",
+      "queries": [
+        {
+          "language": "en",
+          "text": "What share of Synthetic Rowan natural gas buying remains exposed without hedges?"
+        },
+        {
+          "language": "zh",
+          "text": "Synthetic Rowan的天然气采购有多少比例没有套期保值？"
+        }
+      ]
+    },
+    {
+      "id": "rowan-natural-gas-pass",
+      "company": "Synthetic Rowan",
+      "report": "rowan-2025",
+      "split": "audit",
+      "text": "Synthetic Rowan passes 50 percent of natural gas cost changes to customers through contractual price adjustments.",
+      "queries": [
+        {
+          "language": "en",
+          "text": "How much of a natural gas cost change can Synthetic Rowan recover from customers?"
+        },
+        {
+          "language": "zh",
+          "text": "Synthetic Rowan能向客户转嫁多少天然气成本变动？"
+        }
+      ]
+    },
+    {
+      "id": "rowan-silver-spend",
+      "company": "Synthetic Rowan",
+      "report": "rowan-2025",
+      "split": "audit",
+      "text": "Synthetic Rowan annual silver procurement spend was USD 92 million for fiscal 2025.",
+      "queries": [
+        {
+          "language": "en",
+          "text": "How much did Synthetic Rowan spend buying silver during the year?"
+        },
+        {
+          "language": "zh",
+          "text": "Synthetic Rowan在全年采购白银花费了多少钱？"
+        }
+      ]
+    },
+    {
+      "id": "rowan-silver-hedge",
+      "company": "Synthetic Rowan",
+      "report": "rowan-2025",
+      "split": "audit",
+      "text": "Synthetic Rowan disclosed that 20 percent of its silver purchases were unhedged at December 31, 2025.",
+      "queries": [
+        {
+          "language": "en",
+          "text": "What share of Synthetic Rowan silver buying remains exposed without hedges?"
+        },
+        {
+          "language": "zh",
+          "text": "Synthetic Rowan的白银采购有多少比例没有套期保值？"
+        }
+      ]
+    },
+    {
+      "id": "rowan-silver-pass",
+      "company": "Synthetic Rowan",
+      "report": "rowan-2025",
+      "split": "audit",
+      "text": "Synthetic Rowan passes 75 percent of silver cost changes to customers through contractual price adjustments.",
+      "queries": [
+        {
+          "language": "en",
+          "text": "How much of a silver cost change can Synthetic Rowan recover from customers?"
+        },
+        {
+          "language": "zh",
+          "text": "Synthetic Rowan能向客户转嫁多少白银成本变动？"
+        }
+      ]
+    },
+    {
+      "id": "willow-copper-spend",
+      "company": "Synthetic Willow",
+      "report": "willow-2025",
+      "split": "audit",
+      "text": "Synthetic Willow annual copper procurement spend was USD 85 million for fiscal 2025.",
+      "queries": [
+        {
+          "language": "en",
+          "text": "How much did Synthetic Willow spend buying copper during the year?"
+        },
+        {
+          "language": "zh",
+          "text": "Synthetic Willow在全年采购铜花费了多少钱？"
+        }
+      ]
+    },
+    {
+      "id": "willow-copper-hedge",
+      "company": "Synthetic Willow",
+      "report": "willow-2025",
+      "split": "audit",
+      "text": "Synthetic Willow disclosed that 60 percent of its copper purchases were unhedged at December 31, 2025.",
+      "queries": [
+        {
+          "language": "en",
+          "text": "What share of Synthetic Willow copper buying remains exposed without hedges?"
+        },
+        {
+          "language": "zh",
+          "text": "Synthetic Willow的铜采购有多少比例没有套期保值？"
+        }
+      ]
+    },
+    {
+      "id": "willow-copper-pass",
+      "company": "Synthetic Willow",
+      "report": "willow-2025",
+      "split": "audit",
+      "text": "Synthetic Willow passes 75 percent of copper cost changes to customers through contractual price adjustments.",
+      "queries": [
+        {
+          "language": "en",
+          "text": "How much of a copper cost change can Synthetic Willow recover from customers?"
+        },
+        {
+          "language": "zh",
+          "text": "Synthetic Willow能向客户转嫁多少铜成本变动？"
+        }
+      ]
+    },
+    {
+      "id": "willow-natural-gas-spend",
+      "company": "Synthetic Willow",
+      "report": "willow-2025",
+      "split": "audit",
+      "text": "Synthetic Willow annual natural gas procurement spend was USD 64 million for fiscal 2025.",
+      "queries": [
+        {
+          "language": "en",
+          "text": "How much did Synthetic Willow spend buying natural gas during the year?"
+        },
+        {
+          "language": "zh",
+          "text": "Synthetic Willow在全年采购天然气花费了多少钱？"
+        }
+      ]
+    },
+    {
+      "id": "willow-natural-gas-hedge",
+      "company": "Synthetic Willow",
+      "report": "willow-2025",
+      "split": "audit",
+      "text": "Synthetic Willow disclosed that 20 percent of its natural gas purchases were unhedged at December 31, 2025.",
+      "queries": [
+        {
+          "language": "en",
+          "text": "What share of Synthetic Willow natural gas buying remains exposed without hedges?"
+        },
+        {
+          "language": "zh",
+          "text": "Synthetic Willow的天然气采购有多少比例没有套期保值？"
+        }
+      ]
+    },
+    {
+      "id": "willow-natural-gas-pass",
+      "company": "Synthetic Willow",
+      "report": "willow-2025",
+      "split": "audit",
+      "text": "Synthetic Willow passes 75 percent of natural gas cost changes to customers through contractual price adjustments.",
+      "queries": [
+        {
+          "language": "en",
+          "text": "How much of a natural gas cost change can Synthetic Willow recover from customers?"
+        },
+        {
+          "language": "zh",
+          "text": "Synthetic Willow能向客户转嫁多少天然气成本变动？"
+        }
+      ]
+    },
+    {
+      "id": "willow-silver-spend",
+      "company": "Synthetic Willow",
+      "report": "willow-2025",
+      "split": "audit",
+      "text": "Synthetic Willow annual silver procurement spend was USD 131 million for fiscal 2025.",
+      "queries": [
+        {
+          "language": "en",
+          "text": "How much did Synthetic Willow spend buying silver during the year?"
+        },
+        {
+          "language": "zh",
+          "text": "Synthetic Willow在全年采购白银花费了多少钱？"
+        }
+      ]
+    },
+    {
+      "id": "willow-silver-hedge",
+      "company": "Synthetic Willow",
+      "report": "willow-2025",
+      "split": "audit",
+      "text": "Synthetic Willow disclosed that 20 percent of its silver purchases were unhedged at December 31, 2025.",
+      "queries": [
+        {
+          "language": "en",
+          "text": "What share of Synthetic Willow silver buying remains exposed without hedges?"
+        },
+        {
+          "language": "zh",
+          "text": "Synthetic Willow的白银采购有多少比例没有套期保值？"
+        }
+      ]
+    },
+    {
+      "id": "willow-silver-pass",
+      "company": "Synthetic Willow",
+      "report": "willow-2025",
+      "split": "audit",
+      "text": "Synthetic Willow passes 75 percent of silver cost changes to customers through contractual price adjustments.",
+      "queries": [
+        {
+          "language": "en",
+          "text": "How much of a silver cost change can Synthetic Willow recover from customers?"
+        },
+        {
+          "language": "zh",
+          "text": "Synthetic Willow能向客户转嫁多少白银成本变动？"
+        }
+      ]
+    }
+  ]
+}
